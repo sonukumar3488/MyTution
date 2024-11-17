@@ -1,0 +1,2766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>माँ शारदा टीचिंग सेंटर</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      /* Reset some default styles */
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body and general layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .chapter-list {
+        width: 25%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+      }
+
+      .chapter-list ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .chapter-list li {
+        margin: 10px 0;
+      }
+
+      .chapter-list button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .chapter-list button:hover {
+        background-color: #45a049;
+      }
+
+      .notes-section {
+        width: 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .notes-section h2 {
+        margin-bottom: 20px;
+      }
+
+      #notes-content {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+      <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+          <p class="m-0 fw-bold" style="font-size: 25px;"><img src="./img/icon.png" alt="" height="50px">माँ शारदा <span
+                  style="color: #fb873f;">टीचिंग सेंटर</span></p>
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="courses.html" class="nav-item nav-link">Online Exam</a>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Notes</a>
+                  <div class="dropdown-menu fade-down m-0">
+                      <a href="math.html" class="dropdown-item">Class 10th Math</a>
+                      <a href="./science.html" class="dropdown-item">Class 10th Science</a>
+                      <a href="./Hindi.html" class="dropdown-item">Class 10th Hindi</a>
+                      <a href="./English.html" class="dropdown-item">Class 10th English</a>
+
+                      <a href="team.html" class="dropdown-item">Class 10th Sanskrit</a>
+                      <a href="./social_science.html" class="dropdown-item">Class 10th Social Science</a>
+
+
+                  </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+             
+              <a href="#" class="nav-item nav-link">
+
+              <div id="google_translate_element">
+              </div>
+
+
+              </a>
+          </div>
+      </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <div style="max-width: 100%; text-align: center;">
+      <img src="./img/banner12.png" alt="Sample Image" style="width: 100%; height: auto; max-width: 100%;">
+    </div>
+    <hr>
+
+  <!-- Carousel Start -->
+
+  <!-- nav bar start -->
+  <marquee style="background: linear-gradient(to right, #ff9933, #ffffff, #138808); height: 40px; color: #000; font-size: 18px; display: flex; align-items: center; padding: 0 10px;" behavior="scroll" direction="left">
+      माँ शारदा टीचिंग सेंटर में आपका स्वागत है! अब पढ़ाई करना और भी आसान हो गया है। हम फुल डिजिटल क्लास की सुविधा प्रदान करते हैं, और हमारी एप्लिकेशन पर मुफ्त में लाइव प्रैक्टिस सेट भी उपलब्ध हैं। पता: पोस्टऑफिस थाना  रोड पकरीबरावाँ (नवादा)       सम्पर्क सूत्र:- +91 8709124654
+  </marquee>    <!-- nav bar end -->
+
+ 
+    <!-- main part -->
+    <main>
+      <div class="chapter-list">
+        <h2>Science Notes</h2>
+        <ul>
+          <li>
+            <button style="background-color: red; text-align: center">
+              रसायनशास्त्र | Chemistry
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(1)">
+              1. रासायनिक अभिक्रियाएँ और समीकरण
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(2)">2. अम्ल, क्षार एवं लवण</button>
+          </li>
+          <li><button onclick="showNotes(3)">3. धातु एवं अधातु</button></li>
+          <li>
+            <button onclick="showNotes(4)">4. कार्बन एवं उसके यौगिक</button>
+          </li>
+          <li>
+            <button onclick="showNotes(5)">5. तत्वों का आवर्त वर्गीकरण</button>
+          </li>
+          <li>
+            <button style="background-color: red; text-align: center">
+              जीव विज्ञान | Biology
+            </button>
+          </li>
+          <li><button onclick="showNotes(6)">1. जैव प्रक्रम</button></li>
+          <li>
+            <button onclick="showNotes(7)">2. नियंत्रण एवं समन्वय</button>
+          </li>
+          <li>
+            <button onclick="showNotes(8)">3. जीव जनन कैसे करते है</button>
+          </li>
+          <li>
+            <button onclick="showNotes(9)">4. आनुवांशिकता एवं जैव विकास</button>
+          </li>
+          <li>
+            <button style="background-color: red; text-align: center">
+              भौतिकी | Physics
+            </button>
+          </li>
+
+          <li>
+            <button onclick="showNotes(10)">
+              1. प्रकाश - परावर्तन तथा अपवर्तन
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(11)">
+              2. मानव- नेत्र एवं रंगबिरंगा संसार
+            </button>
+          </li>
+          <li><button onclick="showNotes(12)">3. विद्युत</button></li>
+          <li>
+            <button onclick="showNotes(13)">
+              4. विद्युत धारा के चुम्बकीय प्रभाव
+            </button>
+          </li>
+          <li><button onclick="showNotes(14)">5. उर्जा के स्रोत</button></li>
+        </ul>
+      </div>
+
+      <div id="notes-section" class="notes-section">
+        <h2>Science Notes</h2>
+        <div id="notes-content"></div>
+        <button
+          id="downloadBtn"
+          style="display: none"
+          onclick="downloadNotes()"
+        >
+          Download Notes as PDF
+        </button>
+      </div>
+    </main>
+    <!-- main partg End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Quick Link</h4>
+            <p><a class="text-light" href="about.html">About Us</a></p>
+            <p><a class="text-light" href="contact.html">Contact Us</a></p>
+            <p><a class="text-light" href="./courses.html">Online Exam</a></p>
+            <p><a class="text-light" href="./team.html">Notes</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Police Station Road
+              Pakribrawan, Nawada
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 8709124654
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>harendrasir94@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/profile.php?id=100072857619630"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@MSTSHarendraSir"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">
+              "अगर आपके पास कोई प्रश्न या सुझाव है, तो कृपया हमसे संपर्क करें।
+              हम आपके हर सवाल का जवाब देने के लिए तत्पर हैं।"
+            </h4>
+            <p></p>
+            <div
+              class="position-relative mx-auto"
+              style="max-width: 400px"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="index.html"
+                >Maa Sharda Teaching Center,Pakribrawan</a
+              >, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+  const notes = {
+    1: `
+  
+<div style="background: linear-gradient(to right, #f06, #ff9a8b, #ff6a00); padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align:center; color: #ffffff; font-family: 'Arial', sans-serif; font-size: 30px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">रासायनिक अभिक्रियाएँ और समीकरण (Chemical Reactions and Equations)</h2>
+
+    <p style="color: #f1f1f1; font-size: 20px; font-family: 'Verdana', sans-serif;"><strong>रासायनिक अभिक्रियाएँ (Chemical Reactions):</strong> रासायनिक अभिक्रिया वह प्रक्रिया है जिसमें एक या अधिक पदार्थों के बीच प्रतिक्रिया होती है, और नई सामग्री (उत्पाद) उत्पन्न होती है। यह सामान्यतः ऊर्जा के रूप में गर्मी, प्रकाश या ध्वनि छोड़ सकती है।</p>
+    
+    <p style="color: #ffffff; font-size: 20px; font-family: 'Verdana', sans-serif; text-align: justify;"><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul style="color: #ffffff; font-size: 18px; font-family: 'Verdana', sans-serif; list-style-type: square; padding-left: 20px;">
+        <li>रासायनिक अभिक्रिया: रासायनिक परिवर्तन जिसमें नए यौगिक बनते हैं।</li>
+        <li>संश्लेषण अभिक्रिया: दो या दो से अधिक तत्व मिलकर एक यौगिक बनाते हैं।</li>
+        <li>विघटन अभिक्रिया: एक यौगिक टूटकर दो या दो से अधिक यौगिकों में बदल जाता है।</li>
+        <li>ऑक्सीकरण: किसी पदार्थ में ऑक्सीजन जुड़ने या इलेक्ट्रॉन खोने की प्रक्रिया।</li>
+        <li>अपचयन: किसी पदार्थ से ऑक्सीजन का हटना या इलेक्ट्रॉन का प्राप्त होना।</li>
+        <li>रासायनिक समीकरण: रासायनिक अभिक्रियाओं को संक्षिप्त रूप में दर्शाने का तरीका।</li>
+        <li>संतुलित रासायनिक समीकरण: वह समीकरण जिसमें दोनों पक्षों पर तत्वों की संख्या समान होती है।</li>
+    </ul>
+
+    <p style="color: #f4a261; font-size: 20px; font-family: 'Verdana', sans-serif;"><strong>दीर्घ प्रश्न (Subjective Questions):</strong></p>
+    <ul style="color: #ffffff; font-size: 18px; font-family: 'Verdana', sans-serif; list-style-type: circle; padding-left: 30px;">
+        <li><strong>प्रश्न 1:</strong> रासायनिक अभिक्रिया क्या है? इसके प्रकारों को समझाएं।</li>
+        <li><strong>प्रश्न 2:</strong> ऑक्सीकरण और अपचयन प्रक्रिया में अंतर बताएं।</li>
+        <li><strong>प्रश्न 3:</strong> रासायनिक समीकरण को संतुलित करने की प्रक्रिया को समझाएं।</li>
+        <li><strong>प्रश्न 4:</strong> संश्लेषण अभिक्रिया का उदाहरण देकर समझाएं।</li>
+        <li><strong>प्रश्न 5:</strong> विघटन अभिक्रिया के उदाहरण सहित विस्तार से समझाएं।</li>
+        <li><strong>प्रश्न 6:</strong> रासायनिक अभिक्रियाओं के दौरान ऊर्जा का आदान-प्रदान कैसे होता है? इसे समझाएं।</li>
+        <li><strong>प्रश्न 7:</strong> विस्थापन अभिक्रिया क्या है? इसका एक उदाहरण दें।</li>
+        <li><strong>प्रश्न 8:</strong> द्रव्यमान के संरक्षण का सिद्धांत रासायनिक अभिक्रियाओं में कैसे लागू होता है? इसे समझाएं।</li>
+        <li><strong>प्रश्न 9:</strong> ऑक्सीकरण और अपचयन अभिक्रियाओं के उदाहरण दें।</li>
+        <li><strong>प्रश्न 10:</strong> रासायनिक समीकरणों के संतुलन के महत्व को समझाएं।</li>
+    </ul>
+
+    <p style="color: #f4a261; font-size: 20px; font-family: 'Verdana', sans-serif;"><strong>बहुविकल्पी प्रश्न (MCQ Questions):</strong></p>
+    <ul style="color: #ffffff; font-size: 18px; font-family: 'Verdana', sans-serif; list-style-type: square; padding-left: 20px;">
+        <li>1. रासायनिक अभिक्रिया क्या है?<br> 
+            a) एक प्रक्रिया जिसमें नए पदार्थ उत्पन्न होते हैं<br>
+            b) एक प्रक्रिया जिसमें कोई परिवर्तन नहीं होता<br>
+            c) एक प्रक्रिया जिसमें केवल भौतिक परिवर्तन होते हैं<br>
+            d) इनमें से कोई नहीं
+        </li>
+        <li>2. किस अभिक्रिया में एक यौगिक टूटकर दो या अधिक यौगिकों में बदल जाता है?<br> 
+            a) संश्लेषण अभिक्रिया<br>
+            b) विघटन अभिक्रिया<br>
+            c) विस्थापन अभिक्रिया<br>
+            d) डबल विस्थापन अभिक्रिया
+        </li>
+        <li>3. ऑक्सीकरण में क्या होता है?<br> 
+            a) तत्व इलेक्ट्रॉन खोता है<br>
+            b) तत्व इलेक्ट्रॉन प्राप्त करता है<br>
+            c) तत्व की अवस्था बदलती है<br>
+            d) इनमें से कोई नहीं
+        </li>
+        <li>4. अपचयन का क्या मतलब होता है?<br>
+            a) ऑक्सीजन हटाना या इलेक्ट्रॉन प्राप्त करना<br>
+            b) ऑक्सीजन जोड़ना या इलेक्ट्रॉन खोना<br>
+            c) एक तत्व का रूप बदलना<br>
+            d) इनमें से कोई नहीं
+        </li>
+        <li>5. रासायनिक समीकरण क्या दर्शाता है?<br>
+            a) एक अभिक्रिया का विवरण<br>
+            b) रासायनिक तत्वों के मध्य प्रतिक्रिया<br>
+            c) प्रतिक्रिया के उत्पादों और अभ्युत्थान को<br>
+            d) उपरोक्त सभी
+        </li>
+        <!-- Add more MCQ questions here -->
+    </ul>
+
+    <p style="color: #ffffff; font-size: 20px; font-family: 'Verdana', sans-serif;"><strong>उत्तर (Answers):</strong></p>
+    <ul style="color: #ffffff; font-size: 18px; font-family: 'Verdana', sans-serif;">
+        <li><strong>प्रश्न 1:</strong> रासायनिक अभिक्रिया वह प्रक्रिया है जिसमें एक या अधिक पदार्थों के बीच प्रतिक्रिया होती है और नई सामग्री उत्पन्न होती है।</li>
+        <li><strong>प्रश्न 2:</strong> ऑक्सीकरण और अपचयन के दौरान एक तत्व इलेक्ट्रॉन खोता है जबकि दूसरा इलेक्ट्रॉन प्राप्त करता है।</li>
+        <li><strong>प्रश्न 3:</strong> रासायनिक समीकरण को संतुलित करने के लिए, प्रत्येक तत्व की संख्या अभिक्रिया के दोनों पक्षों पर समान होनी चाहिए।</li>
+        <li><strong>प्रश्न 4:</strong> उदाहरण: 2Na + Cl<sub>2</sub> → 2NaCl (संश्लेषण अभिक्रिया)</li>
+        <li><strong>प्रश्न 5:</strong> उदाहरण: 2H<sub>2</sub>O → 2H<sub>2</sub> + O<sub>2</sub> (विघटन अभिक्रिया)</li>
+        <li><strong>प्रश्न 6:</strong> रासायनिक अभिक्रियाओं के दौरान ऊर्जा उत्पन्न हो सकती है या अवशोषित हो सकती है।</li>
+        <li><strong>प्रश्न 7:</strong> उदाहरण: Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu (विस्थापन अभिक्रिया)</li>
+        <li><strong>प्रश्न 8:</strong> द्रव्यमान का संरक्षण सिद्धांत कहता है कि रासायनिक अभिक्रिया में द्रव्यमान पहले और बाद में समान रहता है।</li>
+        <li><strong>प्रश्न 9:</strong> उदाहरण: 2Mg + O<sub>2</sub> → 2MgO (ऑक्सीकरण), 2CuO + C → 2Cu + CO<sub>2</sub> (अपचयन)</li>
+        <li><strong>प्रश्न 10:</strong> संतुलित रासायनिक समीकरण रासायनिक अभिक्रियाओं को स्पष्ट रूप से प्रदर्शित करता है और द्रव्यमान का संरक्षण सुनिश्चित करता है।</li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Print This Page
+        </button>
+    </div>
+</div>
+
+   
+
+
+
+    `,
+2:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+  
+<h2 style="text-align: center; color: #2a3a31;">अम्ल, क्षार एवं लवण (Acids, Bases, and Salts)</h2>
+
+<p><strong>अध्याय का अवलोकन (Chapter Overview):</strong></p>
+<p>यह अध्याय रसायन विज्ञान के तीन महत्वपूर्ण वर्गों - अम्ल, क्षार, और लवण को समझाने पर आधारित है। अम्ल हमारे दैनिक जीवन में खाद्य पदार्थों और औद्योगिक रसायनों में मिलते हैं। क्षार का प्रयोग घरेलू सफाई उत्पादों और औषधीय पदार्थों में किया जाता है। लवण, अम्ल और क्षार की प्रतिक्रिया के परिणामस्वरूप बनते हैं, जो खाने का नमक से लेकर कई औद्योगिक रसायनों में मौजूद होते हैं। इस अध्याय में हम इन पदार्थों के रासायनिक गुणों और उनके उपयोगों के बारे में जानेंगे।</p>
+
+<h3 style="color: #4a752c;">मुख्य अवधारणाएँ (Key Concepts):</h3>
+<ul>
+  <li><strong>अम्ल:</strong> ऐसे पदार्थ जो जल में घुलने पर हाइड्रोजन आयन (H⁺) उत्पन्न करते हैं। ये खट्टे स्वाद वाले होते हैं और नीले लिटमस को लाल रंग में बदलते हैं।</li>
+  <ul>
+    <li>उदाहरण: हाइड्रोक्लोरिक अम्ल (HCl), सल्फ्यूरिक अम्ल (H₂SO₄), एसीटिक अम्ल (CH₃COOH)</li>
+  </ul>
+  <li><strong>क्षार (Bases):</strong> ऐसे पदार्थ जो जल में घुलने पर हाइड्रॉक्साइड आयन (OH⁻) उत्पन्न करते हैं। ये कड़वे होते हैं और लाल लिटमस को नीला रंग में बदलते हैं।</li>
+  <ul>
+    <li>उदाहरण: सोडियम हाइड्रॉक्साइड (NaOH), कैल्शियम हाइड्रॉक्साइड (Ca(OH)₂), अमोनियम हाइड्रॉक्साइड (NH₄OH)</li>
+  </ul>
+  <li><strong>लवण:</strong> अम्ल और क्षार की प्रतिक्रिया से उत्पन्न यौगिक, जिनका pH तटस्थ होता है।</li>
+  <ul>
+    <li>उदाहरण: सोडियम क्लोराइड (NaCl), पोटेशियम नाइट्रेट (KNO₃), कैल्शियम सल्फेट (CaSO₄)</li>
+  </ul>
+</ul>
+
+<h3 style="color: #4a752c;">महत्वपूर्ण बिंदु (Important Notes):</h3>
+<ul>
+  <li><strong>pH पैमाना:</strong> यह अम्लीयता और क्षारीयता को मापने का पैमाना है, जिसमें 0 से 14 तक के मान होते हैं। 0 से 6 तक के pH मान अम्लीयता को, 7 तटस्थता को, और 8 से 14 तक के pH मान क्षारीयता को दर्शाते हैं।</li>
+  <li><strong>प्राकृतिक संकेतक:</strong> कुछ प्राकृतिक पदार्थ, जैसे हल्दी, गुड़हल के फूल, और लाल गोभी के रस, अम्ल और क्षार का पता लगाने के लिए संकेतक के रूप में कार्य करते हैं।</li>
+  <li><strong>अम्ल-क्षार अभिक्रिया:</strong> अम्ल और क्षार के बीच की अभिक्रिया से लवण और जल उत्पन्न होते हैं, जिसे उदासीनता प्रतिक्रिया (Neutralization Reaction) कहते हैं।</li>
+  <li><strong>प्रयोग:</strong> अम्ल और क्षार के प्रभावों को समझने के लिए प्रयोगशाला में लिटमस पेपर, pH पेपर, और अन्य संकेतकों का उपयोग किया जाता है।</li>
+</ul>
+
+<h3 style="color: #4a752c;">महत्वपूर्ण प्रश्न (Important Questions):</h3>
+
+<ol>
+  <li><strong>अम्ल और क्षार में क्या अंतर होता है?</strong><br><strong>उत्तर:</strong> अम्ल जल में हाइड्रोजन आयन (H⁺) उत्पन्न करते हैं जबकि क्षार जल में हाइड्रॉक्साइड आयन (OH⁻) उत्पन्न करते हैं।</li>
+  <li><strong>pH पैमाना क्या है, और इसे कैसे मापा जाता है?</strong><br><strong>उत्तर:</strong> pH पैमाना एक 0 से 14 तक की संख्या है जो किसी पदार्थ की अम्लीयता या क्षारीयता को मापने के लिए उपयोग किया जाता है। इसे pH पेपर, लिटमस पेपर, या डिजिटल pH मीटर से मापा जाता है।</li>
+  <li><strong>लिटमस पेपर का उपयोग कैसे किया जाता है?</strong><br><strong>उत्तर:</strong> लिटमस पेपर का उपयोग यह जानने के लिए किया जाता है कि कोई पदार्थ अम्लीय है या क्षारीय। लाल लिटमस अम्लीय पदार्थ में बदल जाता है और नीला लिटमस क्षारीय पदार्थ में बदलता है।</li>
+  <li><strong>हाइड्रोक्लोरिक अम्ल के कुछ उपयोग क्या हैं?</strong><br><strong>उत्तर:</strong> हाइड्रोक्लोरिक अम्ल का उपयोग उद्योगों में धातुओं को साफ करने, पेट की एसिडिटी को नियंत्रित करने और जल शोधन में किया जाता है।</li>
+  <li><strong>सोडियम हाइड्रॉक्साइड के घरेलू और औद्योगिक उपयोग क्या हैं?</strong><br><strong>उत्तर:</strong> सोडियम हाइड्रॉक्साइड का उपयोग साबुन, कागज, और खाद्य पदार्थों के उत्पादन में होता है। घरेलू सफाई उत्पादों में भी इसका उपयोग किया जाता है।</li>
+  <li><strong>उदासीनता प्रतिक्रिया क्या है? उदाहरण दीजिए।</strong><br><strong>उत्तर:</strong> उदासीनता प्रतिक्रिया वह रासायनिक प्रतिक्रिया है जिसमें अम्ल और क्षार मिलकर लवण और जल उत्पन्न करते हैं। उदाहरण: HCl + NaOH → NaCl + H₂O</li>
+  <li><strong>प्राकृतिक संकेतकों के नाम और उनके उपयोग बताइए।</strong><br><strong>उत्तर:</strong> हल्दी, लाल गोभी का रस, और गुड़हल के फूल प्राकृतिक संकेतक हैं। इनका उपयोग अम्लीय या क्षारीय पदार्थों की पहचान करने के लिए किया जाता है।</li>
+</ol>
+<h3 style="color: #4a752c;"> बहुविकल्पीय प्रश्न ( MCQs)</h3>
+
+<section style="background-color: #f7f7f7; padding: 20px; border-radius: 10px;">
+  <h4 style="color: #2a3a31;">MCQs</h4>
+  <ol>
+    <li>अम्ल जल में घुलने पर कौन सा आयन उत्पन्न करते हैं?
+      <ul>
+        <li>(a) H⁺</li>
+        <li>(b) OH⁻</li>
+        <li>(c) Na⁺</li>
+        <li>(d) Cl⁻</li>
+      </ul>
+    </li>
+    <li>लिटमस का रंग अम्ल में बदलकर क्या हो जाता है?
+      <ul>
+        <li>(a) हरा</li>
+        <li>(b) लाल</li>
+        <li>(c) नीला</li>
+        <li>(d) पीला</li>
+      </ul>
+    </li>
+    <li>pH 7 को क्या दर्शाता है?
+      <ul>
+        <li>(a) अम्लीय</li>
+        <li>(b) क्षारीय</li>
+        <li>(c) तटस्थ</li>
+        <li>(d) क्षारीयता</li>
+      </ul>
+    </li>
+    <li>नींबू में कौन सा अम्ल पाया जाता है?
+      <ul>
+        <li>(a) हाइड्रोक्लोरिक अम्ल</li>
+        <li>(b) साइट्रिक अम्ल</li>
+        <li>(c) नाइट्रिक अम्ल</li>
+        <li>(d) फॉस्फोरिक अम्ल</li>
+      </ul>
+    </li>
+    <li>कौन सा पदार्थ क्षार नहीं है?
+      <ul>
+        <li>(a) सोडियम हाइड्रॉक्साइड</li>
+        <li>(b) कैल्शियम हाइड्रॉक्साइड</li>
+        <li>(c) एसीटिक अम्ल</li>
+        <li>(d) अमोनियम हाइड्रॉक्साइड</li>
+      </ul>
+    </li>
+    <li>उदासीनता प्रतिक्रिया का उत्पाद क्या होता है?
+      <ul>
+        <li>(a) अम्ल</li>
+        <li>(b) क्षार</li>
+        <li>(c) लवण</li>
+        <li>(d) जल</li>
+      </ul>
+    </li>
+    <li>किसका उपयोग pH मापने के लिए किया जाता है?
+      <ul>
+        <li>(a) लिटमस पेपर</li>
+        <li>(b) सोल्यूशन</li>
+        <li>(c) इन्फ्रारेड स्पेक्ट्रोस्कोपी</li>
+        <li>(d) pH मीटर</li>
+      </ul>
+    </li>
+    <li>अम्ल का उदाहरण क्या है?
+      <ul>
+        <li>(a) NaOH</li>
+        <li>(b) HCl</li>
+        <li>(c) KOH</li>
+        <li>(d) NaCl</li>
+      </ul>
+    </li>
+    <li>सोडियम हाइड्रॉक्साइड का उपयोग कहाँ किया जाता है?
+      <ul>
+        <li>(a) डिटर्जेंट में</li>
+        <li>(b) खाद्य उद्योग में</li>
+        <li>(c) पानी शोधन में</li>
+        <li>(d) उपरोक्त सभी</li>
+      </ul>
+    </li>
+    <li>वह पदार्थ जो pH से तटस्थ है, वह क्या होता है?
+      <ul>
+        <li>(a) अम्ल</li>
+        <li>(b) क्षार</li>
+        <li>(c) लवण</li>
+        <li>(d) जल</li>
+      </ul>
+    </li>
+    <li>कोई पदार्थ जिसका pH मान 3 है, वह क्या होता है?
+      <ul>
+        <li>(a) अम्लीय</li>
+        <li>(b) क्षारीय</li>
+        <li>(c) तटस्थ</li>
+        <li>(d) लवण</li>
+      </ul>
+    </li>
+    <li>प्राकृतिक संकेतक के उदाहरण क्या हैं?
+      <ul>
+        <li>(a) हल्दी</li>
+        <li>(b) लाल गोभी का रस</li>
+        <li>(c) गुड़हल का फूल</li>
+        <li>(d) सभी उपर्युक्त</li>
+      </ul>
+    </li>
+    <li>अम्ल और क्षार के बीच प्रतिक्रिया को क्या कहते हैं?
+      <ul>
+        <li>(a) एसिड-बेस प्रतिक्रिया</li>
+        <li>(b) उदासीनता प्रतिक्रिया</li>
+        <li>(c) ऑक्सीकरण प्रतिक्रिया</li>
+        <li>(d) डिग्रेडेशन प्रतिक्रिया</li>
+      </ul>
+    </li>
+    <li>पानी में कौन सा पदार्थ घुलने पर अम्लीय गुण दिखाता है?
+      <ul>
+        <li>(a) NaOH</li>
+        <li>(b) HCl</li>
+        <li>(c) KOH</li>
+        <li>(d) NaCl</li>
+      </ul>
+    </li>
+    <li>पानी में कौन सा पदार्थ घुलने पर क्षारीय गुण दिखाता है?
+      <ul>
+        <li>(a) HCl</li>
+        <li>(b) NaOH</li>
+        <li>(c) NaCl</li>
+        <li>(d) KNO₃</li>
+      </ul>
+    </li>
+    <li>सोडियम क्लोराइड किस प्रकार का यौगिक है?
+      <ul>
+        <li>(a) अम्ल</li>
+        <li>(b) क्षार</li>
+        <li>(c) लवण</li>
+        <li>(d) सभी</li>
+      </ul>
+    </li>
+    <li>अम्ल और क्षार की उदासीनता प्रतिक्रिया का उदाहरण क्या है?
+      <ul>
+        <li>(a) NaOH + HCl → NaCl + H₂O</li>
+        <li>(b) NaCl + H₂SO₄ → NaHSO₄ + Cl₂</li>
+        <li>(c) H₂SO₄ + Na₂CO₃ → Na₂SO₄ + CO₂</li>
+        <li>(d) NH₃ + HCl → NH₄Cl</li>
+      </ul>
+    </li>
+    <li>हाइड्रोक्लोरिक अम्ल का उपयोग कहां किया जाता है?
+      <ul>
+        <li>(a) खाद्य उद्योग</li>
+        <li>(b) सफाई में</li>
+        <li>(c) पेट की एसिडिटी के लिए</li>
+        <li>(d) सभी उपर्युक्त</li>
+      </ul>
+    </li>
+    <li>किसका pH सबसे अधिक होता है?
+      <ul>
+        <li>(a) HCl</li>
+        <li>(b) NaOH</li>
+        <li>(c) NaCl</li>
+        <li>(d) H₂SO₄</li>
+      </ul>
+    </li>
+    <li>आधुनिक pH मीटर किस प्रकार के उपकरण होते हैं?
+      <ul>
+        <li>(a) डिजिटल</li>
+        <li>(b) एनालॉग</li>
+        <li>(c) दोनों</li>
+        <li>(d) none</li>
+      </ul>
+    </li>
+    <li>किस अम्ल का उपयोग ब्लीचिंग एजेंट के रूप में होता है?
+      <ul>
+        <li>(a) हाइड्रोक्लोरिक अम्ल</li>
+        <li>(b) सल्फ्यूरिक अम्ल</li>
+        <li>(c) नाइट्रिक अम्ल</li>
+        <li>(d) ब्लीचिंग पाउडर</li>
+      </ul>
+    </li>
+    <li>प्राकृतिक क्षार का उदाहरण क्या है?
+      <ul>
+        <li>(a) सोडियम हाइड्रॉक्साइड</li>
+        <li>(b) अमोनियम हाइड्रॉक्साइड</li>
+        <li>(c) लकड़ी की राख</li>
+        <li>(d) सोडियम बाइकार्बोनेट</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+ <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+`,
+3:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+
+<h2 style="text-align: center; color: #2a3a31;">धातु एवं अधातु (Metals and Non-metals)</h2>
+
+<p><strong>अध्यान का अवलोकन (Chapter Overview):</strong> 
+इस अध्याय में हम धातुओं और अधातुओं के भौतिक और रासायनिक गुणों, उनकी उपयोगिता और उन दोनों के बीच अंतर को समझेंगे। धातुएं कड़ी होती हैं, अच्छे संवाहक होते हैं, और उनका उपयोग निर्माण और इलेक्ट्रॉनिक्स में होता है। अधातु, सामान्यतः हल्की, कमजोर, और अच्छे विद्युत और गर्मी के चालक नहीं होते हैं, इनका उपयोग रासायनिक उद्योग में और गैसों के रूप में होता है। इस अध्याय में हम इनके भौतिक गुण, रासायनिक गुण, और व्यवहार पर भी ध्यान केंद्रित करेंगे।</p>
+
+<h3 style="color: #4a752c;">अधातु और धातु के बीच का अंतर (Difference between Metals and Non-metals)</h3>
+<ul>
+  <li><strong>धातु (Metals):</strong> धातुएं आमतौर पर ठोस, कड़ी, चमकीली और अच्छे विद्युत चालक होती हैं। उदाहरण: सोना, चांदी, तांबा, लोहा।</li>
+  <li><strong>अधातु (Non-metals):</strong> अधातु नर्म, गैसी, भंगुर और अच्छे विद्युत चालक नहीं होते। उदाहरण: सल्फर, कार्बन, नाइट्रोजन।</li>
+</ul>
+
+<h3 style="color: #4a752c;">Definitions (परिभाषाएं)</h3>
+<ul>
+  <li><strong>धातु (Metal):</strong> वे तत्व जो चमकदार होते हैं, अच्छी तरह से विद्युत और गर्मी को संचारित करते हैं, और कठोर होते हैं।</li>
+  <li><strong>अधातु (Non-metal):</strong> वे तत्व जो सामान्यतः गैसी होते हैं, और जिनमें अच्छे विद्युत और गर्मी चालकता की कमी होती है।</li>
+  <li><strong>एल्युमिनियम (Aluminium):</strong> एक हल्की धातु है जो अच्छे विद्युत चालक और गर्मी चालक होते हुए भी रासायनिक रूप से बहुत स्थिर होती है।</li>
+  <li><strong>लोहे (Iron):</strong> एक ठोस धातु जो व्यापक रूप से निर्माण और उद्योग में उपयोग की जाती है।</li>
+</ul>
+
+<h3 style="color: #4a752c;">महत्वपूर्ण नोट्स (Important Notes)</h3>
+<ul>
+  <li>धातुओं में प्रवृत्ति होती है कि वे अपनी बाहरी इलेक्ट्रॉनों को छोड़कर आयन बनाते हैं।</li>
+  <li>अधातु में आयन बनाने की प्रवृत्ति कम होती है।</li>
+  <li>धातु अपनी कठोरता, स्थिरता और उच्च गलनांक के लिए प्रसिद्ध हैं।</li>
+  <li>अधातु का उपयोग मुख्य रूप से गैसों, रासायनिक उद्योगों, और कुछ ठोस पदार्थों में होता है।</li>
+</ul>
+
+<h3 style="color: #4a752c;">10 लंबा प्रश्न और उत्तर (10 Long Questions and Answers)</h3>
+
+<section style="background-color: #f7f7f7; padding: 20px; border-radius: 10px;">
+  <ol>
+    <li><strong>धातु और अधातु के भौतिक गुणों की तुलना कीजिए।</strong>
+      <p>धातु कड़ी, चमकदार, और अच्छे विद्युत और गर्मी चालक होते हैं। वे मजबूत होते हैं और लचीलापन रखते हैं। अधातु भंगुर, हल्के और अच्छे विद्युत चालक नहीं होते।</p>
+    </li>
+    <li><strong>धातु और अधातु के रासायनिक गुणों के बारे में विस्तार से बताइए।</strong>
+      <p>धातुएं अपने बाहरी इलेक्ट्रॉनों को छोड़ देती हैं और सकारात्मक आयन बनाती हैं। अधातु अपने बाहरी इलेक्ट्रॉनों को प्राप्त करके नकारात्मक आयन बनाते हैं।</p>
+    </li>
+    <li><strong>किस प्रकार के धातु रासायनिक रूप से अधिक क्रियाशील होते हैं? उदाहरण सहित स्पष्ट करें।</strong>
+      <p>सोडियम और पोटेशियम जैसे धातु बहुत क्रियाशील होते हैं क्योंकि वे अपनी बाहरी इलेक्ट्रॉनों को आसानी से छोड़ते हैं।</p>
+    </li>
+    <li><strong>प्लास्टिक और धातु के बीच में मुख्य अंतर क्या है? समझाइए।</strong>
+      <p>प्लास्टिक लचीला, हल्का और आमतौर पर विद्युत का चालक नहीं होता, जबकि धातु ठोस, मजबूत, और अच्छे विद्युत चालक होते हैं।</p>
+    </li>
+    <li><strong>धातु की विद्युत चालकता के बारे में विस्तार से बताइए।</strong>
+      <p>धातुएं अच्छे विद्युत चालक होती हैं क्योंकि इनके पास स्वतंत्र इलेक्ट्रॉन्स होते हैं जो विद्युत प्रवाह को संचालित करते हैं।</p>
+    </li>
+    <li><strong>धातु और अधातु के उपयोगों के बारे में बताइए।</strong>
+      <p>धातु का उपयोग निर्माण, निर्माण सामग्री, और इलेक्ट्रॉनिक्स में किया जाता है। अधातु का उपयोग रासायनिक उद्योगों और गैसों के रूप में होता है।</p>
+    </li>
+    <li><strong>क्या सभी धातुएं अच्छे गर्मी चालक होते हैं? उदाहरण के साथ समझाइए।</strong>
+      <p>हां, अधिकांश धातुएं अच्छे गर्मी चालक होते हैं। जैसे तांबा और एल्यूमिनियम गर्मी को अच्छी तरह से संचालित करते हैं।</p>
+    </li>
+    <li><strong>अधातु के उदाहरण दीजिए और उनके गुणों के बारे में बताइए।</strong>
+      <p>सल्फर, ऑक्सीजन, और नाइट्रोजन जैसे अधातु सामान्यतः गैसी होते हैं और विद्युत और गर्मी के अच्छे चालक नहीं होते।</p>
+    </li>
+    <li><strong>धातु का संक्षारण कैसे होता है? उदाहरण सहित समझाइए।</strong>
+      <p>धातु का संक्षारण तब होता है जब यह नमी और ऑक्सीजन के संपर्क में आती है, जैसे लोहे का जंग लगना।</p>
+    </li>
+    <li><strong>किस प्रकार के धातु उच्च तापमान पर स्थिर रहते हैं? उदाहरण के साथ समझाइए।</strong>
+      <p>प्लैटिनम और टंगस्टन जैसे धातु उच्च तापमान पर स्थिर रहते हैं और इसका उपयोग उच्च तापमान वाले उपकरणों में किया जाता है।</p>
+    </li>
+  </ol>
+</section>
+
+<h3 style="color: #4a752c;"> उद्देश्य प्रश्न और उत्तर ( Objective Questions and Answers)</h3>
+
+<section style="background-color: #f7f7f7; padding: 20px; border-radius: 10px;">
+  <h4 style="color: #2a3a31;">Additional Objective Questions</h4>
+  <ol>
+    <li>सोडियम की जल के साथ प्रतिक्रिया में क्या उत्पन्न होता है?
+      <ul>
+        <li>(a) हाइड्रोजन गैस</li>
+        <li>(b) अमोनिया गैस</li>
+        <li>(c) कार्बन डाइऑक्साइड</li>
+        <li>(d) ऑक्सीजन गैस</li>
+      </ul>
+      <p>उत्तर: (a) हाइड्रोजन गैस</p>
+    </li>
+    <li>किस धातु का उपयोग बिजली के तारों में किया जाता है?
+      <ul>
+        <li>(a) तांबा</li>
+        <li>(b) एल्यूमिनियम</li>
+        <li>(c) लोहा</li>
+        <li>(d) सोना</li>
+      </ul>
+      <p>उत्तर: (a) तांबा</p>
+    </li>
+    <li>किस धातु का उपयोग आभूषणों में किया जाता है?
+      <ul>
+        <li>(a) चांदी</li>
+        <li>(b) सोना</li>
+        <li>(c) जिंक</li>
+        <li>(d) मैग्नीशियम</li>
+      </ul>
+      <p>उत्तर: (b) सोना</p>
+    </li>
+    <li>नाइट्रोजन किस प्रकार का तत्व है?
+      <ul>
+        <li>(a) धातु</li>
+        <li>(b) अधातु</li>
+        <li>(c) अर्धधातु</li>
+        <li>(d) सभी</li>
+      </ul>
+      <p>उत्तर: (b) अधातु</p>
+    </li>
+    <li>किसे 'भंगुर धातु' कहा जाता है?
+      <ul>
+        <li>(a) लोहा</li>
+        <li>(b) तांबा</li>
+        <li>(c) ऐल्यूमिनियम</li>
+        <li>(d) ब्लींग</li>
+      </ul>
+      <p>उत्तर: (d) ब्लींग</p>
+    </li>
+    <li>धातु का एक उदाहरण है?
+      <ul>
+        <li>(a) सल्फर</li>
+        <li>(b) ब्रोमिन</li>
+        <li>(c) टंगस्टन</li>
+        <li>(d) नाइट्रोजन</li>
+      </ul>
+      <p>उत्तर: (c) टंगस्टन</p>
+    </li>
+    <li>किस धातु का गलनांक सबसे उच्च होता है?
+      <ul>
+        <li>(a) लोहे</li>
+        <li>(b) सोने</li>
+        <li>(c) टंगस्टन</li>
+        <li>(d) सिल्वर</li>
+      </ul>
+      <p>उत्तर: (c) टंगस्टन</p>
+    </li>
+    <li>अधातु का एक उदाहरण क्या है?
+      <ul>
+        <li>(a) ब्रोमिन</li>
+        <li>(b) एल्युमिनियम</li>
+        <li>(c) सोडियम</li>
+        <li>(d) लिथियम</li>
+      </ul>
+      <p>उत्तर: (a) ब्रोमिन</p>
+    </li>
+    <li>किस धातु का उपयोग बमों और मिसाइलों में किया जाता है?
+      <ul>
+        <li>(a) टंगस्टन</li>
+        <li>(b) एल्यूमिनियम</li>
+        <li>(c) सोना</li>
+        <li>(d) मैग्नीशियम</li>
+      </ul>
+      <p>उत्तर: (d) मैग्नीशियम</p>
+    </li>
+    <li>किसे 'रासायनिक रूप से निष्क्रिय धातु' कहा जाता है?
+      <ul>
+        <li>(a) सोने</li>
+        <li>(b) चांदी</li>
+        <li>(c) लोहा</li>
+        <li>(d) पोटेशियम</li>
+      </ul>
+      <p>उत्तर: (a) सोने</p>
+    </li>
+    <li>धातु की कठोरता का माप किससे किया जाता है?
+      <ul>
+        <li>(a) मोह की स्केल</li>
+        <li>(b) ब्रिनेल हार्डनेस स्केल</li>
+        <li>(c) लॉवेट स्केल</li>
+        <li>(d) सभी</li>
+      </ul>
+      <p>उत्तर: (b) ब्रिनेल हार्डनेस स्केल</p>
+    </li>
+    <li>वह धातु जो अत्यधिक हल्की होती है, क्या है?
+      <ul>
+        <li>(a) एल्यूमिनियम</li>
+        <li>(b) टाइटेनियम</li>
+        <li>(c) मैग्नीशियम</li>
+        <li>(d) सोडियम</li>
+      </ul>
+      <p>उत्तर: (a) एल्यूमिनियम</p>
+    </li>
+    <li>किसे 'विवर्तनशील धातु' कहा जाता है?
+      <ul>
+        <li>(a) सोडियम</li>
+        <li>(b) लोहा</li>
+        <li>(c) चांदी</li>
+        <li>(d) टंगस्टन</li>
+      </ul>
+      <p>उत्तर: (b) लोहा</p>
+    </li>
+    <li>किस धातु का गलनांक कम होता है?
+      <ul>
+        <li>(a) टंगस्टन</li>
+        <li>(b) एल्यूमिनियम</li>
+        <li>(c) सोना</li>
+        <li>(d) पोटेशियम</li>
+      </ul>
+      <p>उत्तर: (d) पोटेशियम</p>
+    </li>
+    <li>किस धातु का उपयोग सर्वाधिक विद्युत चालकता के लिए किया जाता है?
+      <ul>
+        <li>(a) तांबा</li>
+        <li>(b) चांदी</li>
+        <li>(c) सोना</li>
+        <li>(d) एल्यूमिनियम</li>
+      </ul>
+      <p>उत्तर: (b) चांदी</p>
+    </li>
+  </ol>
+</section>
+
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+`,
+
+
+4:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #3a3a3a;">कार्बन एवं उसके यौगिक (Carbon and Its Compounds)</h2>
+    
+    <p><strong>अध्याय का अवलोकन (Chapter Overview):</strong> कार्बन एक अत्यंत महत्वपूर्ण तत्व है, जो जीवन के लिए आवश्यक है और इसके यौगिक विभिन्न रासायनिक प्रक्रियाओं में शामिल होते हैं। यह अध्याय कार्बन के गुण, इसके यौगिकों के प्रकार, तथा उनके उपयोगों के बारे में चर्चा करता है। कार्बन के यौगिकों में रासायनिक बंधन और अन्य विशेषताएँ होती हैं, जो उन्हें बहुत महत्वपूर्ण बनाती हैं।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>कार्बन: यह एक अपरिवर्तनीय तत्व है और इसकी विभिन्न विशेषताएँ इसे रासायनिक यौगिकों में महत्वपूर्ण बनाती हैं।</li>
+        <li>कार्बन के यौगिक: यह यौगिक मुख्यतः कार्बन-हाइड्रोजन बंधन में होते हैं और इनमें एल्केन्स, एल्केन्स, एस्टर्स, और एसीटिक्स जैसी श्रेणियाँ शामिल हैं।</li>
+        <li>संचयन अभिक्रिया: यह एक प्रकार की अभिक्रिया है जिसमें छोटे अणु मिलकर एक बड़ा अणु बनाते हैं।</li>
+        <li>विघटन अभिक्रिया: इसमें बड़े अणु छोटे अणुओं में टूटते हैं।</li>
+        <li>ऑक्सीकरण: यह प्रक्रिया है जिसमें कार्बन यौगिकों में ऑक्सीजन की उपस्थिति से ऊर्जा का उत्पादन होता है।</li>
+    </ul>
+    
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> कार्बन और इसके यौगिकों के उपयोगों को विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> कार्बन का उपयोग विभिन्न उद्योगों में होता है, जैसे कि जीवन रक्षक दवाइयों में, खाद्य प्रसंस्करण में, और कार्बन डाइऑक्साइड के रूप में वायुमंडल में। इसके यौगिकों का उपयोग प्लास्टिक, फ्यूल, और बायोडीजल बनाने में किया जाता है।</p>
+    
+    <p><strong>प्रश्न 2:</strong> एल्केन्स और एल्केन्स में अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> एल्केन्स एकल बंधन वाले हाइड्रोकार्बन होते हैं, जबकि एल्केन्स में दोहरे बंधन होते हैं। एल्केन्स स्थिर होते हैं, जबकि एल्केन्स अधिक प्रतिक्रियाशील होते हैं।</p>
+    
+    <p><strong>प्रश्न 3:</strong> कार्बन के यौगिकों में ऑक्सीकरण और अपचयन की प्रक्रिया को समझाएं।</p>
+    <p><strong>उत्तर:</strong> ऑक्सीकरण में कार्बन यौगिकों में ऑक्सीजन का जुड़ना होता है, जैसे कि बेंजीन का ऑक्सीकरण। अपचयन में इसके विपरीत, किसी यौगिक से ऑक्सीजन का वियोग होता है।</p>
+
+    <p><strong>प्रश्न 4:</strong> कार्बन के किस यौगिक का सबसे ज्यादा उपयोग होता है?</p>
+    <p><strong>उत्तर:</strong> कार्बन के सबसे ज्यादा उपयोग होने वाले यौगिकों में मेथेन, एथेन, और बेंजीन शामिल हैं। ये ऊर्जा के रूप में इस्तेमाल होते हैं और औद्योगिक प्रक्रियाओं में महत्वपूर्ण भूमिका निभाते हैं।</p>
+    
+    <p><strong>प्रश्न 5:</strong> कार्बन के यौगिकों का पर्यावरण पर क्या प्रभाव पड़ता है?</p>
+    <p><strong>उत्तर:</strong> कार्बन के यौगिकों, जैसे कि कार्बन डाइऑक्साइड और मीथेन, का वायुमंडल में अत्यधिक उत्सर्जन ग्लोबल वार्मिंग और जलवायु परिवर्तन के कारणों में से एक है।</p>
+
+    <p><strong>प्रश्न 6:</strong> ऐल्कोहल और कार्बनिक अम्ल के बीच अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> ऐल्कोहल में -OH समूह होता है, जबकि कार्बनिक अम्ल में -COOH समूह होता है। ऐल्कोहल ज्यादातर पानी में घुलनशील होते हैं, जबकि कार्बनिक अम्ल अपेक्षाकृत कम घुलनशील होते हैं।</p>
+
+    <p><strong>प्रश्न 7:</strong> कार्बन के यौगिकों के निर्माण के सिद्धांत को समझाएं।</p>
+    <p><strong>उत्तर:</strong> कार्बन के यौगिकों का निर्माण साधारणत: कार्बन और अन्य तत्वों के बीच बंधन के द्वारा होता है। यह कार्बन की चार वालेंसी के कारण होता है।</p>
+
+    <p><strong>प्रश्न 8:</strong> एल्कोहल के उपयोगों को उदाहरणों के साथ बताएं।</p>
+    <p><strong>उत्तर:</strong> एल्कोहल का उपयोग दवाओं, सफाई उत्पादों, रासायनिक उद्योग, और शराब निर्माण में किया जाता है।</p>
+
+    <p><strong>प्रश्न 9:</strong> कार्बन के यौगिकों के पर्यावरणीय प्रभाव को रोकने के उपाय बताएं।</p>
+    <p><strong>उत्तर:</strong> कार्बन के यौगिकों के पर्यावरणीय प्रभावों को रोकने के लिए रीसायक्लिंग, बायोडीजल का उपयोग, और सौर ऊर्जा का बढ़ावा दिया जा सकता है।</p>
+
+    <p><strong>प्रश्न 10:</strong> कार्बन के यौगिकों के बारे में आपको क्या जानकारी है?</p>
+    <p><strong>उत्तर:</strong> कार्बन के यौगिकों में हाइड्रोकार्बन, ऐल्कोहल, ऐसिड्स, और एस्टर्स आते हैं। इनका उपयोग ऊर्जा, औद्योगिक निर्माण, और जीवन के विभिन्न पहलुओं में किया जाता है।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> कार्बन के यौगिकों में कौन सा यौगिक नहीं पाया जाता? 
+            <ul>
+                <li>1) एल्केन</li>
+                <li>2) कार्बनिक अम्ल</li>
+                <li>3) सल्फर</li>
+                <li>4) ऐल्कोहल</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) सल्फर
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> मीथेन का रासायनिक सूत्र क्या है? 
+            <ul>
+                <li>1) CH4</li>
+                <li>2) C2H6</li>
+                <li>3) C3H8</li>
+                <li>4) C4H10</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) CH4
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> कार्बन का सबसे सामान्य ऑक्सीकरण राज्य क्या है?
+            <ul>
+                <li>1) +2</li>
+                <li>2) +4</li>
+                <li>3) -2</li>
+                <li>4) +6</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) +4
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> बेंजीन की संरचना कैसी होती है?
+            <ul>
+                <li>1) रैखिक</li>
+                <li>2) वृत्ताकार</li>
+                <li>3) गोलाकार</li>
+                <li>4) त्रिकोणीय</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) वृत्ताकार
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> कार्बन यौगिकों में से कौन सा यौगिक गैस के रूप में पाया जाता है? 
+            <ul>
+                <li>1) एथेन</li>
+                <li>2) मीथेन</li>
+                <li>3) प्रोपेन</li>
+                <li>4) बेंजीन</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) मीथेन
+        </li>
+        <li><strong>प्रश्न 6:</strong> कार्बन के यौगिकों में कौन सा यौगिक एक ठोस पदार्थ होता है? 
+            <ul>
+                <li>1) मीथेन</li>
+                <li>2) बेंजीन</li>
+                <li>3) कार्बन डाइऑक्साइड</li>
+                <li>4) शर्करा</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) शर्करा
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> कार्बन का कौन सा यौगिक विद्युत चालक होता है? 
+            <ul>
+                <li>1) ग्रेफाइट</li>
+                <li>2) डायमंड</li>
+                <li>3) कागज</li>
+                <li>4) लकड़ी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) ग्रेफाइट
+        </li>
+
+        <!-- Continue adding the remaining 15 objective questions in similar format -->
+    </ul>
+
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+
+`,
+
+5:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #3a3a3a;">तत्वों का आवर्त वर्गीकरण (Periodic Classification of Elements)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> तत्वों का आवर्त वर्गीकरण रासायनिक तत्वों को उनके गुणों के आधार पर वर्गीकृत करने की प्रक्रिया है। यह वर्गीकरण रसायनशास्त्र के एक महत्वपूर्ण सिद्धांत है, जिसे भारतीय वैज्ञानिक, श्रीधरण ने रासायनिक गुणों के आधार पर तत्वों को एक विशेष क्रम में व्यवस्थित किया।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>आवर्त सारणी: आवर्त सारणी में तत्वों को उनके परमाणु संख्या के आधार पर क्रमबद्ध किया जाता है।</li>
+        <li>मंडल: तत्वों को उनकी रासायनिक और भौतिक गुणों के आधार पर आवर्तित वर्गों में विभाजित किया जाता है।</li>
+        <li>वर्ग और आवर्त: यह वर्गीकरण उनके इलेक्ट्रॉनिक संरचना पर आधारित होता है।</li>
+        <li>मूलधातु और अधातु: यह विभाजन तत्वों के गुणों पर निर्भर करता है।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> आवर्त सारणी के सिद्धांत और उसकी संरचना के बारे में विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> आवर्त सारणी में तत्वों को उनके परमाणु संख्या के अनुसार व्यवस्थित किया जाता है। इसमें मुख्य रूप से 18 कॉलम (वर्ग) और 7 पंक्तियाँ (आवर्त) होती हैं। प्रत्येक कॉलम में समान गुण होते हैं।</p>
+
+    <p><strong>प्रश्न 2:</strong> आवर्त सारणी के विकास में भारतीय वैज्ञानिकों का योगदान बताएं।</p>
+    <p><strong>उत्तर:</strong> भारतीय वैज्ञानिक श्रीधरण ने तत्वों को उनकी रासायनिक गुणों और उनके परमाणु भार के आधार पर एक क्रम में व्यवस्थित किया, जिसे बाद में आवर्त सारणी के रूप में जाना गया।</p>
+    
+    <p><strong>प्रश्न 3:</strong> तत्वों का वर्गीकरण आवर्त सारणी में क्यों किया जाता है?</p>
+    <p><strong>उत्तर:</strong> तत्वों का वर्गीकरण उनके रासायनिक और भौतिक गुणों के आधार पर किया जाता है ताकि उनके गुणों का अध्ययन आसानी से किया जा सके और उनके बारे में बेहतर जानकारी प्राप्त हो सके।</p>
+
+    <p><strong>प्रश्न 4:</strong> मंडल और वर्ग में अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> मंडल वह पंक्तियाँ होती हैं जिनमें समान इलेक्ट्रॉनिक संरचना वाले तत्वों को रखा जाता है, जबकि वर्ग वे कॉलम होते हैं जिनमें समान रासायनिक गुण होते हैं।</p>
+
+    <p><strong>प्रश्न 5:</strong> तत्वों का आवर्त वर्गीकरण जीवन के लिए क्यों महत्वपूर्ण है?</p>
+    <p><strong>उत्तर:</strong> आवर्त सारणी तत्वों की संरचना और उनके गुणों को समझने में सहायक होती है, जो रासायनिक प्रतिक्रियाओं, ऊर्जा उत्पादन, और अन्य वैज्ञानिक खोजों में महत्वपूर्ण भूमिका निभाती है।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> आवर्त सारणी में कितने वर्ग होते हैं?
+            <ul>
+                <li>1) 16</li>
+                <li>2) 18</li>
+                <li>3) 20</li>
+                <li>4) 22</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) 18
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> तत्वों के आवर्त वर्गीकरण के सिद्धांत का प्रस्तावक कौन था?
+            <ul>
+                <li>1) डॉ. मेंडलीव</li>
+                <li>2) लुईस</li>
+                <li>3) डॉ. रदरफोर्ड</li>
+                <li>4) डॉ. न्यूटन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) डॉ. मेंडलीव
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> आवर्त सारणी में तत्वों की क्रमबद्धता किसके आधार पर होती है?
+            <ul>
+                <li>1) परमाणु संख्या</li>
+                <li>2) परमाणु भार</li>
+                <li>3) दोनों</li>
+                <li>4) रासायनिक गुण</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) परमाणु संख्या
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> किस तत्व को आवर्त सारणी में सबसे हल्का माना जाता है?
+            <ul>
+                <li>1) हाइड्रोजन</li>
+                <li>2) हेलियम</li>
+                <li>3) कार्बन</li>
+                <li>4) ऑक्सीजन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) हाइड्रोजन
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> आवर्त सारणी में तत्वों के गुण समान क्यों होते हैं?
+            <ul>
+                <li>1) इलेक्ट्रॉनिक संरचना के कारण</li>
+                <li>2) परमाणु भार के कारण</li>
+                <li>3) रासायनिक गुणों के कारण</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) इलेक्ट्रॉनिक संरचना के कारण
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> आवर्त सारणी में कितनी पंक्तियाँ (आवर्त) होती हैं?
+            <ul>
+                <li>1) 5</li>
+                <li>2) 7</li>
+                <li>3) 9</li>
+                <li>4) 12</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) 7
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> तत्वों के वर्गीकरण के लिए कौन सा मुख्य सिद्धांत था?
+            <ul>
+                <li>1) तत्वों का परमाणु भार</li>
+                <li>2) तत्वों का रासायनिक गुण</li>
+                <li>3) दोनों</li>
+                <li>4) परमाणु संख्या</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) तत्वों का परमाणु भार
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> कौन सा तत्व ग्रुप 18 में पाया जाता है?
+            <ul>
+                <li>1) नाइट्रोजन</li>
+                <li>2) हीलियम</li>
+                <li>3) सोडियम</li>
+                <li>4) कैल्शियम</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) हीलियम
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> आवर्त सारणी के किस समूह को 'आवर्तीय' कहा जाता है?
+            <ul>
+                <li>1) समूह 1</li>
+                <li>2) समूह 2</li>
+                <li>3) समूह 18</li>
+                <li>4) समूह 16</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) समूह 18
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> तत्वों का आवर्त वर्गीकरण क्यों किया जाता है?
+            <ul>
+                <li>1) ताकि हम तत्वों को उनकी विशेषताओं के आधार पर समझ सकें</li>
+                <li>2) ताकि हम तत्वों के गुणों की पहचान कर सकें</li>
+                <li>3) ताकि तत्वों की संरचना को स्पष्ट किया जा सके</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) उपर्युक्त सभी
+        </li>
+
+        <!-- Continue adding more objective questions as needed -->
+
+    </ul>
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+
+</div>
+
+
+`,
+
+6:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #3a3a3a;">जैव प्रक्रम (Biochemical Processes)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> जैव प्रक्रम जीवों के शरीर में होने वाली रासायनिक प्रक्रियाओं का समूह है, जो जीवन के अस्तित्व के लिए आवश्यक होते हैं। ये प्रक्रियाएँ ऊर्जा उत्पादन, कोशिका निर्माण, और अन्य महत्वपूर्ण कार्यों में सहायक होती हैं। इनका नियंत्रण एंजाइमों द्वारा किया जाता है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>पाचन प्रक्रम: शरीर द्वारा भोजन के पाचन की प्रक्रिया।</li>
+        <li>सांसप्रणाली: श्वसन प्रक्रिया में ऑक्सीजन का उपयोग और कार्बन डाइऑक्साइड का उत्सर्जन।</li>
+        <li>प्रकाश संश्लेषण: पौधों में सूर्य के प्रकाश से भोजन बनाने की प्रक्रिया।</li>
+        <li>ग्लाइकोलाइसिस और क्रेब्स चक्र: ऊर्जा उत्पादन के जैविक मार्ग।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> जैव प्रक्रमों का जीवों के शरीर में क्या महत्व है?</p>
+    <p><strong>उत्तर:</strong> जैव प्रक्रम जीवन के लिए आवश्यक होते हैं क्योंकि ये शरीर के सभी महत्वपूर्ण कार्यों जैसे ऊर्जा उत्पादन, कोशिका निर्माण, और शारीरिक वृद्धि में सहायक होते हैं।</p>
+
+    <p><strong>प्रश्न 2:</strong> प्रकाश संश्लेषण की प्रक्रिया को विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> प्रकाश संश्लेषण एक प्रक्रिया है, जिसमें पौधे सूर्य के प्रकाश, जल और कार्बन डाइऑक्साइड का उपयोग करके अपने भोजन (ग्लूकोज) का निर्माण करते हैं। इस प्रक्रिया के दौरान ऑक्सीजन का उत्सर्जन होता है।</p>
+    
+    <p><strong>प्रश्न 3:</strong> ग्लाइकोलाइसिस और क्रेब्स चक्र के बीच अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> ग्लाइकोलाइसिस में ग्लूकोज के अणुओं का विभाजन होता है, जिससे ऊर्जा उत्पन्न होती है, जबकि क्रेब्स चक्र में यह ऊर्जा को और अधिक परिवर्तित करके ATP (एटीपी) के रूप में संग्रहीत किया जाता है।</p>
+
+    <p><strong>प्रश्न 4:</strong> पाचन प्रक्रिया में एंजाइमों की भूमिका क्या है?</p>
+    <p><strong>उत्तर:</strong> पाचन प्रक्रिया में एंजाइम भोजन को छोटे अणुओं में विभाजित करने में मदद करते हैं, जिससे शरीर इन अणुओं का अवशोषण कर सके।</p>
+
+    <p><strong>प्रश्न 5:</strong> श्वसन प्रक्रिया को विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> श्वसन प्रक्रिया में शरीर ऑक्सीजन का उपयोग करता है और कार्बन डाइऑक्साइड का उत्सर्जन करता है, जो ऊर्जा उत्पादन के लिए आवश्यक होता है।</p>
+    
+    <p><strong>10 Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> कौन सी प्रक्रिया पौधों में भोजन बनाने के लिए जिम्मेदार है?
+            <ul>
+                <li>1) श्वसन</li>
+                <li>2) प्रकाश संश्लेषण</li>
+                <li>3) पाचन</li>
+                <li>4) ऊतक निर्माण</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) प्रकाश संश्लेषण
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> श्वसन प्रक्रिया में शरीर क्या उत्सर्जित करता है?
+            <ul>
+                <li>1) ऑक्सीजन</li>
+                <li>2) कार्बन डाइऑक्साइड</li>
+                <li>3) ग्लूकोज</li>
+                <li>4) दोनों 1 और 2</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) कार्बन डाइऑक्साइड
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> पाचन प्रक्रिया में कौन सा एंजाइम महत्वपूर्ण भूमिका निभाता है?
+            <ul>
+                <li>1) अमाइलेज</li>
+                <li>2) कैटलेस</li>
+                <li>3) लिपेज</li>
+                <li>4) पीटिडेज</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) अमाइलेज
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> ग्लाइकोलाइसिस में उत्पन्न होने वाली प्रमुख ऊर्जा किस रूप में होती है?
+            <ul>
+                <li>1) ATP</li>
+                <li>2) NADH</li>
+                <li>3) FADH2</li>
+                <li>4) ऑक्सीजन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) ATP
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> जैव प्रक्रमों को नियंत्रित करने में किसका योगदान है?
+            <ul>
+                <li>1) हार्मोन</li>
+                <li>2) एंजाइम</li>
+                <li>3) न्यूक्लिक एसिड</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) एंजाइम
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> क्रेब्स चक्र में कितने ATP उत्पन्न होते हैं?
+            <ul>
+                <li>1) 2</li>
+                <li>2) 4</li>
+                <li>3) 6</li>
+                <li>4) 38</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) 4
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> प्रकाश संश्लेषण में क्या पदार्थ आवश्यक होते हैं?
+            <ul>
+                <li>1) पानी, कार्बन डाइऑक्साइड</li>
+                <li>2) सूर्य की ऊर्जा</li>
+                <li>3) ऑक्सीजन</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) सभी उपर्युक्त
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> एटीपी का पूरा रूप क्या है?
+            <ul>
+                <li>1) एडेनोसिन ट्रायफास्फेट</li>
+                <li>2) आर्थोफास्फेट</li>
+                <li>3) आडोसिन टेट्राफास्फेट</li>
+                <li>4) एथिलिन ट्रायफास्फेट</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) एडेनोसिन ट्रायफास्फेट
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> कौन सा जैविक प्रक्रम कोशिका में ऊर्जा पैदा करने का मुख्य स्रोत है?
+            <ul>
+                <li>1) श्वसन</li>
+                <li>2) पाचन</li>
+                <li>3) प्रकाश संश्लेषण</li>
+                <li>4) दोनों 1 और 3</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) श्वसन
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> ग्लूकोज का अपघटन कहाँ होता है?
+            <ul>
+                <li>1) माइटोकॉन्ड्रिया</li>
+                <li>2) सायटोप्लाज्म</li>
+                <li>3) नाभिक</li>
+                <li>4) राइबोसोम</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) सायटोप्लाज्म
+        </li>
+
+        <!-- Continue adding more objective questions as needed -->
+    </ul>
+
+
+    <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+
+`,
+
+7:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">नियंत्रण एवं समन्वय (Control and Coordination)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> यह अध्याय शरीर के विभिन्न अंगों में नियंत्रण और समन्वय की प्रक्रियाओं के बारे में है, जिसमें तंत्रिका तंत्र और हार्मोनल नियंत्रण का विवरण है। तंत्रिका तंत्र संदेशों के आदान-प्रदान के लिए जिम्मेदार होता है, जबकि हार्मोन शरीर के विभिन्न अंगों और कार्यों को नियंत्रित करते हैं।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>तंत्रिका तंत्र: तंत्रिका कोशिकाओं का नेटवर्क जो शरीर के विभिन्न भागों में संदेशों का आदान-प्रदान करता है।</li>
+        <li>हार्मोन: रासायनिक संकेतक जो शरीर के विभिन्न कार्यों को नियंत्रित करते हैं।</li>
+        <li>सेंसर, प्रभावक और तंत्रिका तंत्र के कार्य: शरीर की विभिन्न प्रक्रियाओं को नियंत्रित और समन्वित करते हैं।</li>
+        <li>स्नायु तंत्रिका तंत्र: मांसपेशियों के नियंत्रण से जुड़ी तंत्रिका तंत्र की भूमिका।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> तंत्रिका तंत्र के कार्यों को विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> तंत्रिका तंत्र शरीर के सभी अंगों और हिस्सों को आपस में जोड़ता है और शरीर के विभिन्न हिस्सों के बीच संदेशों का आदान-प्रदान करता है। यह तंत्रिका कोशिकाओं (न्यूरॉन्स) के माध्यम से कार्य करता है।</p>
+
+    <p><strong>प्रश्न 2:</strong> हार्मोनल नियंत्रण की प्रक्रिया को समझाएं।</p>
+    <p><strong>उत्तर:</strong> हार्मोन शरीर के विभिन्न अंगों से रक्त में प्रवाहित होते हैं और शरीर के कार्यों को नियंत्रित करते हैं, जैसे वृद्धि, मेटाबोलिज़्म और प्रजनन। इनका कार्य समय के साथ बदलता है और वे शरीर की प्रतिक्रिया को नियंत्रित करते हैं।</p>
+    
+    <p><strong>प्रश्न 3:</strong> तंत्रिका तंत्र और हार्मोनल तंत्र के बीच अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> तंत्रिका तंत्र त्वरित संदेश भेजने का कार्य करता है, जबकि हार्मोनल तंत्र धीमी प्रक्रिया द्वारा शरीर के कार्यों को नियंत्रित करता है।</p>
+
+    <p><strong>प्रश्न 4:</strong> तंत्रिका तंत्र में न्यूरॉन्स की भूमिका क्या है?</p>
+    <p><strong>उत्तर:</strong> न्यूरॉन्स तंत्रिका तंत्र के कार्यकुशल संदेशवाहक होते हैं। वे विद्युत संकेतों के रूप में संदेशों को भेजते हैं और प्राप्त करते हैं।</p>
+
+    <p><strong>प्रश्न 5:</strong> मानव शरीर में किस अंग द्वारा हार्मोन का स्राव किया जाता है?</p>
+    <p><strong>उत्तर:</strong> मानव शरीर में हार्मोन का स्राव मुख्यतः अंतःस्रावी ग्रंथियों जैसे पिट्यूटरी, थायरॉइड, अंडकोष और अंडाशय से होता है।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> तंत्रिका तंत्र का मुख्य कार्य क्या है?
+            <ul>
+                <li>1) शरीर के अंगों को जोड़ना</li>
+                <li>2) संदेशों का आदान-प्रदान करना</li>
+                <li>3) मांसपेशियों को नियंत्रित करना</li>
+                <li>4) रक्त परिसंचरण को नियंत्रित करना</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) संदेशों का आदान-प्रदान करना
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> हार्मोन किसे नियंत्रित करते हैं?
+            <ul>
+                <li>1) शारीरिक कार्यों</li>
+                <li>2) रक्त परिसंचरण</li>
+                <li>3) शरीर की गति</li>
+                <li>4) मांसपेशियों का संकुचन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) शारीरिक कार्यों
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> तंत्रिका तंत्र में संदेश कैसे भेजे जाते हैं?
+            <ul>
+                <li>1) रासायनिक संकेतों से</li>
+                <li>2) विद्युत संकेतों से</li>
+                <li>3) हार्मोनल संकेतों से</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) विद्युत संकेतों से
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> हार्मोन का स्राव किस अंग से होता है?
+            <ul>
+                <li>1) पेट</li>
+                <li>2) यकृत</li>
+                <li>3) पिट्यूटरी ग्रंथि</li>
+                <li>4) गुर्दा</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) पिट्यूटरी ग्रंथि
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> तंत्रिका तंत्र के कौन से हिस्से संदेश भेजते हैं?
+            <ul>
+                <li>1) न्यूरॉन्स</li>
+                <li>2) मांसपेशियाँ</li>
+                <li>3) हार्मोन</li>
+                <li>4) रक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) न्यूरॉन्स
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> मस्तिष्क का मुख्य कार्य क्या है?
+            <ul>
+                <li>1) हार्मोन का स्राव करना</li>
+                <li>2) शरीर के तापमान को नियंत्रित करना</li>
+                <li>3) शरीर के अंगों को जोड़ना</li>
+                <li>4) सभी शारीरिक कार्यों का नियंत्रण करना</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) सभी शारीरिक कार्यों का नियंत्रण करना
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> तंत्रिका तंत्र के द्वारा कौन सा कार्य नियंत्रित किया जाता है?
+            <ul>
+                <li>1) हृदय गति</li>
+                <li>2) मांसपेशियों का संकुचन</li>
+                <li>3) शारीरिक क्रियाएँ</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) उपर्युक्त सभी
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> हार्मोन के स्राव में कौन सा अंग सहायक है?
+            <ul>
+                <li>1) यकृत</li>
+                <li>2) किडनी</li>
+                <li>3) पिट्यूटरी ग्रंथि</li>
+                <li>4) दिल</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) पिट्यूटरी ग्रंथि
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> पिट्यूटरी ग्रंथि के द्वारा कौन सा हार्मोन स्रावित होता है?
+            <ul>
+                <li>1) इंसुलिन</li>
+                <li>2) थायरॉक्सिन</li>
+                <li>3) ग्रोथ हार्मोन</li>
+                <li>4) टेस्टोस्टेरोन</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) ग्रोथ हार्मोन
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> शारीरिक कार्यों के समन्वय में कौन सा तंत्र सहायक होता है?
+            <ul>
+                <li>1) तंत्रिका तंत्र</li>
+                <li>2) हार्मोन तंत्र</li>
+                <li>3) दोनों 1 और 2</li>
+                <li>4) रक्त तंत्र</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) दोनों 1 और 2
+        </li>
+
+    </ul>
+
+    <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+
+`,
+
+8:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">जीव जनन कैसे करते हैं (How Do Organisms Reproduce)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में हम जीवों के जनन के विभिन्न प्रकारों के बारे में सीखेंगे। यह अध्याय जीवों के यौन और अयौन जनन के बारे में विस्तार से जानकारी प्रदान करता है। यौन जनन में दो अलग-अलग लिंगों के बीच मिलन होता है, जबकि अयौन जनन में एक ही जीव से नए जीव उत्पन्न होते हैं।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>अयौन जनन: इसमें एक ही जीव से नए जीव उत्पन्न होते हैं, जैसे कि बाइनरी फिशन और बडिंग।</li>
+        <li>यौन जनन: इसमें दो अलग-अलग लिंगों के मिलन से नए जीव उत्पन्न होते हैं।</li>
+        <li>जनन के तरीके: यौन और अयौन जनन के विभिन्न प्रकार, जैसे कि अंडों से प्रजनन और गर्भधारण।</li>
+        <li>जन्म लेने की प्रक्रिया: अंडाणु और शुक्राणु के मिलन से भ्रूण का विकास।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> अयौन जनन के प्रकारों को समझाएं।</p>
+    <p><strong>उत्तर:</strong> अयौन जनन में एक जीव से नए जीव उत्पन्न होते हैं। प्रमुख प्रकार हैं: बाइनरी फिशन, बडिंग और स्पोरे जनन।</p>
+
+    <p><strong>प्रश्न 2:</strong> यौन जनन के प्रक्रिया को विस्तार से समझाएं।</p>
+    <p><strong>उत्तर:</strong> यौन जनन में दो अलग-अलग लिंगों (पुरुष और महिला) के मिलन से नए जीव का निर्माण होता है। यह प्रक्रिया अंडाणु और शुक्राणु के मिलन से होती है।</p>
+    
+    <p><strong>प्रश्न 3:</strong> जीवों में जन्म देने के विभिन्न तरीके क्या हैं?</p>
+    <p><strong>उत्तर:</strong> जीवों में विभिन्न प्रकार से जन्म देने के तरीके होते हैं, जैसे कि अंडे देना, गर्भ में भ्रूण का विकास, और जीवन के विभिन्न विकासात्मक चरण।</p>
+
+    <p><strong>प्रश्न 4:</strong> अयौन जनन और यौन जनन में अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> अयौन जनन में एक जीव से नए जीव उत्पन्न होते हैं, जबकि यौन जनन में दो अलग-अलग लिंगों के मिलन से नए जीव का निर्माण होता है।</p>
+
+    <p><strong>प्रश्न 5:</strong> मानव में गर्भधारण की प्रक्रिया को समझाएं।</p>
+    <p><strong>उत्तर:</strong> गर्भधारण में अंडाणु और शुक्राणु का मिलन होता है, जिसके बाद भ्रूण का विकास होता है और यह प्रक्रिया गर्भ में होती है।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> अयौन जनन के द्वारा कौन सा जीव उत्पन्न होता है?
+            <ul>
+                <li>1) एक ही तरह का जीव</li>
+                <li>2) विभिन्न प्रकार के जीव</li>
+                <li>3) केवल मानव</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) एक ही तरह का जीव
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> यौन जनन के लिए कौन सा घटक आवश्यक है?
+            <ul>
+                <li>1) दो अलग-अलग लिंग</li>
+                <li>2) एकल लिंग</li>
+                <li>3) केवल अंडाणु</li>
+                <li>4) केवल शुक्राणु</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) दो अलग-अलग लिंग
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> अयौन जनन की प्रक्रिया में कौन सा घटक शामिल नहीं होता?
+            <ul>
+                <li>1) पुरुष</li>
+                <li>2) महिला</li>
+                <li>3) एक ही जीव</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) पुरुष
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> यौन जनन में कौन से घटक आवश्यक होते हैं?
+            <ul>
+                <li>1) अंडाणु और शुक्राणु</li>
+                <li>2) केवल अंडाणु</li>
+                <li>3) केवल शुक्राणु</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) अंडाणु और शुक्राणु
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> अयौन जनन का सबसे सामान्य तरीका क्या है?
+            <ul>
+                <li>1) बाइनरी फिशन</li>
+                <li>2) बडिंग</li>
+                <li>3) यौन जनन</li>
+                <li>4) भ्रूण विकास</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) बाइनरी फिशन
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> जनन के लिए कौन सा अंग सबसे अधिक महत्वपूर्ण है?
+            <ul>
+                <li>1) अंडाणु</li>
+                <li>2) शुक्राणु</li>
+                <li>3) दोनों अंडाणु और शुक्राणु</li>
+                <li>4) दोनों मस्तिष्क और हार्मोन</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) दोनों अंडाणु और शुक्राणु
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> अंडे से प्रजनन किस प्रकार के जनन का उदाहरण है?
+            <ul>
+                <li>1) अयौन जनन</li>
+                <li>2) यौन जनन</li>
+                <li>3) बाइनरी फिशन</li>
+                <li>4) स्पोरे जनन</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) यौन जनन
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> एक ही तरह के जीव से प्रजनन को किस जनन प्रकार से जोड़ा जाता है?
+            <ul>
+                <li>1) यौन जनन</li>
+                <li>2) अयौन जनन</li>
+                <li>3) भ्रूण विकास</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) अयौन जनन
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> जीव जनन में कौन सा तरीका अधिकतम विविधता उत्पन्न करता है?
+            <ul>
+                <li>1) यौन जनन</li>
+                <li>2) अयौन जनन</li>
+                <li>3) युग्मन</li>
+                <li>4) ऊतक पुनरुत्पादन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) यौन जनन
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> जीवन के विकासात्मक चरण में कौन सी प्रक्रिया शामिल होती है?
+            <ul>
+                <li>1) भ्रूण विकास</li>
+                <li>2) यौन जनन</li>
+                <li>3) अयौन जनन</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) भ्रूण विकास
+        </li>
+
+    </ul>
+
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+
+`,
+
+9:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">आनुवांशिकता एवं जैव विकास (Heredity and Evolution)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में हम आनुवांशिकता और जैव विकास के सिद्धांतों को समझेंगे। आनुवांशिकता में गुणसूत्र और जीन की भूमिका, और जैव विकास में जीवन के उत्पत्ति और प्रजातियों के विकास को समझाया जाता है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>आनुवांशिकता: यह जीवन के गुणसूत्रों और जीन से संबंधित है, जो विशेष गुणों और विशेषताओं को पीढ़ी दर पीढ़ी हस्तांतरित करते हैं।</li>
+        <li>जैव विकास: यह जीवन के उत्पत्ति और विकास की प्रक्रिया है, जिसमें प्रजातियाँ समय के साथ बदलती और नई प्रजातियाँ उत्पन्न होती हैं।</li>
+        <li>चुनाव का सिद्धांत: चार्ल्स डार्विन का सिद्धांत है कि जीवित प्रजातियाँ अपनी विशेषताओं में परिवर्तन करके अनुकूलन करती हैं, और वे सबसे अधिक अनुकूल जीवित रहते हैं।</li>
+        <li>वंशानुक्रम: जीन की मिश्रण से उत्पन्न जीवों में विभिन्न गुणसूत्रों का संचरण।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> आनुवांशिकता के सिद्धांत को समझाएं।</p>
+    <p><strong>उत्तर:</strong> आनुवांशिकता में गुणसूत्र और जीन के द्वारा विशेषताएँ पीढ़ी दर पीढ़ी हस्तांतरित होती हैं। यह जीवन की विविधताओं का कारण है।</p>
+
+    <p><strong>प्रश्न 2:</strong> जैव विकास के सिद्धांत को समझाएं।</p>
+    <p><strong>उत्तर:</strong> जैव विकास सिद्धांत के अनुसार, प्रजातियाँ समय के साथ बदलाव करती हैं, और यह प्राकृतिक चयन के द्वारा होता है। चार्ल्स डार्विन का सिद्धांत यह है कि जो जीव अधिक अनुकूल होते हैं, वे जीवित रहते हैं।</p>
+    
+    <p><strong>प्रश्न 3:</strong> वंशानुक्रम के सिद्धांत को समझाएं।</p>
+    <p><strong>उत्तर:</strong> वंशानुक्रम में जीन एक पीढ़ी से दूसरी पीढ़ी में हस्तांतरित होते हैं। इसमें गुणसूत्रों का मिश्रण होता है, जिससे नए गुण उत्पन्न होते हैं।</p>
+
+    <p><strong>प्रश्न 4:</strong> जैव विकास के उदाहरणों को बताएं।</p>
+    <p><strong>उत्तर:</strong> जैव विकास के उदाहरण में पक्षियों के पंखों का विकास, मानव के हाथों की संरचना, और जीवों में अनुकूलन का उदाहरण शामिल हैं।</p>
+
+    <p><strong>प्रश्न 5:</strong> आनुवांशिकता और जैव विकास में अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> आनुवांशिकता गुणसूत्रों और जीन के द्वारा गुणों का संचरण है, जबकि जैव विकास में प्रजातियाँ समय के साथ बदलाव करती हैं और नए गुण उत्पन्न होते हैं।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> आनुवांशिकता क्या है?
+            <ul>
+                <li>1) जीवन के गुणों का संचरण</li>
+                <li>2) जीवन की उत्पत्ति</li>
+                <li>3) प्रजातियों का विकास</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) जीवन के गुणों का संचरण
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> जैव विकास का सिद्धांत किसने दिया?
+            <ul>
+                <li>1) लमार्क</li>
+                <li>2) डार्विन</li>
+                <li>3) मेंडेल</li>
+                <li>4) हक्सले</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) डार्विन
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> कौन सा घटक आनुवांशिकता में मुख्य भूमिका निभाता है?
+            <ul>
+                <li>1) जीन</li>
+                <li>2) प्रोटीन</li>
+                <li>3) कोशिकाएँ</li>
+                <li>4) हॉर्मोन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) जीन
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> जैव विकास के लिए किस प्रक्रिया को जिम्मेदार ठहराया जाता है?
+            <ul>
+                <li>1) प्राकृतिक चयन</li>
+                <li>2) अनुवांशिक मिश्रण</li>
+                <li>3) परिरक्षण</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) प्राकृतिक चयन
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> आनुवांशिकता किसका परिणाम है?
+            <ul>
+                <li>1) जीन का संचरण</li>
+                <li>2) प्रजातियों की उत्पत्ति</li>
+                <li>3) कोशिका विभाजन</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) जीन का संचरण
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> जैव विकास में कौन सा तत्व अधिकतम योगदान करता है?
+            <ul>
+                <li>1) प्राकृतिक चयन</li>
+                <li>2) विकासात्मक परिवर्तन</li>
+                <li>3) युग्मन</li>
+                <li>4) वंशानुक्रम</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) प्राकृतिक चयन
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> डार्विन का विकास का सिद्धांत क्या है?
+            <ul>
+                <li>1) सभी जीवों का विकास प्राकृतिक चयन से होता है।</li>
+                <li>2) जीवन का विकास केवल जीवन के रासायनिक प्रक्रियाओं से हुआ।</li>
+                <li>3) सभी जीवों के गुण समान होते हैं।</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) सभी जीवों का विकास प्राकृतिक चयन से होता है।
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> वंशानुक्रम की प्रक्रिया में क्या होता है?
+            <ul>
+                <li>1) जीन का मिश्रण</li>
+                <li>2) कोशिका विभाजन</li>
+                <li>3) प्राकृतिक चयन</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) जीन का मिश्रण
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> आनुवांशिकता का अध्ययन किसे कहते हैं?
+            <ul>
+                <li>1) जीनतंत्र</li>
+                <li>2) आनुवांशिकी</li>
+                <li>3) जीवविज्ञान</li>
+                <li>4) कोशिकाविज्ञान</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) आनुवांशिकी
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> जैव विकास में कौन सा कारण सबसे महत्वपूर्ण है?
+            <ul>
+                <li>1) अनुकूलन</li>
+                <li>2) विकासात्मक प्रक्रिया</li>
+                <li>3) जलवायु परिवर्तन</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) अनुकूलन
+        </li>
+
+    </ul>
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+
+`,
+
+10:`
+
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">प्रकाश - परावर्तन तथा अपवर्तन (Light - Reflection and Refraction)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में प्रकाश के परावर्तन और अपवर्तन की प्रक्रिया को समझाया जाता है। परावर्तन में प्रकाश की दिशा बदलने की प्रक्रिया है, जबकि अपवर्तन में प्रकाश की गति और दिशा में बदलाव होता है जब वह एक माध्यम से दूसरे में प्रवेश करता है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>परावर्तन (Reflection): जब प्रकाश की किरण किसी चिकनी सतह से टकराकर अपनी दिशा बदलती है, तो इसे परावर्तन कहा जाता है।</li>
+        <li>अपवर्तन (Refraction): जब प्रकाश की किरण एक माध्यम से दूसरे में प्रवेश करती है और उसकी दिशा और गति बदलती है, तो इसे अपवर्तन कहा जाता है।</li>
+        <li>अपवर्तनांक (Refractive Index): किसी माध्यम की अपवर्तक क्षमता को मापने के लिए अपवर्तनांक का उपयोग किया जाता है।</li>
+        <li>सिद्धांत परावर्तन और अपवर्तन: प्रकाश की परावर्तन और अपवर्तन के नियमों को समझना।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> परावर्तन और अपवर्तन के सिद्धांतों को समझाएं।</p>
+    <p><strong>उत्तर:</strong> परावर्तन में प्रकाश की किरण किसी सतह से टकराकर अपनी दिशा बदलती है। अपवर्तन में प्रकाश की किरण एक माध्यम से दूसरे में प्रवेश करने पर उसकी दिशा और गति में बदलाव आता है।</p>
+
+    <p><strong>प्रश्न 2:</strong> अपवर्तनांक क्या है और इसका महत्त्व क्या है?</p>
+    <p><strong>उत्तर:</strong> अपवर्तनांक किसी माध्यम की अपवर्तक क्षमता को मापता है। इसका उपयोग यह समझने में किया जाता है कि प्रकाश एक माध्यम से दूसरे में कितनी गति से प्रवेश करेगा।</p>
+    
+    <p><strong>प्रश्न 3:</strong> परावर्तन के नियम को समझाएं।</p>
+    <p><strong>उत्तर:</strong> परावर्तन का पहला नियम कहता है कि परावर्तित और आपतन किरणें एक ही तल में होती हैं। दूसरा नियम कहता है कि आपतन कोण और परावर्तन कोण बराबर होते हैं।</p>
+
+    <p><strong>प्रश्न 4:</strong> अपवर्तन के नियम को समझाएं।</p>
+    <p><strong>उत्तर:</strong> अपवर्तन का पहला नियम कहता है कि प्रकाश की किरण आपतन माध्यम से अपवर्तित माध्यम में जाती है। दूसरा नियम कहता है कि प्रकाश की गति में बदलाव होता है, जिससे उसकी दिशा में भी बदलाव आता है।</p>
+
+    <p><strong>प्रश्न 5:</strong> परावर्तन और अपवर्तन में अंतर बताएं।</p>
+    <p><strong>उत्तर:</strong> परावर्तन में प्रकाश की दिशा केवल बदलती है, जबकि अपवर्तन में प्रकाश की दिशा और गति दोनों बदलती हैं।</p>
+    
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> परावर्तन का नियम किसे कहा जाता है?
+            <ul>
+                <li>1) प्रकाश की दिशा में परिवर्तन</li>
+                <li>2) आपतन और परावर्तन कोण का समान होना</li>
+                <li>3) प्रकाश का गति परिवर्तन</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) आपतन और परावर्तन कोण का समान होना
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> अपवर्तनांक किसे कहते हैं?
+            <ul>
+                <li>1) किसी माध्यम की अपवर्तक क्षमता</li>
+                <li>2) किसी माध्यम में प्रकाश की गति</li>
+                <li>3) किसी माध्यम का पारदर्शिता</li>
+                <li>4) प्रकाश की दिशा</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) किसी माध्यम की अपवर्तक क्षमता
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> परावर्तन में कौन सा कोण समान होता है?
+            <ul>
+                <li>1) आपतन कोण और परावर्तन कोण</li>
+                <li>2) आपतन कोण और प्रकाश की दिशा</li>
+                <li>3) परावर्तन कोण और प्रकाश की दिशा</li>
+                <li>4) सभी उपर्युक्त</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) आपतन कोण और परावर्तन कोण
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> अपवर्तन के दौरान प्रकाश की दिशा क्यों बदलती है?
+            <ul>
+                <li>1) प्रकाश की गति बदलने के कारण</li>
+                <li>2) माध्यम के घनत्व में बदलाव के कारण</li>
+                <li>3) प्रकाश की तीव्रता में बदलाव के कारण</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) प्रकाश की गति बदलने के कारण
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> जब प्रकाश पानी में प्रवेश करता है तो क्या होता है?
+            <ul>
+                <li>1) वह अपनी गति को तेज करता है</li>
+                <li>2) वह अपनी गति को धीमा करता है</li>
+                <li>3) वह अपनी दिशा बदलता है</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) वह अपनी गति को धीमा करता है
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> परावर्तन का मुख्य उदाहरण क्या है?
+            <ul>
+                <li>1) जलाशय में सूर्य का प्रतिबिंब</li>
+                <li>2) हवा का प्रकाश में अपवर्तन</li>
+                <li>3) आग के प्रकाश का परावर्तन</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) जलाशय में सूर्य का प्रतिबिंब
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> अपवर्तनांक को किस से मापा जाता है?
+            <ul>
+                <li>1) ब्रेसेल की परिभाषा</li>
+                <li>2) पदार्थ की घनता</li>
+                <li>3) प्रकाश की गति और माध्यम की घनता</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) प्रकाश की गति और माध्यम की घनता
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> अपवर्तन और परावर्तन में क्या अंतर है?
+            <ul>
+                <li>1) परावर्तन में प्रकाश की दिशा बदलती है, अपवर्तन में गति बदलती है।</li>
+                <li>2) अपवर्तन में दिशा और गति दोनों बदलती हैं।</li>
+                <li>3) परावर्तन में दिशा और गति बदलती हैं।</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) अपवर्तन में दिशा और गति दोनों बदलती हैं।
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> परावर्तन का मुख्य नियम क्या है?
+            <ul>
+                <li>1) आपतन और परावर्तन कोण समान होते हैं।</li>
+                <li>2) आपतन कोण और प्रकाश की दिशा समान होती है।</li>
+                <li>3) परावर्तन कोण और प्रकाश की दिशा समान होती है।</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) आपतन और परावर्तन कोण समान होते हैं।
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> किस माध्यम में प्रकाश की गति सबसे धीमी होती है?
+            <ul>
+                <li>1) हवा</li>
+                <li>2) पानी</li>
+                <li>3) कांच</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) कांच
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+
+    <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+
+`,
+
+11:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">मानव- नेत्र एवं रंगबिरंगा संसार (Human Eye and Colorful World)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में मानव नेत्र की संरचना और उसके कार्य को समझाया जाता है। इसके साथ ही, रंगों के दिखने की प्रक्रिया और प्रकाश के विभिन्न गुणों पर चर्चा की जाती है। हम जानते हैं कि प्रकाश और उसका परावर्तन और अपवर्तन हमारे दृष्टि और रंगों के अनुभव पर प्रभाव डालते हैं।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>मानव नेत्र (Human Eye): नेत्र की संरचना, कार्य और दृष्टि प्रक्रिया।</li>
+        <li>रंगों का दृश्य (Color Perception): प्रकाश और उसकी विभिन्न तरंगदैर्घ्य की प्रतिक्रिया के कारण हमें विभिन्न रंग दिखाई देते हैं।</li>
+        <li>आधुनिक दृष्टि तकनीक (Modern Vision Technologies): रेटिना, कॉर्निया, पुतली, और लेंस का कार्य समझना।</li>
+        <li>रंगों का अपवर्तन (Refraction of Colors): विभिन्न रंगों का वर्तन में अपवर्तन और परावर्तन।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> मानव नेत्र की संरचना और कार्य को समझाएं।</p>
+    <p><strong>उत्तर:</strong> मानव नेत्र एक जटिल अंग है, जिसमें कॉर्निया, लेंस, पुतली, और रेटिना शामिल होते हैं। कॉर्निया प्रकाश को फ़िल्टर करता है और पुतली के माध्यम से प्रकाश रेटिना तक पहुंचता है। रेटिना पर प्रकाश का प्रभाव दृष्टि की उत्पत्ति करता है।</p>
+
+    <p><strong>प्रश्न 2:</strong> रंगों का दृश्य कैसे उत्पन्न होता है?</p>
+    <p><strong>उत्तर:</strong> रंगों का दृश्य उस प्रकाश के विभिन्न तरंगदैर्घ्य (wavelength) पर निर्भर करता है। हमारी आँखें विभिन्न तरंगदैर्घ्य को भिन्न रंगों के रूप में देखती हैं।</p>
+
+    <p><strong>प्रश्न 3:</strong> लेंस का कार्य और उसमें अपवर्तन कैसे होता है?</p>
+    <p><strong>उत्तर:</strong> लेंस का कार्य प्रकाश को संकेंद्रित करना है, जिससे हमारी आँख में एक स्पष्ट छवि बनती है। प्रकाश लेंस से होकर रेटिना पर एक बिंदु में एकत्रित होता है।</p>
+
+    <p><strong>प्रश्न 4:</strong> रंगों का परावर्तन कैसे होता है?</p>
+    <p><strong>उत्तर:</strong> जब प्रकाश एक सतह से टकराता है, तो उसका एक हिस्सा परावर्तित होता है। विभिन्न रंगों के विभिन्न तरंगदैर्घ्य होते हैं, जो परावर्तित होकर हमें दिखाई देते हैं।</p>
+
+    <p><strong>प्रश्न 5:</strong> मानव आँख के रंगों को देखने की क्षमता को समझाएं।</p>
+    <p><strong>उत्तर:</strong> मानव आँख में तीन प्रकार के ऑप्टिक रिसेप्टर्स होते हैं, जो लाल, हरे और नीले रंग के प्रति संवेदनशील होते हैं। इन रिसेप्टर्स की प्रतिक्रिया से हमें रंगों का अनुभव होता है।</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> मानव नेत्र की संरचना में कौन सा हिस्सा प्रकाश को फ़िल्टर करता है?
+            <ul>
+                <li>1) रेटिना</li>
+                <li>2) पुतली</li>
+                <li>3) कॉर्निया</li>
+                <li>4) लेंस</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) कॉर्निया
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> मानव आँख में कौन सा रिसेप्टर रंगों को पहचानता है?
+            <ul>
+                <li>1) रेटिना</li>
+                <li>2) चितकबरी कोशिकाएँ</li>
+                <li>3) ऑप्टिक तंत्रिका</li>
+                <li>4) बेतार रिसेप्टर</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) रेटिना
+        </li>
+        
+        <li><strong>प्रश्न 3:</strong> रंगों का दृश्य कैसे उत्पन्न होता है?
+            <ul>
+                <li>1) विभिन्न तरंगदैर्घ्य के प्रकाश से</li>
+                <li>2) केवल सफेद प्रकाश से</li>
+                <li>3) केवल काले प्रकाश से</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) विभिन्न तरंगदैर्घ्य के प्रकाश से
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> मानव आँख में पुतली का क्या कार्य होता है?
+            <ul>
+                <li>1) प्रकाश को संकेंद्रित करना</li>
+                <li>2) रेटिना तक प्रकाश पहुँचाना</li>
+                <li>3) प्रकाश को नियंत्रित करना</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) प्रकाश को नियंत्रित करना
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> लेंस का मुख्य कार्य क्या है?
+            <ul>
+                <li>1) आँख को सुरक्षा प्रदान करना</li>
+                <li>2) प्रकाश को संकेंद्रित करना</li>
+                <li>3) चित्र को उलटने का कार्य</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) प्रकाश को संकेंद्रित करना
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> रंगों का अपवर्तन क्या है?
+            <ul>
+                <li>1) प्रकाश के तरंगदैर्घ्य के अनुसार रंग बदलना</li>
+                <li>2) प्रकाश का दिशा बदलना</li>
+                <li>3) प्रकाश का गति बदलना</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) प्रकाश के तरंगदैर्घ्य के अनुसार रंग बदलना
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> रंगों के दृष्टिकोण को कौन नियंत्रित करता है?
+            <ul>
+                <li>1) रेटिना</li>
+                <li>2) लेंस</li>
+                <li>3) पुतली</li>
+                <li>4) चितकबरी कोशिकाएँ</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) चितकबरी कोशिकाएँ
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> यदि कोई लेंस गुम है, तो दृष्टि पर क्या प्रभाव होगा?
+            <ul>
+                <li>1) दृष्टि धुंधली हो सकती है</li>
+                <li>2) दृष्टि में सुधार होगा</li>
+                <li>3) दृष्टि पूरी तरह से चले जाएगी</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) दृष्टि धुंधली हो सकती है
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> रेटिना का क्या कार्य है?
+            <ul>
+                <li>1) प्रकाश को फ़िल्टर करना</li>
+                <li>2) दृष्टि के संकेतों को मस्तिष्क तक भेजना</li>
+                <li>3) लेंस को नियंत्रित करना</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) दृष्टि के संकेतों को मस्तिष्क तक भेजना
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> मानव आँख के कौन से अंग रंगों का महसूस करते हैं?
+            <ul>
+                <li>1) पुतली</li>
+                <li>2) रेटिना</li>
+                <li>3) कॉर्निया</li>
+                <li>4) लेंस</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) रेटिना
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+
+`,
+
+12:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">विद्युत (Electricity)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में विद्युत के विभिन्न पहलुओं को समझाया जाता है, जैसे विद्युत धारा, वोल्टेज, रेसिस्टेंस, और ओम का नियम। विद्युत के बुनियादी सिद्धांतों और उनके दैनिक जीवन में उपयोग के बारे में विस्तृत जानकारी दी जाती है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>विद्युत धारा (Electric Current): विद्युत धारा के बारे में, इसकी दिशा, और इसके प्रवाह के कारण समझाया जाता है।</li>
+        <li>वोल्टेज (Voltage): वोल्टेज या विद्युत दाब की परिभाषा और इसकी भूमिका।</li>
+        <li>रेसिस्टेंस (Resistance): रेसिस्टेंस की परिभाषा और इसके घटकों का समझना।</li>
+        <li>ओम का नियम (Ohm's Law): ओम के नियम के आधार पर विद्युत प्रवाह, वोल्टेज और रेसिस्टेंस के बीच संबंध।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> विद्युत धारा क्या है? इसके प्रकारों को समझाएं।</p>
+    <p><strong>उत्तर:</strong> विद्युत धारा वह प्रवाह है जो विद्युतचार्ज के कणों (आमतौर पर इलेक्ट्रॉनों) के गतिशीलता के कारण उत्पन्न होता है। इसे दो प्रकार से वर्गीकृत किया जा सकता है: स्थिर धारा (Direct Current) और परिवर्तित धारा (Alternating Current)।</p>
+
+    <p><strong>प्रश्न 2:</strong> ओम के नियम को समझाएं और इसका व्यावहारिक उदाहरण दें।</p>
+    <p><strong>उत्तर:</strong> ओम का नियम यह कहता है कि विद्युत धारा (I) वोल्टेज (V) और रेसिस्टेंस (R) के अनुपात में होती है, अर्थात् V = I × R। इसका उदाहरण किसी भी सामान्य विद्युत परिपथ में देखा जा सकता है, जैसे बल्ब में धारिता के आधार पर वोल्टेज और धारा का संबंध।</p>
+
+    <p><strong>प्रश्न 3:</strong> रेसिस्टेंस क्या है और इसे प्रभावित करने वाले कारक कौन से हैं?</p>
+    <p><strong>उत्तर:</strong> रेसिस्टेंस किसी पदार्थ की वह क्षमता होती है, जो विद्युत धारा के प्रवाह का विरोध करती है। इसे प्रभावित करने वाले कारकों में तापमान, पदार्थ की प्रकृति, और उसकी लम्बाई और क्षेत्रफल शामिल हैं।</p>
+
+    <p><strong>प्रश्न 4:</strong> वोल्टेज का परिभाषा और इसके महत्व को समझाएं।</p>
+    <p><strong>उत्तर:</strong> वोल्टेज, जिसे विद्युत दाब भी कहा जाता है, दो बिंदुओं के बीच विद्युत ऊर्जा की अंतर को मापता है। यह विद्युत धारा के प्रवाह के लिए आवश्यक बल प्रदान करता है।</p>
+
+    <p><strong>प्रश्न 5:</strong> ओम के नियम का प्रयोग करने के लाभ क्या हैं?</p>
+    <p><strong>उत्तर:</strong> ओम के नियम से हमें किसी भी परिपथ में विद्युत धारा, वोल्टेज और रेसिस्टेंस के बीच के संबंध को समझने में मदद मिलती है। यह परिपथ के डिजाइन और समस्याओं को हल करने में महत्वपूर्ण भूमिका निभाता है।</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> विद्युत धारा को किस इकाई में मापा जाता है?
+            <ul>
+                <li>1) वोल्ट</li>
+                <li>2) ओम</li>
+                <li>3) एम्पियर</li>
+                <li>4) जूल</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) एम्पियर
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> ओम का नियम क्या है?
+            <ul>
+                <li>1) V = I × R</li>
+                <li>2) I = V × R</li>
+                <li>3) V = R × I</li>
+                <li>4) I = R × V</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) V = I × R
+        </li>
+
+        <li><strong>प्रश्न 3:</strong> रेसिस्टेंस किस पर निर्भर करता है?
+            <ul>
+                <li>1) लम्बाई</li>
+                <li>2) तापमान</li>
+                <li>3) पदार्थ की प्रकृति</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) उपर्युक्त सभी
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> वोल्टेज का मात्रक क्या है?
+            <ul>
+                <li>1) ओम</li>
+                <li>2) एम्पियर</li>
+                <li>3) जूल</li>
+                <li>4) वोल्ट</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) वोल्ट
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> विद्युत परिपथ में कितने प्रकार के धारा होते हैं?
+            <ul>
+                <li>1) एक</li>
+                <li>2) दो</li>
+                <li>3) तीन</li>
+                <li>4) चार</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) दो
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> ओम का नियम किसके बीच का संबंध बताता है?
+            <ul>
+                <li>1) वोल्टेज और रेसिस्टेंस</li>
+                <li>2) वोल्टेज और धारा</li>
+                <li>3) रेसिस्टेंस और धारा</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) वोल्टेज और धारा
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> विद्युत धारा का प्रवाह किस दिशा में होता है?
+            <ul>
+                <li>1) नकारात्मक से सकारात्मक</li>
+                <li>2) सकारात्मक से नकारात्मक</li>
+                <li>3) रैखिक</li>
+                <li>4) कोई निश्चित दिशा नहीं</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) नकारात्मक से सकारात्मक
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> स्थिर धारा किसे कहा जाता है?
+            <ul>
+                <li>1) AC</li>
+                <li>2) DC</li>
+                <li>3) दोनों</li>
+                <li>4) इनमें से कोई नहीं</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) DC
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> वोल्टेज का प्रयोग किस उद्देश्य के लिए किया जाता है?
+            <ul>
+                <li>1) धारा के प्रवाह को नियंत्रित करने के लिए</li>
+                <li>2) रेसिस्टेंस के परिवर्तन को समझने के लिए</li>
+                <li>3) विद्युत ऊर्जा के परिवहन के लिए</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) विद्युत ऊर्जा के परिवहन के लिए
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> रेसिस्टेंस का मात्रक क्या है?
+            <ul>
+                <li>1) ओम</li>
+                <li>2) वोल्ट</li>
+                <li>3) एम्पियर</li>
+                <li>4) जूल</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) ओम
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+
+<button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+
+</div>
+
+
+`,
+13:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">विद्युत धारा के चुम्बकीय प्रभाव (Magnetic Effect of Electric Current)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में हम विद्युत धारा के चुम्बकीय प्रभाव को समझेंगे। जब विद्युत धारा एक चालक से प्रवाहित होती है, तो वह एक चुंबकीय क्षेत्र उत्पन्न करती है। इस प्रभाव का उपयोग विभिन्न उपकरणों और यांत्रिक प्रणालियों में किया जाता है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>चुम्बकीय क्षेत्र (Magnetic Field): विद्युत धारा द्वारा उत्पन्न चुंबकीय क्षेत्र और इसके प्रभाव।</li>
+        <li>लॉरेंज बल (Lorentz Force): चुंबकीय क्षेत्र में विद्युत धारा द्वारा उत्पन्न बल।</li>
+        <li>हॉल प्रभाव (Hall Effect): एक परिपथ में चुंबकीय क्षेत्र और विद्युत धारा के आपसी प्रभाव का अध्ययन।</li>
+        <li>मोटर और जनरेटर (Motor and Generator): विद्युत धारा के चुंबकीय प्रभाव का उपयोग मोटर और जनरेटर में।</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> विद्युत धारा के चुम्बकीय प्रभाव को समझाएं और इसका उदाहरण दें।</p>
+    <p><strong>उत्तर:</strong> जब विद्युत धारा एक चालक से बहती है, तो वह एक चुंबकीय क्षेत्र उत्पन्न करती है। इसका उदाहरण एक साधारण बिंदु पर चुम्बकीय प्रभाव दिखाने वाला कंपास है, जो उस धारा से प्रभावित होता है।</p>
+
+    <p><strong>प्रश्न 2:</strong> हॉल प्रभाव क्या है? इसके महत्व को समझाएं।</p>
+    <p><strong>उत्तर:</strong> हॉल प्रभाव तब उत्पन्न होता है जब एक विद्युत धारा प्रवाहित होती है और एक चुंबकीय क्षेत्र के प्रभाव में आती है, जिससे विद्युत धारा की दिशा में बदलाव होता है। इसका उपयोग पदार्थों के गुणों को समझने में होता है।</p>
+
+    <p><strong>प्रश्न 3:</strong> मोटर और जनरेटर में विद्युत धारा के चुम्बकीय प्रभाव का उपयोग कैसे होता है?</p>
+    <p><strong>उत्तर:</strong> मोटर में विद्युत धारा एक चुंबकीय क्षेत्र के भीतर प्रवाहित होती है, जिससे गतिज बल उत्पन्न होता है। जनरेटर में चुंबकीय क्षेत्र के भीतर चालक से विद्युत धारा उत्पन्न की जाती है।</p>
+
+    <p><strong>प्रश्न 4:</strong> विद्युत धारा के चुम्बकीय प्रभाव का सिद्धांत ओर्स्टेड के प्रयोग द्वारा कैसे साबित होता है?</p>
+    <p><strong>उत्तर:</strong> ओर्स्टेड का प्रयोग यह सिद्ध करता है कि जब विद्युत धारा प्रवाहित होती है, तो वह एक चुंबकीय क्षेत्र उत्पन्न करती है। इस प्रयोग में एक धारा प्रवाहित होने वाले तार के पास एक कंपास रखा गया, और देखा गया कि कंपास की सुई घुमने लगी।</p>
+
+    <p><strong>प्रश्न 5:</strong> लॉरेंज बल का परिभाषा और इसका उपयोग कहां होता है?</p>
+    <p><strong>उत्तर:</strong> लॉरेंज बल वह बल है जो चुंबकीय क्षेत्र में विद्युत धारा के प्रवाह पर कार्य करता है। इसका उपयोग मोटर, जनरेटर और पार्टिकल एक्सेलेरेटर में होता है।</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> विद्युत धारा के चुम्बकीय प्रभाव के बारे में किसने खोज की थी?
+            <ul>
+                <li>1) ओर्स्टेड</li>
+                <li>2) फ़ैरेडे</li>
+                <li>3) न्यूटन</li>
+                <li>4) केल्विन</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) ओर्स्टेड
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> हॉल प्रभाव का उपयोग किस क्षेत्र में किया जाता है?
+            <ul>
+                <li>1) चुंबकीय क्षेत्र की माप</li>
+                <li>2) विद्युत धारा की माप</li>
+                <li>3) दोनों</li>
+                <li>4) इनमें से कोई नहीं</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) चुंबकीय क्षेत्र की माप
+        </li>
+
+        <li><strong>प्रश्न 3:</strong> मोटर में विद्युत धारा के चुम्बकीय प्रभाव का क्या परिणाम होता है?
+            <ul>
+                <li>1) घुमाव</li>
+                <li>2) गति</li>
+                <li>3) रुकावट</li>
+                <li>4) प्रकाश</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) गति
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> लॉरेंज बल के द्वारा उत्पन्न बल का दिशा क्या होती है?
+            <ul>
+                <li>1) चुंबकीय क्षेत्र के दिशा में</li>
+                <li>2) विद्युत धारा के दिशा में</li>
+                <li>3) दोनों के लम्बवत</li>
+                <li>4) इनमें से कोई नहीं</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) दोनों के लम्बवत
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> विद्युत धारा द्वारा उत्पन्न चुंबकीय क्षेत्र के बारे में क्या कहा जाता है?
+            <ul>
+                <li>1) परिपथ के चारों ओर</li>
+                <li>2) तार के चारों ओर</li>
+                <li>3) केवल एक दिशा में</li>
+                <li>4) उपर्युक्त सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) तार के चारों ओर
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> चुंबकीय क्षेत्र की दिशा किससे निर्धारित की जाती है?
+            <ul>
+                <li>1) कंपास</li>
+                <li>2) इलेक्ट्रॉन</li>
+                <li>3) आयन</li>
+                <li>4) धारा</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) कंपास
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> विद्युत धारा के चुंबकीय प्रभाव का उपयोग कहां होता है?
+            <ul>
+                <li>1) मोटर</li>
+                <li>2) जनरेटर</li>
+                <li>3) दोनों</li>
+                <li>4) इनमें से कोई नहीं</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) दोनों
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> विद्युत धारा और चुंबकीय क्षेत्र का आपसी प्रभाव किस सिद्धांत द्वारा स्पष्ट किया जाता है?
+            <ul>
+                <li>1) ओर्स्टेड का सिद्धांत</li>
+                <li>2) फ़ैरेडे का सिद्धांत</li>
+                <li>3) न्यूटन का सिद्धांत</li>
+                <li>4) केल्विन का सिद्धांत</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) ओर्स्टेड का सिद्धांत
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> हॉल प्रभाव का प्रयोग किसके लिए किया जाता है?
+            <ul>
+                <li>1) पदार्थ की घनता</li>
+                <li>2) विद्युत क्षेत्र</li>
+                <li>3) विद्युत चालकता</li>
+                <li>4) चुंबकीय क्षेत्र</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) चुंबकीय क्षेत्र
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> विद्युत धारा के चुम्बकीय प्रभाव का उपयोग कौन सा उपकरण करता है?
+            <ul>
+                <li>1) मोटर</li>
+                <li>2) पंखा</li>
+                <li>3) जनरेटर</li>
+                <li>4) सभी</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) सभी
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+
+    <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+
+`,
+
+14:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #345fff;">उर्जा के स्रोत (Sources of Energy)</h2>
+    
+    <p><strong>अध्यक्ष का अवलोकन (Chapter Overview):</strong> इस अध्याय में हम ऊर्जा के विभिन्न स्रोतों के बारे में अध्ययन करेंगे। ऊर्जा के स्रोतों को मुख्य रूप से नवीकरणीय और गैर-नवीकरणीय में विभाजित किया जाता है। इन स्रोतों का उपयोग उद्योगों, घरेलू कामों और परिवहन में किया जाता है।</p>
+    
+    <p><strong>मुख्य अवधारणाएँ (Key Concepts):</strong></p>
+    <ul>
+        <li>नवीकरणीय ऊर्जा स्रोत (Renewable Energy Sources): जैसे सौर ऊर्जा, पवन ऊर्जा, जल ऊर्जा।</li>
+        <li>गैर-नवीकरणीय ऊर्जा स्रोत (Non-Renewable Energy Sources): जैसे कोयला, पेट्रोलियम, प्राकृतिक गैस।</li>
+        <li>प्राकृतिक गैस और कोयले का उपयोग</li>
+        <li>बायोमास और बायोफ्यूल्स</li>
+    </ul>
+
+    <p><strong>दीर्घ प्रश्न (Long Questions):</strong></p>
+    
+    <p><strong>प्रश्न 1:</strong> नवीकरणीय और गैर-नवीकरणीय ऊर्जा स्रोतों के बीच अंतर स्पष्ट करें।</p>
+    <p><strong>उत्तर:</strong> नवीकरणीय ऊर्जा स्रोत वे होते हैं जो लगातार पुनः उत्पन्न होते हैं, जैसे सौर और पवन ऊर्जा। गैर-नवीकरणीय ऊर्जा स्रोतों का पुनर्नवीकरण नहीं हो सकता, जैसे कोयला और पेट्रोलियम।</p>
+
+    <p><strong>प्रश्न 2:</strong> सौर ऊर्जा के लाभ और हानि के बारे में बताएं।</p>
+    <p><strong>उत्तर:</strong> सौर ऊर्जा का लाभ यह है कि यह पर्यावरण के अनुकूल है और नवीकरणीय है, लेकिन इसकी लागत अधिक होती है और इसे बहुत अधिक स्थान की आवश्यकता होती है।</p>
+
+    <p><strong>प्रश्न 3:</strong> जल ऊर्जा के उपयोग और उसके लाभों को समझाएं।</p>
+    <p><strong>उत्तर:</strong> जल ऊर्जा को जलप्रवाह द्वारा उत्पन्न किया जाता है और इसका उपयोग बिजली उत्पन्न करने के लिए किया जाता है। यह नवीकरणीय है और पर्यावरण के लिए हानिरहित है।</p>
+
+    <p><strong>प्रश्न 4:</strong> प्राकृतिक गैस के उपयोग और इसके लाभों को समझाएं।</p>
+    <p><strong>उत्तर:</strong> प्राकृतिक गैस का उपयोग बिजली उत्पादन और घरेलू गैस के रूप में किया जाता है। यह पर्यावरण को कम हानि पहुँचाता है और इसका उपयोग अधिक कुशल है।</p>
+
+    <p><strong>प्रश्न 5:</strong> बायोमास से ऊर्जा उत्पादन की प्रक्रिया के बारे में विस्तार से बताएं।</p>
+    <p><strong>उत्तर:</strong> बायोमास से ऊर्जा उत्पादन के लिए जैविक पदार्थों को जलाया जाता है, जो गर्मी उत्पन्न करता है, और इससे ऊर्जा प्राप्त की जाती है। यह प्रक्रिया पर्यावरण के लिए अधिक अनुकूल होती है।</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>प्रश्न 1:</strong> ऊर्जा का सबसे सामान्य स्रोत कौन सा है?
+            <ul>
+                <li>1) सौर ऊर्जा</li>
+                <li>2) जल ऊर्जा</li>
+                <li>3) पवन ऊर्जा</li>
+                <li>4) कोयला</li>
+            </ul>
+            <strong>उत्तर:</strong> 4) कोयला
+        </li>
+
+        <li><strong>प्रश्न 2:</strong> सौर ऊर्जा का प्रमुख स्रोत क्या है?
+            <ul>
+                <li>1) सूर्य</li>
+                <li>2) पृथ्वी</li>
+                <li>3) वायु</li>
+                <li>4) जल</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) सूर्य
+        </li>
+
+        <li><strong>प्रश्न 3:</strong> निम्नलिखित में से कौन सा एक गैर-नवीकरणीय ऊर्जा स्रोत है?
+            <ul>
+                <li>1) कोयला</li>
+                <li>2) जल ऊर्जा</li>
+                <li>3) पवन ऊर्जा</li>
+                <li>4) सौर ऊर्जा</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) कोयला
+        </li>
+
+        <li><strong>प्रश्न 4:</strong> पवन ऊर्जा का उपयोग किस लिए किया जाता है?
+            <ul>
+                <li>1) बिजली उत्पादन</li>
+                <li>2) परिवहन</li>
+                <li>3) सर्दी से बचाव</li>
+                <li>4) कृषि</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) बिजली उत्पादन
+        </li>
+
+        <li><strong>प्रश्न 5:</strong> बायोमास से ऊर्जा उत्पादन में क्या उपयोगी है?
+            <ul>
+                <li>1) रासायनिक ऊर्जा</li>
+                <li>2) गर्मी</li>
+                <li>3) यांत्रिक ऊर्जा</li>
+                <li>4) विद्युत ऊर्जा</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) गर्मी
+        </li>
+
+        <li><strong>प्रश्न 6:</strong> जल ऊर्जा का प्रयोग किसके लिए किया जाता है?
+            <ul>
+                <li>1) बिजली उत्पादन</li>
+                <li>2) जलवायु परिवर्तन</li>
+                <li>3) ऊर्जा संग्रहण</li>
+                <li>4) कृषि कार्य</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) बिजली उत्पादन
+        </li>
+
+        <li><strong>प्रश्न 7:</strong> कौन सा ऊर्जा स्रोत नवीकरणीय है?
+            <ul>
+                <li>1) पेट्रोल</li>
+                <li>2) कोयला</li>
+                <li>3) पवन ऊर्जा</li>
+                <li>4) प्राकृतिक गैस</li>
+            </ul>
+            <strong>उत्तर:</strong> 3) पवन ऊर्जा
+        </li>
+
+        <li><strong>प्रश्न 8:</strong> पेट्रोलियम किस प्रकार का ऊर्जा स्रोत है?
+            <ul>
+                <li>1) नवीकरणीय</li>
+                <li>2) गैर-नवीकरणीय</li>
+                <li>3) जैविक</li>
+                <li>4) पुनर्नवीकरणीय</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) गैर-नवीकरणीय
+        </li>
+
+        <li><strong>प्रश्न 9:</strong> ऊर्जा का कौन सा स्रोत सबसे अधिक प्रदूषण करता है?
+            <ul>
+                <li>1) सौर ऊर्जा</li>
+                <li>2) कोयला</li>
+                <li>3) पवन ऊर्जा</li>
+                <li>4) जल ऊर्जा</li>
+            </ul>
+            <strong>उत्तर:</strong> 2) कोयला
+        </li>
+
+        <li><strong>प्रश्न 10:</strong> सौर ऊर्जा का प्रयोग कौन सा उपकरण करता है?
+            <ul>
+                <li>1) सौर पैनल</li>
+                <li>2) पवन टरबाइन</li>
+                <li>3) जल टरबाइन</li>
+                <li>4) हाइड्रो पावर</li>
+            </ul>
+            <strong>उत्तर:</strong> 1) सौर पैनल
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+
+    <button id="printBtn" style="
+  display: block; /* Make the button visible */
+  background-color: #6200ea; 
+  color: white; 
+  padding: 12px 25px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+">
+  Download Notes
+</button>
+
+</div>
+
+`,
+
+
+  };
+  document.getElementById("printBtn").addEventListener("click", function() {
+        window.print();
+    });
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const downloadBtn = document.getElementById("downloadBtn");
+    downloadBtn.style.display = "block";
+
+    downloadBtn.onclick = function () {
+      downloadNotes(chapterNumber);
+    };
+  }
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const printBtn = document.getElementById("printBtn");
+    printBtn.style.display = "block";
+
+    printBtn.onclick = function () {
+      printNotes();
+    };
+  }
+
+  function printNotes() {
+    // Use the window.print() method to print the current screen
+    window.print();
+  }
+
+  const printBtn = document.getElementById('printBtn');
+  printBtn.addEventListener('mouseover', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1.05)';
+    printBtn.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.3)';
+  });
+  
+  printBtn.addEventListener('mouseout', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1)';
+    printBtn.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+  });
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>

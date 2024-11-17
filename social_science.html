@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>माँ शारदा टीचिंग सेंटर</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      /* Reset some default styles */
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body and general layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .chapter-list {
+        width: 25%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+      }
+
+      .chapter-list ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .chapter-list li {
+        margin: 10px 0;
+      }
+
+      .chapter-list button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .chapter-list button:hover {
+        background-color: #45a049;
+      }
+
+      .notes-section {
+        width: 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .notes-section h2 {
+        margin-bottom: 20px;
+      }
+
+      #notes-content {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    < <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+      <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+          <p class="m-0 fw-bold" style="font-size: 25px;"><img src="./img/icon.png" alt="" height="50px">माँ शारदा <span
+                  style="color: #fb873f;">टीचिंग सेंटर</span></p>
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="courses.html" class="nav-item nav-link">Online Exam</a>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Notes</a>
+                  <div class="dropdown-menu fade-down m-0">
+                      <a href="math.html" class="dropdown-item">Class 10th Math</a>
+                      <a href="./science.html" class="dropdown-item">Class 10th Science</a>
+                      <a href="./Hindi.html" class="dropdown-item">Class 10th Hindi</a>
+                      <a href="./English.html" class="dropdown-item">Class 10th English</a>
+
+                      <a href="team.html" class="dropdown-item">Class 10th Sanskrit</a>
+                      <a href="./social_science.html" class="dropdown-item">Class 10th Social Science</a>
+
+
+                  </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+             
+              <a href="#" class="nav-item nav-link">
+
+              <div id="google_translate_element">
+              </div>
+
+
+              </a>
+          </div>
+      </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <div style="max-width: 100%; text-align: center;">
+      <img src="./img/banner12.png" alt="Sample Image" style="width: 100%; height: auto; max-width: 100%;">
+    </div>
+    <hr>
+
+  <!-- Carousel Start -->
+
+  <!-- nav bar start -->
+  <marquee style="background: linear-gradient(to right, #ff9933, #ffffff, #138808); height: 40px; color: #000; font-size: 18px; display: flex; align-items: center; padding: 0 10px;" behavior="scroll" direction="left">
+      माँ शारदा टीचिंग सेंटर में आपका स्वागत है! अब पढ़ाई करना और भी आसान हो गया है। हम फुल डिजिटल क्लास की सुविधा प्रदान करते हैं, और हमारी एप्लिकेशन पर मुफ्त में लाइव प्रैक्टिस सेट भी उपलब्ध हैं। पता: पोस्टऑफिस थाना  रोड पकरीबरावाँ (नवादा)       सम्पर्क सूत्र:- +91 8709124654
+  </marquee>    <!-- nav bar end -->
+
+ 
+    <!-- main part -->
+    <main>
+      <div class="chapter-list">
+        <h2> Social Science Notes</h2>
+        <ul>
+          <li>
+            <button style="background-color: red; text-align: center">
+                इतिहास | History
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(1)">
+              1. यूरोप में राष्ट्रवाद
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(2)">2. समाजवाद एवं साम्यवाद</button>
+          </li>
+          <li><button onclick="showNotes(3)">3. हिन्द- चीन में राष्ट्रवादी आन्दोलन</button></li>
+          <li>
+            <button onclick="showNotes(4)">4. भारत में राष्ट्रवाद</button>
+          </li>
+          <li>
+            <button onclick="showNotes(5)">5. अर्थ - व्यवस्था और आजीविका</button>
+          </li>
+          
+          <li><button onclick="showNotes(6)">6. शहरीकरण एवं शहरी जीवन</button></li>
+          <li>
+            <button onclick="showNotes(7)">7. व्यापार और भूमंडलीकरण</button>
+          </li>
+          <li>
+            <button onclick="showNotes(8)">8. प्रेस - संस्कृति एवं राष्ट्रवाद</button>
+          </li>
+          <li>
+            <button style="background-color: red; text-align: center">
+                लोकतंत्र
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(9)">1. लोकतंत्र में सत्ता की साझेदारी</button>
+          </li>
+            
+
+          <li>
+            <button onclick="showNotes(10)">
+              2. सत्ता में साझेदारी की कार्यप्रणाली
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(11)">
+              3. लोकतंत्र में प्रतिस्पर्धा एवं संघर्ष
+            </button>
+          </li>
+          <li><button onclick="showNotes(12)">4. लोकतंत्र की उपलब्धियाँ</button></li>
+          <li>
+            <button onclick="showNotes(13)">
+              5. लोकतंत्र की चुनौतियाँ
+            </button>
+          </li>
+          <li>
+            <button style="background-color: red; text-align: center">
+                अर्थव्यवस्था
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(14)">1. अर्थव्यवस्था एवं विकास का इतिहास</button>
+          </li>
+            
+
+          <li>
+            <button onclick="showNotes(15)">
+              2. राज्य एवं राष्ट्र की आय मुद्रा
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(16)">
+              3. बचत एवं साख
+            </button>
+          </li>
+          <li><button onclick="showNotes(17)">4. हमारी वित्तीय संस्थाएँ</button></li>
+          <li>
+            <button onclick="showNotes(18)">
+              5. रोजगार एवं सेवाएँ
+            </button>
+          </li>
+         
+          <li>
+            <button onclick="showNotes(19)">
+              6. वैश्वीकरण
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(20)">
+              7. उपभोक्ता जागरण एवं संरक्षण
+            </button>
+          </li>
+         
+          <li>
+            <button style="background-color: red; text-align: center">
+                भूगोल
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(21)">1. भारत : संसाधन एवं उपयोग</button>
+          </li>
+            
+
+          <li>
+            <button onclick="showNotes(22)">
+              2. कृषि
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(23)">
+              3. निर्माण उद्योग
+            </button>
+          </li>
+          <li><button onclick="showNotes(24)">4. परिवहन, संचार एवं व्यापार</button></li>
+          <li>
+            <button onclick="showNotes(25)">
+              5. बिहार : कृषि एवं वन संसाधन
+            </button>
+          </li>
+         
+          <li>
+            <button onclick="showNotes(26)">
+              6. मानचित्र अध्ययन
+            </button>
+          </li>
+          
+          <li>
+            <button style="background-color: red; text-align: center">
+                आपदा प्रबंधन
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(27)">1. प्राकृतिक आपदा : एक परिचय</button>
+          </li>
+            
+
+          <li>
+            <button onclick="showNotes(28)">
+              2. आपदा प्रबंधन - बाढ़ और सुखाड़
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(29)">
+              3. आपदा प्रबन्धन - भूकंप एवं सुनामी
+            </button>
+          </li>
+          <li><button onclick="showNotes(30)">4. जीवन रक्षक आकस्मिक प्रबंधन</button></li>
+          <li>
+            <button onclick="showNotes(31)">
+              5. आपदा में वैकल्पिक संचार व्यवस्था
+            </button>
+          </li>
+         
+          <li>
+            <button onclick="showNotes(34)">
+              6. आपदा और सह - अस्तित्व
+            </button>
+          </li>
+          
+
+
+
+          
+        </ul>
+      </div>
+
+      <div id="notes-section" class="notes-section">
+        <h2>Social Science Notes</h2>
+        <div id="notes-content"></div>
+        <button
+          id="downloadBtn"
+          style="display: none"
+          onclick="downloadNotes()"
+        >
+          Download Notes as PDF
+        </button>
+      </div>
+    </main>
+    <!-- main partg End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Quick Link</h4>
+            <p><a class="text-light" href="about.html">About Us</a></p>
+            <p><a class="text-light" href="contact.html">Contact Us</a></p>
+            <p><a class="text-light" href="./courses.html">Online Exam</a></p>
+            <p><a class="text-light" href="./team.html">Notes</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Police Station Road
+              Pakribrawan, Nawada
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 8709124654
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>harendrasir94@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/profile.php?id=100072857619630"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@MSTSHarendraSir"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">
+              "अगर आपके पास कोई प्रश्न या सुझाव है, तो कृपया हमसे संपर्क करें।
+              हम आपके हर सवाल का जवाब देने के लिए तत्पर हैं।"
+            </h4>
+            <p></p>
+            <div
+              class="position-relative mx-auto"
+              style="max-width: 400px"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="index.html"
+                >Maa Sharda Teaching Center,Pakribrawan</a
+              >, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+  const notes = {
+   1:`
+    <div style="background: linear-gradient(to right, #e0f7fa, #f3e5f5); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff4081;">यूरोप में राष्ट्रवाद (Chapter 1)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम यूरोप में राष्ट्रवाद के उदय के विभिन्न पहलुओं का अध्ययन करेंगे। इसमें हम राष्ट्रवाद के उत्पत्ति, इसके प्रभाव, और कैसे यह यूरोप में सामाजिक और राजनीतिक बदलावों का कारण बना, को विस्तार से समझेंगे।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>राष्ट्रवाद का उदय</li>
+        <li>यूरोप में राष्ट्रवाद का प्रभाव</li>
+        <li>प्रारंभिक संघर्ष और एकता</li>
+        <li>राजनीतिक और सामाजिक परिवर्तन</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> राष्ट्रवाद का उदय कैसे हुआ? इसे विस्तार से समझाइए।</p>
+    <p><strong>Answer:</strong> राष्ट्रवाद का उदय 18वीं और 19वीं सदी के दौरान यूरोप में हुआ, जब लोग अपनी सांस्कृतिक, भाषाई, और ऐतिहासिक पहचान के आधार पर एकजुट होने लगे। यह राष्ट्रवादी विचार यूरोप में राजनीतिक और सामाजिक परिवर्तन का कारण बना।</p>
+
+    <p><strong>Question 2:</strong> राष्ट्रवाद ने यूरोप में किस तरह के परिवर्तन किए?</p>
+    <p><strong>Answer:</strong> राष्ट्रवाद ने यूरोप में कई महत्वपूर्ण राजनीतिक और सामाजिक परिवर्तन किए। कई राज्यों में एकता और स्वतंत्रता की भावना जाग्रत हुई, जिससे कई देशों में लोकतांत्रिक क्रांति आई और एकल राष्ट्रीयता की ओर प्रवृत्त हुए।</p>
+
+    <p><strong>Question 3:</strong> यूरोप में राष्ट्रवाद और युद्ध के बीच क्या संबंध है?</p>
+    <p><strong>Answer:</strong> राष्ट्रवाद ने यूरोप में युद्धों को प्रेरित किया, क्योंकि विभिन्न राष्ट्र अपनी स्वतंत्रता और प्रभुत्व को स्थापित करने के लिए संघर्ष कर रहे थे। यह संघर्ष राष्ट्रों के भीतर और बाहर दोनों जगह व्यापक रूप से हुआ।</p>
+
+    <p><strong>Question 4:</strong> क्या राष्ट्रवाद ने यूरोप में समाज के स्तर पर बदलाव लाया? अपना उत्तर स्पष्ट करें।</p>
+    <p><strong>Answer:</strong> हां, राष्ट्रवाद ने समाज के स्तर पर भी बड़े बदलाव किए। लोग अपनी राष्ट्रीय पहचान को लेकर गर्व महसूस करने लगे और सामाजिक एकता की ओर अग्रसर हुए। यह बदलाव खासतौर पर शिक्षाविदों, व्यापारियों, और युवाओं में अधिक दिखाई दिया।</p>
+
+    <p><strong>Question 5:</strong> राष्ट्रवाद के प्रभाव से यूरोप में क्या संघर्ष हुए?</p>
+    <p><strong>Answer:</strong> राष्ट्रवाद के प्रभाव से यूरोप में कई संघर्ष हुए। कई देशों ने एकजुटता प्राप्त करने के लिए संघर्ष किया, जिससे विभिन्न युद्धों और क्रांतियों का जन्म हुआ। प्रमुख संघर्षों में फ्रांसीसी क्रांति और प्रथम विश्व युद्ध शामिल हैं।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> राष्ट्रवाद का प्रभाव किस पर पड़ा?
+            <ul>
+                <li>1) यूरोप</li>
+                <li>2) एशिया</li>
+                <li>3) अफ्रीका</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) यूरोप
+        </li>
+
+        <li><strong>Question 2:</strong> यूरोप में राष्ट्रवाद का प्रमुख कारण क्या था?
+            <ul>
+                <li>1) राजनीतिक अस्थिरता</li>
+                <li>2) सांस्कृतिक जागरूकता</li>
+                <li>3) आर्थिक विकास</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 3:</strong> राष्ट्रवाद ने किस क्षेत्र में सबसे अधिक प्रभाव डाला?
+            <ul>
+                <li>1) दक्षिणी यूरोप</li>
+                <li>2) उत्तरी यूरोप</li>
+                <li>3) पश्चिमी यूरोप</li>
+                <li>4) पूर्वी यूरोप</li>
+            </ul>
+            <strong>Answer:</strong> 1) दक्षिणी यूरोप
+        </li>
+
+        <li><strong>Question 4:</strong> राष्ट्रवाद के कारण कौन सा युद्ध हुआ?
+            <ul>
+                <li>1) विश्व युद्ध</li>
+                <li>2) फ्रांसीसी क्रांति</li>
+                <li>3) इंग्लैंड-फ्रांस युद्ध</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) विश्व युद्ध
+        </li>
+
+        <li><strong>Question 5:</strong> राष्ट्रवाद का सबसे बड़ा लाभ क्या था?
+            <ul>
+                <li>1) एकता</li>
+                <li>2) युद्ध</li>
+                <li>3) असहमति</li>
+                <li>4) स्वतंत्रता</li>
+            </ul>
+            <strong>Answer:</strong> 1) एकता
+        </li>
+
+        <li><strong>Question 6:</strong> राष्ट्रवाद का विचार किसने शुरू किया था?
+            <ul>
+                <li>1) नेपोलियन बोनापार्ट</li>
+                <li>2) काउंट मेटर्निच</li>
+                <li>3) कार्ल मार्क्स</li>
+                <li>4) थॉमस पेन</li>
+            </ul>
+            <strong>Answer:</strong> 1) नेपोलियन बोनापार्ट
+        </li>
+
+        <li><strong>Question 7:</strong> राष्ट्रवाद के द्वारा किस विचार को बढ़ावा मिला?
+            <ul>
+                <li>1) राष्ट्रीयता</li>
+                <li>2) साम्राज्यवाद</li>
+                <li>3) समाजवाद</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) राष्ट्रीयता
+        </li>
+
+        <li><strong>Question 8:</strong> "राष्ट्रवाद के बिना कोई राष्ट्र नहीं रह सकता" यह उद्धरण किसका है?
+            <ul>
+                <li>1) डीन स्टीफन्स</li>
+                <li>2) जॉन ड्यूई</li>
+                <li>3) नेपोलियन बोनापार्ट</li>
+                <li>4) विलियम शेक्सपियर</li>
+            </ul>
+            <strong>Answer:</strong> 3) नेपोलियन बोनापार्ट
+        </li>
+
+        <li><strong>Question 9:</strong> राष्ट्रवाद की मुख्य विशेषता क्या है?
+            <ul>
+                <li>1) स्वतंत्रता</li>
+                <li>2) सामूहिक पहचान</li>
+                <li>3) सामाजिक समानता</li>
+                <li>4) राजनीतिक सशक्तिकरण</li>
+            </ul>
+            <strong>Answer:</strong> 2) सामूहिक पहचान
+        </li>
+
+        <li><strong>Question 10:</strong> राष्ट्रवाद ने यूरोप में कौन से बदलाव लाए?
+            <ul>
+                <li>1) राजनीतिक क्रांति</li>
+                <li>2) सामाजिक परिवर्तन</li>
+                <li>3) आर्थिक सुधार</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+`,
+2:`
+
+<div style="background: linear-gradient(to right, #e0f7fa, #f3e5f5); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff4081;">समाजवाद एवं साम्यवाद (Chapter 2)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम समाजवाद और साम्यवाद के उत्पत्ति, उनके विचार और उनकी भूमिका पर चर्चा करेंगे। समाजवाद और साम्यवाद ने यूरोप और विश्व में कई सामाजिक और राजनीतिक बदलावों का कारण बने।</p>
+
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>समाजवाद का उदय</li>
+        <li>साम्यवाद और मार्क्सवाद</li>
+        <li>समाजवाद के प्रमुख विचारक</li>
+        <li>समाजवाद और साम्यवाद का प्रभाव</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> समाजवाद का उदय कैसे हुआ? इसे विस्तार से समझाइए।</p>
+    <p><strong>Answer:</strong> समाजवाद का उदय 19वीं सदी में हुआ जब औद्योगिक क्रांति ने श्रमिकों और गरीबों के जीवन स्तर में असमानताओं को उजागर किया। समाजवाद एक सामाजिक-आर्थिक व्यवस्था थी जिसका उद्देश्य उत्पादन के साधनों का सामूहिक स्वामित्व और हर व्यक्ति के लिए समान अवसर प्रदान करना था।</p>
+
+    <p><strong>Question 2:</strong> साम्यवाद के विचारक कौन थे और उनका प्रभाव क्या था?</p>
+    <p><strong>Answer:</strong> साम्यवाद के प्रमुख विचारक कार्ल मार्क्स और फ्रेडरिक एंगेल्स थे। उनके सिद्धांतों के आधार पर, साम्यवाद ने समाज के श्रमिक वर्ग को ताकत दी और पूंजीवादी व्यवस्था के खिलाफ संघर्ष का आह्वान किया।</p>
+
+    <p><strong>Question 3:</strong> समाजवाद और साम्यवाद में अंतर क्या है?</p>
+    <p><strong>Answer:</strong> समाजवाद में निजी संपत्ति को नियंत्रित किया जाता है और उत्पादन के साधन सामूहिक होते हैं, जबकि साम्यवाद में पूरी तरह से निजी संपत्ति का उन्मूलन किया जाता है और उत्पादन के साधन पूरी तरह से राज्य या सामूहिक स्वामित्व में होते हैं।</p>
+
+    <p><strong>Question 4:</strong> समाजवाद और साम्यवाद ने यूरोप में किस तरह के बदलाव किए?</p>
+    <p><strong>Answer:</strong> समाजवाद और साम्यवाद ने यूरोप में कई बदलाव किए। इनमें सामाजिक समानता, श्रमिक अधिकारों की रक्षा, और उद्योगों के राष्ट्रीयकरण के विचार प्रमुख थे। साम्यवाद ने देशों में क्रांतिकारी आंदोलनों को प्रेरित किया, जिनमें प्रमुख था रूस में बोल्शेविक क्रांति।</p>
+
+    <p><strong>Question 5:</strong> समाजवाद और साम्यवाद के सिद्धांतों के क्या लाभ थे?</p>
+    <p><strong>Answer:</strong> समाजवाद और साम्यवाद ने गरीबों और श्रमिकों के अधिकारों की रक्षा की और असमानता को कम करने का प्रयास किया। इन सिद्धांतों ने शोषण की प्रक्रिया को समाप्त करने और समानता की दिशा में काम करने की प्रेरणा दी।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> समाजवाद का प्रभाव किस पर पड़ा?
+            <ul>
+                <li>1) यूरोप</li>
+                <li>2) एशिया</li>
+                <li>3) अफ्रीका</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) यूरोप
+        </li>
+
+        <li><strong>Question 2:</strong> साम्यवाद के प्रमुख विचारक कौन थे?
+            <ul>
+                <li>1) कार्ल मार्क्स और फ्रेडरिक एंगेल्स</li>
+                <li>2) थॉमस पेन</li>
+                <li>3) जॉन स्टुअर्ट मिल</li>
+                <li>4) जोहान गोटफ्रेड</li>
+            </ul>
+            <strong>Answer:</strong> 1) कार्ल मार्क्स और फ्रेडरिक एंगेल्स
+        </li>
+
+        <li><strong>Question 3:</strong> समाजवाद और साम्यवाद के बीच क्या अंतर है?
+            <ul>
+                <li>1) समाजवाद में निजी संपत्ति का स्वामित्व रहता है</li>
+                <li>2) साम्यवाद में संपत्ति का पूरी तरह से उन्मूलन होता है</li>
+                <li>3) समाजवाद और साम्यवाद में कोई अंतर नहीं है</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 2) साम्यवाद में संपत्ति का पूरी तरह से उन्मूलन होता है
+        </li>
+
+        <li><strong>Question 4:</strong> समाजवाद का प्रमुख उद्देश्य क्या था?
+            <ul>
+                <li>1) समानता</li>
+                <li>2) लोकतंत्र</li>
+                <li>3) स्वतंत्रता</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) समानता
+        </li>
+
+        <li><strong>Question 5:</strong> साम्यवाद ने किस क्रांति को प्रेरित किया?
+            <ul>
+                <li>1) फ्रांसीसी क्रांति</li>
+                <li>2) रूस में बोल्शेविक क्रांति</li>
+                <li>3) अमेरिकी स्वतंत्रता संग्राम</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 2) रूस में बोल्शेविक क्रांति
+        </li>
+
+        <li><strong>Question 6:</strong> समाजवाद और साम्यवाद के सिद्धांत किस पर आधारित थे?
+            <ul>
+                <li>1) मार्क्सवाद</li>
+                <li>2) लिबरलिज़्म</li>
+                <li>3) समाजवाद</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) मार्क्सवाद
+        </li>
+
+        <li><strong>Question 7:</strong> समाजवाद के तहत किसका नियंत्रण होता है?
+            <ul>
+                <li>1) निजी संपत्ति</li>
+                <li>2) सरकारी संपत्ति</li>
+                <li>3) उत्पादन के साधन</li>
+                <li>4) कोई नियंत्रण नहीं</li>
+            </ul>
+            <strong>Answer:</strong> 3) उत्पादन के साधन
+        </li>
+
+        <li><strong>Question 8:</strong> "राज्य ही सब कुछ है" यह उद्धरण किसका है?
+            <ul>
+                <li>1) कार्ल मार्क्स</li>
+                <li>2) जॉन ड्यूई</li>
+                <li>3) नेपोलियन बोनापार्ट</li>
+                <li>4) विलियम शेक्सपियर</li>
+            </ul>
+            <strong>Answer:</strong> 1) कार्ल मार्क्स
+        </li>
+
+        <li><strong>Question 9:</strong> साम्यवाद का प्रमुख उद्देश्य क्या था?
+            <ul>
+                <li>1) असमानता को समाप्त करना</li>
+                <li>2) वर्ग संघर्ष को समाप्त करना</li>
+                <li>3) सामाजिक समानता</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 10:</strong> समाजवाद और साम्यवाद ने किस तरह के सामाजिक बदलाव किए?
+            <ul>
+                <li>1) सामाजिक समानता</li>
+                <li>2) श्रमिक अधिकार</li>
+                <li>3) राज्य नियंत्रण</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+
+3:`
+<div style="background: linear-gradient(to right, #e0f7fa, #f3e5f5); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff4081;">हिन्द-चीन में राष्ट्रवादी आन्दोलन (Chapter 3)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम हिन्द और चीन में राष्ट्रवादी आंदोलनों के विभिन्न पहलुओं का अध्ययन करेंगे। इसमें हम इन आंदोलनों की उत्पत्ति, उनके उद्देश्य, और उनका समाजिक, राजनीतिक प्रभाव समझेंगे।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>हिन्द राष्ट्रवाद का विकास</li>
+        <li>चीन में राष्ट्रवादी आन्दोलन</li>
+        <li>गांधीजी का योगदान</li>
+        <li>सुभाष चन्द्र बोस और भारतीय राष्ट्रीय कांग्रेस</li>
+        <li>चीन में माओत्से तुंग और क्यूमिनतांग पार्टी</li>
+        <li>हिन्द-चीन संघर्ष और उनका अंतर्राष्ट्रीय प्रभाव</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> हिन्द में राष्ट्रवादी आन्दोलन का प्रारंभ कैसे हुआ? इसके प्रमुख कारण क्या थे?</p>
+    <p><strong>Answer:</strong> हिन्द में राष्ट्रवादी आन्दोलन का प्रारंभ 19वीं सदी के अंत और 20वीं सदी के प्रारंभ में हुआ, जब ब्रिटिश साम्राज्य के खिलाफ भारतीय जनता की नाराजगी बढ़ी। प्रमुख कारणों में ब्रिटिश शोषण, भारतीयों के लिए सीमित अवसर, और देशवासियों के भीतर जागरूकता का फैलाव था।</p>
+
+    <p><strong>Question 2:</strong> गांधीजी ने राष्ट्रवादी आन्दोलन में क्या योगदान दिया?</p>
+    <p><strong>Answer:</strong> गांधीजी ने भारतीय राष्ट्रवादी आन्दोलन में अहिंसा और सत्याग्रह के सिद्धांतों को प्रमुखता दी। उनका नेतृत्व भारतीय स्वतंत्रता संग्राम में प्रेरणादायक था। उन्होंने असहमति और संघर्ष के बावजूद ब्रिटिश शासन के खिलाफ बड़े पैमाने पर जन जागरूकता फैलाने का कार्य किया।</p>
+
+    <p><strong>Question 3:</strong> सुभाष चन्द्र बोस का योगदान भारतीय राष्ट्रवादी आन्दोलन में क्या था?</p>
+    <p><strong>Answer:</strong> सुभाष चन्द्र बोस ने भारतीय राष्ट्रीय कांग्रेस से अलग होकर भारतीय राष्ट्रीय सेना (आई.एन.ए.) का गठन किया और ब्रिटिश साम्राज्य के खिलाफ सशस्त्र संघर्ष किया। उनका योगदान भारतीय स्वतंत्रता संग्राम में एक निर्णायक मोड़ था।</p>
+
+    <p><strong>Question 4:</strong> चीन में राष्ट्रवादी आन्दोलन का आरंभ कैसे हुआ?</p>
+    <p><strong>Answer:</strong> चीन में राष्ट्रवादी आन्दोलन की शुरुआत 19वीं सदी के अंत में हुई जब चीनी लोग विदेशी शक्ति और साम्राज्यवाद के खिलाफ जागरूक होने लगे। माओत्से तुंग ने चीनी कम्युनिस्ट पार्टी का गठन किया, जो बाद में चीन में महत्वपूर्ण राजनीतिक शक्ति बनी।</p>
+
+    <p><strong>Question 5:</strong> माओत्से तुंग का चीन के राष्ट्रवादी आन्दोलन में क्या योगदान था?</p>
+    <p><strong>Answer:</strong> माओत्से तुंग ने चीन में साम्यवादी विचारधारा को फैलाया और किसानों को जागरूक किया। उन्होंने चीन की सत्ता पर कब्जा करने के लिए विभिन्न संघर्षों का नेतृत्व किया और अंततः 1949 में पीपुल्स रिपब्लिक ऑफ चाइना की स्थापना की।</p>
+
+    <p><strong>Question 6:</strong> चीन में क्यूमिनतांग पार्टी और माओत्से तुंग के बीच संघर्ष क्यों हुआ?</p>
+    <p><strong>Answer:</strong> क्यूमिनतांग पार्टी और माओत्से तुंग के बीच संघर्ष राजनीतिक दृष्टिकोण और सिद्धांतों में अंतर के कारण हुआ। क्यूमिनतांग पार्टी ने लोकतांत्रिक दृष्टिकोण अपनाया, जबकि माओत्से तुंग ने कम्युनिस्ट विचारधारा का समर्थन किया। यह संघर्ष चीन की राजनीति में महत्वपूर्ण मोड़ था।</p>
+
+    <p><strong>Question 7:</strong> हिन्द-चीन संघर्ष के प्रमुख कारण क्या थे?</p>
+    <p><strong>Answer:</strong> हिन्द-चीन संघर्ष के प्रमुख कारणों में सीमा विवाद, राष्ट्रीय सुरक्षा, और दोनों देशों के ऐतिहासिक संघर्षों को देखा जा सकता है। दोनों देशों के बीच हुए युद्ध ने दोनों देशों की विदेश नीति और राजनीति को प्रभावित किया।</p>
+
+    <p><strong>Question 8:</strong> हिन्द-चीन संघर्ष का अंतर्राष्ट्रीय राजनीति पर क्या प्रभाव पड़ा?</p>
+    <p><strong>Answer:</strong> हिन्द-चीन संघर्ष ने अंतर्राष्ट्रीय राजनीति में शक्ति संतुलन को प्रभावित किया। यह संघर्ष संयुक्त राष्ट्र, अमेरिका, और सोवियत संघ के बीच नई नीतियों को प्रभावित करने वाला साबित हुआ।</p>
+
+    <p><strong>Question 9:</strong> हिन्द-चीन में राष्ट्रवादी आन्दोलन के परिणामस्वरूप कौन-कौन से सामाजिक और राजनीतिक बदलाव हुए?</p>
+    <p><strong>Answer:</strong> हिन्द-चीन में राष्ट्रवादी आन्दोलन के परिणामस्वरूप दोनों देशों में बड़े राजनीतिक बदलाव हुए। भारत में स्वतंत्रता संग्राम के फलस्वरूप भारत को 1947 में स्वतंत्रता मिली, जबकि चीन में साम्यवादी शासन की स्थापना हुई।</p>
+
+    <p><strong>Question 10:</strong> गांधीजी और माओत्से तुंग के राष्ट्रवादी आन्दोलन में किस तरह का साम्य था?</p>
+    <p><strong>Answer:</strong> गांधीजी और माओत्से तुंग दोनों ही साम्राज्यवाद के खिलाफ संघर्षरत थे, लेकिन उनके संघर्ष की शैली अलग थी। गांधीजी ने अहिंसा और सत्याग्रह के सिद्धांतों का पालन किया, जबकि माओत्से तुंग ने सशस्त्र संघर्ष और क्रांति के माध्यम से सत्ता को हासिल किया।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> हिन्द में राष्ट्रवादी आन्दोलन के प्रमुख नेता कौन थे?
+            <ul>
+                <li>1) गांधीजी</li>
+                <li>2) जवाहरलाल नेहरू</li>
+                <li>3) सुभाष चन्द्र बोस</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 2:</strong> चीन में राष्ट्रवादी आन्दोलन की प्रमुख पार्टी कौन सी थी?
+            <ul>
+                <li>1) क्यूमिनतांग</li>
+                <li>2) कम्युनिस्ट पार्टी</li>
+                <li>3) राष्ट्रीय कांग्रेस</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) क्यूमिनतांग
+        </li>
+
+        <li><strong>Question 3:</strong> सुभाष चन्द्र बोस ने किस संगठन का गठन किया था?
+            <ul>
+                <li>1) भारतीय राष्ट्रीय कांग्रेस</li>
+                <li>2) भारतीय राष्ट्रीय सेना</li>
+                <li>3) मुस्लिम लीग</li>
+                <li>4) भारतीय कम्युनिस्ट पार्टी</li>
+            </ul>
+            <strong>Answer:</strong> 2) भारतीय राष्ट्रीय सेना
+        </li>
+
+        <li><strong>Question 4:</strong> गांधीजी का प्रमुख आन्दोलन कौन सा था?
+            <ul>
+                <li>1) असहमति आन्दोलन</li>
+                <li>2) नमक सत्याग्रह</li>
+                <li>3) स्वदेशी आन्दोलन</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 5:</strong> माओत्से तुंग ने चीन में किस विचारधारा का प्रचार किया?
+            <ul>
+                <li>1) लोकतंत्र</li>
+                <li>2) साम्यवाद</li>
+                <li>3) समाजवाद</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 2) साम्यवाद
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+
+
+4:`
+<div style="background: linear-gradient(to right, #e0f7fa, #f3e5f5); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff4081;">भारत में राष्ट्रवाद (Chapter 4)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम भारत में राष्ट्रवाद के विकास और इसके विभिन्न पहलुओं का अध्ययन करेंगे। यह राष्ट्रवादी आन्दोलन के कारणों, नेताओं, और इसके प्रभावों को समझने का प्रयास करेगा।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>भारत में राष्ट्रवाद का आरंभ</li>
+        <li>ब्रिटिश साम्राज्य का भारतीय समाज पर प्रभाव</li>
+        <li>महात्मा गांधी और उनका योगदान</li>
+        <li>स्वतंत्रता संग्राम के प्रमुख नेता</li>
+        <li>कांग्रेस और मुस्लिम लीग का भूमिका</li>
+        <li>स्वतंत्रता संग्राम और विभाजन</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> भारत में राष्ट्रवाद का प्रारंभ कैसे हुआ और इसके प्रमुख कारण क्या थे?</p>
+    <p><strong>Answer:</strong> भारत में राष्ट्रवाद का प्रारंभ 19वीं सदी के अंत में हुआ, जब भारतीय समाज में ब्रिटिश साम्राज्य के खिलाफ जागरूकता और संघर्ष की भावना उत्पन्न हुई। इसके प्रमुख कारणों में सामाजिक, आर्थिक और राजनीतिक असमानताएं, औपनिवेशिक शोषण, और भारतीयों के अधिकारों के लिए संघर्ष था।</p>
+
+    <p><strong>Question 2:</strong> महात्मा गांधी ने भारत में राष्ट्रवाद के आंदोलन में क्या भूमिका निभाई?</p>
+    <p><strong>Answer:</strong> महात्मा गांधी ने भारतीय स्वतंत्रता संग्राम में अहिंसा और सत्याग्रह के सिद्धांतों का प्रचार किया। उन्होंने भारतीय जनता को ब्रिटिश शासन के खिलाफ एकजुट किया और विभिन्न आंदोलनों जैसे असहमति आन्दोलन, नमक सत्याग्रह, और भारत छोड़ो आन्दोलन का नेतृत्व किया।</p>
+
+    <p><strong>Question 3:</strong> भारत में स्वतंत्रता संग्राम में सुभाष चन्द्र बोस का योगदान क्या था?</p>
+    <p><strong>Answer:</strong> सुभाष चन्द्र बोस ने भारतीय राष्ट्रीय सेना (आई.एन.ए.) का गठन किया और ब्रिटिश साम्राज्य के खिलाफ सशस्त्र संघर्ष किया। उनका योगदान भारतीय स्वतंत्रता संग्राम में महत्वपूर्ण था, और उन्होंने देशवासियों में राष्ट्रीयता की भावना को प्रबल किया।</p>
+
+    <p><strong>Question 4:</strong> भारतीय राष्ट्रीय कांग्रेस और मुस्लिम लीग के बीच मतभेदों का कारण क्या था?</p>
+    <p><strong>Answer:</strong> भारतीय राष्ट्रीय कांग्रेस और मुस्लिम लीग के बीच मतभेद मुख्य रूप से राजनीतिक दृष्टिकोण और हिन्दू-मुस्लिम मुद्दों पर थे। कांग्रेस ने एक संयुक्त भारत का समर्थन किया, जबकि मुस्लिम लीग ने मुस्लिमों के लिए अलग राज्य की आवश्यकता महसूस की, जो बाद में पाकिस्तान के निर्माण की दिशा में बढ़ा।</p>
+
+    <p><strong>Question 5:</strong> भारत के विभाजन के प्रमुख कारण क्या थे?</p>
+    <p><strong>Answer:</strong> भारत के विभाजन के प्रमुख कारणों में हिन्दू-मुस्लिम के बीच बढ़ती असहमति, कांग्रेस और मुस्लिम लीग के बीच राजनीतिक मतभेद, और ब्रिटिश साम्राज्य का विभाजन की नीति को बढ़ावा देना शामिल थे। यह विभाजन 1947 में भारत और पाकिस्तान के रूप में हुआ।</p>
+
+    <p><strong>Question 6:</strong> भारतीय स्वतंत्रता संग्राम के प्रमुख नेताओं का योगदान क्या था?</p>
+    <p><strong>Answer:</strong> भारतीय स्वतंत्रता संग्राम में प्रमुख नेताओं जैसे महात्मा गांधी, जवाहरलाल नेहरू, सुभाष चन्द्र बोस, भगत सिंह, और सरदार पटेल का योगदान अत्यंत महत्वपूर्ण था। इन नेताओं ने ब्रिटिश साम्राज्य के खिलाफ विभिन्न आंदोलनों का नेतृत्व किया और भारतीयों को स्वतंत्रता की दिशा में प्रेरित किया।</p>
+
+    <p><strong>Question 7:</strong> भारतीय राष्ट्रीय कांग्रेस का राष्ट्रवाद में क्या योगदान था?</p>
+    <p><strong>Answer:</strong> भारतीय राष्ट्रीय कांग्रेस ने भारतीयों के अधिकारों की रक्षा करने के लिए और ब्रिटिश साम्राज्य के खिलाफ संघर्ष करने के लिए राष्ट्रवादी आन्दोलन की शुरुआत की। कांग्रेस ने भारत के स्वतंत्रता संग्राम के दौरान एकजुटता को बढ़ावा दिया और भारतीय जनता के लिए एक साझा राष्ट्रीय पहचान को बढ़ावा दिया।</p>
+
+    <p><strong>Question 8:</strong> भारत में राष्ट्रवाद के विकास में ब्रिटिश साम्राज्य का क्या प्रभाव था?</p>
+    <p><strong>Answer:</strong> ब्रिटिश साम्राज्य का भारतीय समाज पर अत्यधिक शोषणात्मक प्रभाव था, जिसने भारतीयों में असंतोष और असहमति की भावना को बढ़ावा दिया। ब्रिटिश नीतियों के खिलाफ संघर्ष ने भारतीयों को एकजुट किया और राष्ट्रवाद को मजबूत किया।</p>
+
+    <p><strong>Question 9:</strong> भारत में राष्ट्रवाद के विकास में सामाजिक और सांस्कृतिक आंदोलनों का क्या योगदान था?</p>
+    <p><strong>Answer:</strong> भारत में राष्ट्रवाद के विकास में सामाजिक और सांस्कृतिक आंदोलनों का महत्वपूर्ण योगदान था, जैसे कि ब्राह्मो समाज और आर्य समाज द्वारा सामाजिक सुधार और भारतीयों को जागरूक करने के प्रयास। इन आंदोलनों ने भारतीय समाज में जागरूकता पैदा की और राष्ट्रवाद के विचार को मजबूत किया।</p>
+
+    <p><strong>Question 10:</strong> भारतीय राष्ट्रवाद के विकास में महिलाओं की भूमिका क्या थी?</p>
+    <p><strong>Answer:</strong> भारतीय राष्ट्रवाद के विकास में महिलाओं ने महत्वपूर्ण भूमिका निभाई। महिलाओं ने विभिन्न आंदोलनों में भाग लिया, सत्याग्रह और असहमति में सक्रिय रूप से भाग लिया और भारतीय स्वतंत्रता संग्राम में अग्रणी भूमिका निभाई।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> भारत में राष्ट्रवाद के प्रमुख नेता कौन थे?
+            <ul>
+                <li>1) महात्मा गांधी</li>
+                <li>2) जवाहरलाल नेहरू</li>
+                <li>3) सुभाष चन्द्र बोस</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 2:</strong> भारत के विभाजन का मुख्य कारण क्या था?
+            <ul>
+                <li>1) धर्म आधारित मतभेद</li>
+                <li>2) कांग्रेस और मुस्लिम लीग के बीच मतभेद</li>
+                <li>3) ब्रिटिश साम्राज्य की विभाजन नीति</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 3:</strong> महात्मा गांधी ने किस आन्दोलन का नेतृत्व किया था?
+            <ul>
+                <li>1) असहमति आन्दोलन</li>
+                <li>2) नमक सत्याग्रह</li>
+                <li>3) भारत छोड़ो आन्दोलन</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 4:</strong> भारतीय राष्ट्रीय कांग्रेस की स्थापना कब हुई थी?
+            <ul>
+                <li>1) 1857</li>
+                <li>2) 1885</li>
+                <li>3) 1901</li>
+                <li>4) 1947</li>
+            </ul>
+            <strong>Answer:</strong> 2) 1885
+        </li>
+
+        <li><strong>Question 5:</strong> भारतीय राष्ट्रीय सेना (आई.एन.ए.) का गठन किसने किया था?
+            <ul>
+                <li>1) महात्मा गांधी</li>
+                <li>2) जवाहरलाल नेहरू</li>
+                <li>3) सुभाष चन्द्र बोस</li>
+                <li>4) भगत सिंह</li>
+            </ul>
+            <strong>Answer:</strong> 3) सुभाष चन्द्र बोस
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+
+5:`
+
+<div style="background: linear-gradient(to right, #e0f7fa, #f3e5f5); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff4081;">अर्थ - व्यवस्था और आजीविका (Chapter 5)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम अर्थ-व्यवस्था और आजीविका के प्रमुख पहलुओं का अध्ययन करेंगे। यह विषय भारतीय अर्थव्यवस्था के विकास, आजीविका के विभिन्न स्रोतों, और रोजगार के अवसरों पर चर्चा करेगा।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>अर्थव्यवस्था का स्वरूप</li>
+        <li>कृषि, उद्योग और सेवा क्षेत्र</li>
+        <li>आजिविका के स्रोत</li>
+        <li>रोजगार के अवसर और बेरोजगारी</li>
+        <li>भारत में आर्थिक योजनाएँ</li>
+        <li>वैश्वीकरण और भारतीय अर्थव्यवस्था</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> भारत की अर्थव्यवस्था का स्वरूप क्या है और इसके प्रमुख क्षेत्र कौन से हैं?</p>
+    <p><strong>Answer:</strong> भारत की अर्थव्यवस्था मिश्रित है, जिसमें कृषि, उद्योग और सेवा क्षेत्र शामिल हैं। कृषि भारतीय अर्थव्यवस्था का आधार है, जबकि उद्योग और सेवा क्षेत्र तेजी से विकसित हो रहे हैं और GDP में महत्वपूर्ण योगदान दे रहे हैं।</p>
+
+    <p><strong>Question 2:</strong> कृषि क्षेत्र में सुधार की आवश्यकता क्यों है?</p>
+    <p><strong>Answer:</strong> कृषि क्षेत्र में सुधार की आवश्यकता इसलिए है क्योंकि यह अधिकांश भारतीय जनसंख्या का मुख्य आजीविका स्रोत है, लेकिन यह क्षेत्र अभी भी पुराने तरीकों से संचालित है। तकनीकी उन्नति, बुनियादी सुविधाओं और उचित विपणन प्रणाली की कमी के कारण यह क्षेत्र संकट में है।</p>
+
+    <p><strong>Question 3:</strong> उद्योग और सेवा क्षेत्र में भारत के विकास की दिशा क्या है?</p>
+    <p><strong>Answer:</strong> भारत का उद्योग और सेवा क्षेत्र तेजी से विकसित हो रहा है। सूचना प्रौद्योगिकी (IT), सॉफ्टवेयर सेवाएं, और बायोटेक्नोलॉजी जैसे क्षेत्रों में वैश्विक प्रतिस्पर्धा को ध्यान में रखते हुए भारत का विकास हो रहा है। इसके अलावा, सरकार ने ‘Make in India’ जैसी योजनाओं के जरिए घरेलू उद्योग को बढ़ावा देने की कोशिश की है।</p>
+
+    <p><strong>Question 4:</strong> आजीविका के स्रोतों में बदलाव और विकास के कारण क्या हैं?</p>
+    <p><strong>Answer:</strong> आजीविका के स्रोतों में बदलाव और विकास का कारण कृषि से उद्योग और सेवा क्षेत्र की ओर बढ़ता हुआ ध्यान, शहरीकरण, और शिक्षा के स्तर में वृद्धि है। अब अधिक लोग सेवा क्षेत्रों में काम कर रहे हैं, और छोटे व्यापारों तथा स्वरोजगार के अवसर बढ़े हैं।</p>
+
+    <p><strong>Question 5:</strong> बेरोजगारी की समस्या का समाधान कैसे किया जा सकता है?</p>
+    <p><strong>Answer:</strong> बेरोजगारी की समस्या का समाधान शिक्षा और कौशल विकास कार्यक्रमों से किया जा सकता है, ताकि युवाओं को रोजगार योग्य बनाया जा सके। सरकार को छोटे उद्योगों और स्टार्टअप्स को प्रोत्साहन देने की आवश्यकता है, और सार्वजनिक-निजी साझेदारी को बढ़ावा देना चाहिए।</p>
+
+    <p><strong>Question 6:</strong> भारत में आर्थिक योजनाओं का क्या उद्देश्य है?</p>
+    <p><strong>Answer:</strong> भारत में आर्थिक योजनाओं का उद्देश्य संसाधनों का प्रभावी और न्यायपूर्ण उपयोग करना, आर्थिक विकास को बढ़ावा देना, और सामाजिक-आर्थिक असमानताओं को कम करना है। पंचवर्षीय योजनाओं के माध्यम से विकास लक्ष्य निर्धारित किए जाते हैं।</p>
+
+    <p><strong>Question 7:</strong> वैश्वीकरण के भारत की अर्थव्यवस्था पर क्या प्रभाव पड़े हैं?</p>
+    <p><strong>Answer:</strong> वैश्वीकरण के कारण भारत की अर्थव्यवस्था में विदेशी निवेश, व्यापार और नई प्रौद्योगिकियों का आगमन हुआ है। हालांकि, इससे कुछ स्थानीय उद्योगों पर दबाव पड़ा है, लेकिन समग्र रूप से यह विकास की गति को तेज करने में सहायक रहा है।</p>
+
+    <p><strong>Question 8:</strong> भारत में रोजगार सृजन के लिए क्या कदम उठाए गए हैं?</p>
+    <p><strong>Answer:</strong> भारत में रोजगार सृजन के लिए ‘प्रधानमंत्री रोजगार योजना’, ‘मेक इन इंडिया’ और ‘स्टार्टअप इंडिया’ जैसी योजनाएं चलाई गई हैं। इन योजनाओं का उद्देश्य नए उद्योगों की स्थापना, युवाओं को कौशल प्रशिक्षण, और स्वरोजगार के अवसरों को बढ़ावा देना है।</p>
+
+    <p><strong>Question 9:</strong> भारतीय समाज में असमानता और गरीबी की समस्या के समाधान के लिए क्या उपाय हैं?</p>
+    <p><strong>Answer:</strong> गरीबी और असमानता को कम करने के लिए सरकार ने कई योजनाएं शुरू की हैं जैसे कि ‘महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी योजना’ (MGNREGA), ‘प्रधानमंत्री आवास योजना’ और ‘जन धन योजना’। इसके अलावा, शिक्षा और स्वास्थ्य सेवाओं की पहुंच बढ़ाने की आवश्यकता है।</p>
+
+    <p><strong>Question 10:</strong> भारत में आर्थिक समावेशन का क्या महत्व है?</p>
+    <p><strong>Answer:</strong> आर्थिक समावेशन का मतलब है कि सभी वर्गों को आर्थिक विकास में भागीदार बनाना। यह न केवल गरीबों और पिछड़े वर्गों को मुख्यधारा में लाने में मदद करता है, बल्कि समाज में समता और सामाजिक न्याय की भावना भी उत्पन्न करता है।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> भारत की अर्थव्यवस्था किस प्रकार की है?
+            <ul>
+                <li>1) मिश्रित अर्थव्यवस्था</li>
+                <li>2) समाजवादी अर्थव्यवस्था</li>
+                <li>3) पूंजीवादी अर्थव्यवस्था</li>
+                <li>4) कम्युनिस्ट अर्थव्यवस्था</li>
+            </ul>
+            <strong>Answer:</strong> 1) मिश्रित अर्थव्यवस्था
+        </li>
+
+        <li><strong>Question 2:</strong> भारत में बेरोजगारी की समस्या को हल करने के लिए कौन सी योजना लागू की गई है?
+            <ul>
+                <li>1) प्रधानमंत्री रोजगार योजना</li>
+                <li>2) महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी योजना</li>
+                <li>3) स्टार्टअप इंडिया</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 3:</strong> भारत में वैश्वीकरण का मुख्य प्रभाव क्या था?
+            <ul>
+                <li>1) स्थानीय उद्योगों की वृद्धि</li>
+                <li>2) विदेशी निवेश का आगमन</li>
+                <li>3) ग्रामीण विकास</li>
+                <li>4) गरीबी में कमी</li>
+            </ul>
+            <strong>Answer:</strong> 2) विदेशी निवेश का आगमन
+        </li>
+
+        <li><strong>Question 4:</strong> भारत में सबसे अधिक रोजगार किस क्षेत्र में सृजित होता है?
+            <ul>
+                <li>1) कृषि</li>
+                <li>2) उद्योग</li>
+                <li>3) सेवा</li>
+                <li>4) निर्माण</li>
+            </ul>
+            <strong>Answer:</strong> 1) कृषि
+        </li>
+
+        <li><strong>Question 5:</strong> भारत में आर्थिक योजनाओं की शुरुआत कब हुई थी?
+            <ul>
+                <li>1) 1947</li>
+                <li>2) 1951</li>
+                <li>3) 1961</li>
+                <li>4) 1971</li>
+            </ul>
+            <strong>Answer:</strong> 2) 1951
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+
+6:`
+<div style="background: linear-gradient(to right, #e1f5fe, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">शहरीकरण एवं शहरी जीवन (Chapter 6)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम शहरीकरण और शहरी जीवन के बारे में जानेंगे। यह शहरीकरण के प्रभाव, शहरी जीवन की विशेषताएँ, शहरी योजनाएँ, और शहरीकरण के लाभ और चुनौतियों पर विचार करेगा।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>शहरीकरण का स्वरूप</li>
+        <li>शहरी जीवन की विशेषताएँ</li>
+        <li>शहरीकरण के लाभ और समस्याएँ</li>
+        <li>शहरी योजनाएँ और नीतियाँ</li>
+        <li>भारत में शहरीकरण की गति</li>
+        <li>शहरी विकास और पर्यावरण</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> शहरीकरण का क्या अर्थ है और इसके प्रमुख कारण क्या हैं?</p>
+    <p><strong>Answer:</strong> शहरीकरण का अर्थ है गाँवों से शहरों की ओर जनसंख्या का स्थानांतरण। इसके प्रमुख कारणों में बेहतर रोजगार के अवसर, शिक्षा, स्वास्थ्य सेवाएं और बेहतर जीवन स्तर शामिल हैं।</p>
+
+    <p><strong>Question 2:</strong> शहरी जीवन की विशेषताएँ क्या हैं?</p>
+    <p><strong>Answer:</strong> शहरी जीवन की विशेषताएँ हैं: उच्च जनसंख्या घनत्व, बेहतर आधारभूत संरचनाएँ, विविधता और सांस्कृतिक मिश्रण, अधिक अवसरों की उपलब्धता, और तेज़ जीवनशैली।</p>
+
+    <p><strong>Question 3:</strong> शहरीकरण के लाभ और समस्याएँ क्या हैं?</p>
+    <p><strong>Answer:</strong> शहरीकरण के लाभों में बेहतर रोजगार, शिक्षा, और स्वास्थ्य सेवाएँ शामिल हैं। जबकि समस्याओं में प्रदूषण, अत्यधिक ट्रैफिक, किफायती आवास की कमी और गरीबी शामिल हैं।</p>
+
+    <p><strong>Question 4:</strong> शहरीकरण के पर्यावरणीय प्रभाव क्या हैं?</p>
+    <p><strong>Answer:</strong> शहरीकरण से पर्यावरण पर दबाव बढ़ता है, जैसे वायु प्रदूषण, जलवायु परिवर्तन, जल स्रोतों का दोहन, और हरे-भरे क्षेत्रों की कमी।</p>
+
+    <p><strong>Question 5:</strong> भारत में शहरीकरण की गति और इसके कारण क्या हैं?</p>
+    <p><strong>Answer:</strong> भारत में शहरीकरण तेजी से बढ़ रहा है, जिसका कारण औद्योगिकीकरण, कृषि में रोजगार के अवसरों की कमी, और शहरों में बेहतर जीवन स्तर की खोज है।</p>
+
+    <p><strong>Question 6:</strong> शहरी योजनाएँ और नीतियाँ क्या हैं?</p>
+    <p><strong>Answer:</strong> शहरी योजनाएँ और नीतियाँ जैसे 'Smart Cities Mission' और 'Atal Mission for Rejuvenation and Urban Transformation' (AMRUT) शहरी विकास को बेहतर बनाने के लिए तैयार की गई हैं।</p>
+
+    <p><strong>Question 7:</strong> शहरी विकास और पर्यावरण के बीच संबंध क्या है?</p>
+    <p><strong>Answer:</strong> शहरी विकास और पर्यावरण के बीच संतुलन बनाए रखना आवश्यक है। अत्यधिक शहरीकरण से पर्यावरणीय समस्याएँ उत्पन्न हो सकती हैं, इसलिए शहरी विकास को पर्यावरणीय दृष्टिकोण से भी ध्यान में रखना चाहिए।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> शहरीकरण के प्रमुख कारणों में से एक क्या है?
+            <ul>
+                <li>1) कृषि में विकास</li>
+                <li>2) बेहतर जीवन स्तर की तलाश</li>
+                <li>3) ग्रामीण रोजगार में वृद्धि</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 2) बेहतर जीवन स्तर की तलाश
+        </li>
+
+        <li><strong>Question 2:</strong> शहरी जीवन में प्रमुख विशेषताएँ क्या हैं?
+            <ul>
+                <li>1) उच्च जनसंख्या घनत्व</li>
+                <li>2) बेहतर आधारभूत संरचना</li>
+                <li>3) विविधता और सांस्कृतिक मिश्रण</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 3:</strong> शहरीकरण के पर्यावरणीय प्रभाव क्या हो सकते हैं?
+            <ul>
+                <li>1) जलवायु परिवर्तन</li>
+                <li>2) प्रदूषण</li>
+                <li>3) जल स्रोतों का दोहन</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 4:</strong> भारत में शहरीकरण के सबसे प्रमुख कारण क्या हैं?
+            <ul>
+                <li>1) औद्योगिकीकरण</li>
+                <li>2) कृषि में रोजगार की कमी</li>
+                <li>3) बेहतर जीवन स्तर की तलाश</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 5:</strong> शहरी विकास की योजनाओं का उद्देश्य क्या है?
+            <ul>
+                <li>1) बुनियादी सेवाओं की पहुँच को बढ़ाना</li>
+                <li>2) स्मार्ट शहरों का निर्माण</li>
+                <li>3) प्रदूषण की समस्या को हल करना</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+
+7:`
+<div style="background: linear-gradient(to right, #e1f5fe, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">व्यापार और भूमंडलीकरण (Chapter 7)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम व्यापार और भूमंडलीकरण के बारे में जानेंगे। यह भूमंडलीकरण के प्रभाव, व्यापार की प्रक्रिया, और वैश्विक अर्थव्यवस्था में व्यापार की भूमिका को समझने में मदद करेगा।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>भूमंडलीकरण का अर्थ और महत्व</li>
+        <li>व्यापार और भूमंडलीकरण के बीच संबंध</li>
+        <li>वैश्विक व्यापार संरचनाएँ</li>
+        <li>भारत में भूमंडलीकरण और उसके प्रभाव</li>
+        <li>व्यापारिक प्रतिस्पर्धा</li>
+        <li>संवेदनशीलता और अंतरराष्ट्रीय व्यापार नीतियाँ</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> भूमंडलीकरण का क्या अर्थ है और इसके प्रमुख कारण क्या हैं?</p>
+    <p><strong>Answer:</strong> भूमंडलीकरण का अर्थ है दुनिया भर के देशों और बाजारों के बीच आपसी जुड़ाव और व्यापार संबंधों का विस्तार। इसके प्रमुख कारणों में तकनीकी उन्नति, मुक्त व्यापार नीतियाँ, और वैश्विक नेटवर्क की वृद्धि शामिल हैं।</p>
+
+    <p><strong>Question 2:</strong> व्यापार और भूमंडलीकरण के बीच संबंध क्या है?</p>
+    <p><strong>Answer:</strong> व्यापार और भूमंडलीकरण के बीच गहरा संबंध है। भूमंडलीकरण ने देशों के बीच व्यापारिक आदान-प्रदान को आसान बनाया है और वैश्विक बाजारों में प्रतिस्पर्धा को बढ़ाया है।</p>
+
+    <p><strong>Question 3:</strong> भारत में भूमंडलीकरण के प्रभाव क्या हैं?</p>
+    <p><strong>Answer:</strong> भारत में भूमंडलीकरण ने व्यापार, उद्योग और अर्थव्यवस्था को मजबूत किया है, लेकिन इसके साथ ही कई सामाजिक और आर्थिक समस्याएँ भी उत्पन्न हुई हैं जैसे गरीबी, बेरोज़गारी और असमानता।</p>
+
+    <p><strong>Question 4:</strong> वैश्विक व्यापार संरचनाएँ क्या हैं?</p>
+    <p><strong>Answer:</strong> वैश्विक व्यापार संरचनाएँ उन संस्थाओं और प्रक्रियाओं का समूह हैं जो देशों के बीच व्यापारिक आदान-प्रदान को नियंत्रित करती हैं, जैसे विश्व व्यापार संगठन (WTO), अंतर्राष्ट्रीय मुद्रा कोष (IMF), और विश्व बैंक।</p>
+
+    <p><strong>Question 5:</strong> व्यापारिक प्रतिस्पर्धा के लाभ और नुकसान क्या हैं?</p>
+    <p><strong>Answer:</strong> व्यापारिक प्रतिस्पर्धा से उच्च गुणवत्ता वाले उत्पाद और सेवाएँ मिलती हैं, लेकिन यह छोटे व्यवसायों के लिए चुनौतीपूर्ण हो सकता है, क्योंकि वे बड़े वैश्विक कंपनियों से प्रतिस्पर्धा नहीं कर पाते।</p>
+
+    <p><strong>Question 6:</strong> वैश्विक व्यापार नीतियाँ क्या हैं?</p>
+    <p><strong>Answer:</strong> वैश्विक व्यापार नीतियाँ वे नीतियाँ हैं जो विभिन्न देशों के बीच व्यापारिक आदान-प्रदान को नियंत्रित करती हैं। इनमें मुक्त व्यापार समझौते, शुल्कों का निर्धारण और अंतर्राष्ट्रीय व्यापार पर कानूनी दायित्व शामिल हैं।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> भूमंडलीकरण का प्रमुख कारण क्या है?
+            <ul>
+                <li>1) तकनीकी विकास</li>
+                <li>2) मुक्त व्यापार नीतियाँ</li>
+                <li>3) वैश्विक नेटवर्क का विस्तार</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 2:</strong> भारत में भूमंडलीकरण के मुख्य लाभ क्या हैं?
+            <ul>
+                <li>1) व्यापारिक अवसरों में वृद्धि</li>
+                <li>2) बेरोज़गारी में कमी</li>
+                <li>3) सामाजिक असमानता का समाधान</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) व्यापारिक अवसरों में वृद्धि
+        </li>
+
+        <li><strong>Question 3:</strong> वैश्विक व्यापार संरचनाओं का उद्देश्य क्या है?
+            <ul>
+                <li>1) वैश्विक व्यापार को नियंत्रित करना</li>
+                <li>2) देशों के बीच आर्थिक संबंध बढ़ाना</li>
+                <li>3) व्यापारिक निष्पक्षता सुनिश्चित करना</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 4:</strong> व्यापारिक प्रतिस्पर्धा का क्या प्रभाव हो सकता है?
+            <ul>
+                <li>1) उत्पादों की गुणवत्ता में वृद्धि</li>
+                <li>2) छोटे व्यापारियों के लिए चुनौती</li>
+                <li>3) उपभोक्ताओं के लिए कम कीमतें</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 5:</strong> वैश्विक व्यापार नीतियों का उद्देश्य क्या है?
+            <ul>
+                <li>1) अंतर्राष्ट्रीय व्यापार को निष्पक्ष बनाना</li>
+                <li>2) वैश्विक अर्थव्यवस्था में संतुलन बनाए रखना</li>
+                <li>3) देशों के बीच व्यापारिक आदान-प्रदान को नियंत्रित करना</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+8:`
+<div style="background: linear-gradient(to right, #e1f5fe, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">प्रेस - संस्कृति एवं राष्ट्रवाद (Chapter 8)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम प्रेस और उसकी भूमिका, संस्कृति और राष्ट्रवाद के बीच संबंध, और किस प्रकार प्रेस ने राष्ट्रवादी आंदोलन को प्रभावित किया, इसके बारे में विस्तार से जानेंगे।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>प्रेस का महत्व और उसकी भूमिका</li>
+        <li>संस्कृति, समाज और राष्ट्रवाद</li>
+        <li>प्रेस और राष्ट्रीय जागरूकता</li>
+        <li>प्रेस का विकास और उसके प्रभाव</li>
+        <li>राष्ट्रीय आंदोलन और प्रेस का संबंध</li>
+        <li>प्रेस की स्वतंत्रता</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> प्रेस और राष्ट्रवाद के बीच संबंध को स्पष्ट करें।</p>
+    <p><strong>Answer:</strong> प्रेस ने राष्ट्रवादी आंदोलन को व्यापक स्तर पर फैलाने और राष्ट्रीय जागरूकता को बढ़ावा देने में महत्वपूर्ण भूमिका निभाई। प्रेस ने भारतीय जनता को जागरूक किया और उनके बीच राष्ट्रवाद की भावना को मजबूत किया।</p>
+
+    <p><strong>Question 2:</strong> प्रेस ने भारतीय समाज और संस्कृति पर किस प्रकार प्रभाव डाला?</p>
+    <p><strong>Answer:</strong> प्रेस ने भारतीय समाज में विभिन्न सामाजिक मुद्दों को उजागर किया और भारतीय संस्कृति के प्रचार में मदद की। इसके माध्यम से भारतीय समाज के विभिन्न हिस्सों को जोड़ने का कार्य हुआ।</p>
+
+    <p><strong>Question 3:</strong> प्रेस की स्वतंत्रता क्यों महत्वपूर्ण है?</p>
+    <p><strong>Answer:</strong> प्रेस की स्वतंत्रता लोकतंत्र का एक अहम हिस्सा है, क्योंकि यह सरकार की नीतियों और कार्यों पर नजर रखने का कार्य करती है और समाज में महत्वपूर्ण मुद्दों पर संवाद स्थापित करती है।</p>
+
+    <p><strong>Question 4:</strong> भारतीय राष्ट्रवाद में प्रेस की भूमिका को किस प्रकार समझा जा सकता है?</p>
+    <p><strong>Answer:</strong> भारतीय राष्ट्रवाद में प्रेस की भूमिका अत्यंत महत्वपूर्ण रही है। प्रेस ने भारतीय जनता को अंग्रेजों के खिलाफ जागरूक किया, आंदोलनों का प्रचार किया और स्वराज की भावना को मजबूत किया।</p>
+
+    <p><strong>Question 5:</strong> प्रेस का विकास और उसका सामाजिक प्रभाव क्या है?</p>
+    <p><strong>Answer:</strong> प्रेस का विकास समाज में विचारों की अभिव्यक्ति का एक शक्तिशाली माध्यम बना। यह सामाजिक आंदोलनों, राजनीतिक परिवर्तन और सांस्कृतिक जागरूकता के प्रसार में सहायक साबित हुआ।</p>
+
+    <p><strong>Question 6:</strong> भारतीय प्रेस में राष्ट्रीय आंदोलन के समय के महत्वपूर्ण उदाहरण क्या थे?</p>
+    <p><strong>Answer:</strong> भारतीय प्रेस ने राष्ट्रीय आंदोलन के समय कई महत्वपूर्ण घटनाओं को प्रमुखता से प्रकाशित किया। जैसे - बाल गंगाधर तिलक के समाचार पत्र 'केसरी' और 'मराठा' का योगदान।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> प्रेस का क्या मुख्य उद्देश्य था?
+            <ul>
+                <li>1) सूचना का प्रचार</li>
+                <li>2) विचारों की स्वतंत्रता</li>
+                <li>3) राष्ट्रीय जागरूकता</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 2:</strong> भारतीय राष्ट्रवाद में प्रेस का क्या योगदान था?
+            <ul>
+                <li>1) जनता को जागरूक करना</li>
+                <li>2) अंग्रेजों के खिलाफ आंदोलन फैलाना</li>
+                <li>3) राष्ट्रीय भावना को मजबूत करना</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 3:</strong> प्रेस की स्वतंत्रता क्यों महत्वपूर्ण मानी जाती है?
+            <ul>
+                <li>1) यह सरकार की नीतियों पर नजर रखने में मदद करती है</li>
+                <li>2) यह समाज में आलोचना को बढ़ावा देती है</li>
+                <li>3) यह लोकतंत्र के संचालन को सुनिश्चित करती है</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 4:</strong> प्रेस ने भारतीय समाज और संस्कृति में किस प्रकार बदलाव लाया?
+            <ul>
+                <li>1) सामाजिक मुद्दों को उजागर किया</li>
+                <li>2) भारतीय संस्कृति का प्रचार किया</li>
+                <li>3) सामाजिक और सांस्कृतिक जागरूकता बढ़ाई</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 5:</strong> प्रेस के विकास का समाज पर क्या प्रभाव पड़ा?
+            <ul>
+                <li>1) विचारों की स्वतंत्रता में वृद्धि</li>
+                <li>2) राजनीतिक और सामाजिक आंदोलनों का प्रसार</li>
+                <li>3) सांस्कृतिक जागरूकता का प्रसार</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+9:`
+<div style="background: linear-gradient(to right, #e1f5fe, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">लोकतंत्र में सत्ता की साझेदारी (Chapter 9)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में, हम लोकतंत्र में सत्ता की साझेदारी के सिद्धांत, विभिन्न स्तरों पर सत्ता का वितरण, और इसके विभिन्न मॉडल्स पर चर्चा करेंगे।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>लोकतंत्र और सत्ता की साझेदारी</li>
+        <li>राज्य और केंद्र के बीच सत्ता का वितरण</li>
+        <li>संघीय संरचना और उसकी विशेषताएँ</li>
+        <li>लोकतांत्रिक प्रतिनिधित्व</li>
+        <li>सत्ता का विकेंद्रीकरण</li>
+        <li>लोकतांत्रिक संस्थाओं का महत्व</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> लोकतंत्र में सत्ता की साझेदारी की अवधारणा को स्पष्ट करें।</p>
+    <p><strong>Answer:</strong> लोकतंत्र में सत्ता की साझेदारी का मतलब है कि सत्ता केवल एक व्यक्ति या संगठन के पास नहीं रहती, बल्कि विभिन्न संस्थाओं और स्तरों पर वितरित होती है, ताकि यह सुनिश्चित किया जा सके कि लोकतंत्र में सभी वर्गों की भागीदारी हो।</p>
+
+    <p><strong>Question 2:</strong> केंद्र और राज्य के बीच सत्ता का वितरण कैसे होता है?</p>
+    <p><strong>Answer:</strong> भारत में केंद्र और राज्य के बीच सत्ता का वितरण संविधान द्वारा निर्धारित किया गया है। यह संविधान तीन प्रकार के विषयों में विभाजित करता है - केंद्र के अधिकार क्षेत्र में आने वाले विषय, राज्य के अधिकार क्षेत्र में आने वाले विषय, और दोनों के अधिकार क्षेत्र में आने वाले विषय।</p>
+
+    <p><strong>Question 3:</strong> संघीय संरचना और विकेंद्रीकरण के सिद्धांतों पर चर्चा करें।</p>
+    <p><strong>Answer:</strong> संघीय संरचना में शक्ति का वितरण केंद्र और राज्य सरकारों के बीच होता है। विकेंद्रीकरण का मतलब है कि स्थानीय स्तर पर सत्ता का वितरण किया जाता है ताकि शासन को जनता के नजदीक लाया जा सके।</p>
+
+    <p><strong>Question 4:</strong> लोकतांत्रिक प्रतिनिधित्व का क्या महत्व है?</p>
+    <p><strong>Answer:</strong> लोकतांत्रिक प्रतिनिधित्व का मतलब है कि लोग अपने प्रतिनिधियों को चुनावों के माध्यम से चुनते हैं, जो उनकी इच्छा और आवश्यकताओं का प्रतिनिधित्व करते हैं। यह लोकतंत्र की मूल भावना को बनाए रखने के लिए आवश्यक है।</p>
+
+    <p><strong>Question 5:</strong> लोकतंत्र में सत्ता का विकेंद्रीकरण क्यों महत्वपूर्ण है?</p>
+    <p><strong>Answer:</strong> विकेंद्रीकरण से स्थानीय स्तर पर निर्णय लेने की प्रक्रिया में भागीदारी बढ़ती है, जो कि लोगों की समस्याओं को अधिक प्रभावी तरीके से हल करने में मदद करता है। यह लोकतांत्रिक प्रक्रियाओं को और सशक्त बनाता है।</p>
+
+    <p><strong>Question 6:</strong> लोकतांत्रिक संस्थाओं का क्या महत्व है?</p>
+    <p><strong>Answer:</strong> लोकतांत्रिक संस्थाएँ जैसे चुनाव आयोग, न्यायपालिका और विधायिका लोकतांत्रिक प्रक्रिया को सही दिशा में चलाने के लिए आवश्यक हैं। ये संस्थाएँ सरकार के कामकाज पर नजर रखने, नीतियों का निर्माण करने और नागरिकों के अधिकारों की रक्षा करने का कार्य करती हैं।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> लोकतंत्र में सत्ता का वितरण किसके द्वारा निर्धारित किया जाता है?
+            <ul>
+                <li>1) राष्ट्रपति</li>
+                <li>2) प्रधानमंत्री</li>
+                <li>3) संविधान</li>
+                <li>4) संसद</li>
+            </ul>
+            <strong>Answer:</strong> 3) संविधान
+        </li>
+
+        <li><strong>Question 2:</strong> विकेंद्रीकरण का मुख्य उद्देश्य क्या है?
+            <ul>
+                <li>1) शासन को जनता के नजदीक लाना</li>
+                <li>2) राजनीतिक प्रक्रियाओं को तेज करना</li>
+                <li>3) केंद्र सरकार का प्रभुत्व बढ़ाना</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 1) शासन को जनता के नजदीक लाना
+        </li>
+
+        <li><strong>Question 3:</strong> लोकतांत्रिक प्रतिनिधित्व का क्या लाभ है?
+            <ul>
+                <li>1) जनता के विचारों का सम्मान होता है</li>
+                <li>2) सरकार को जनता के प्रति उत्तरदायी बनाया जाता है</li>
+                <li>3) जनहित में निर्णय लिया जाता है</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+
+        <li><strong>Question 4:</strong> संघीय संरचना किसे कहा जाता है?
+            <ul>
+                <li>1) केवल राज्य सरकार</li>
+                <li>2) केंद्र और राज्य सरकार के बीच शक्ति का वितरण</li>
+                <li>3) केवल केंद्र सरकार</li>
+                <li>4) स्थानीय सरकार</li>
+            </ul>
+            <strong>Answer:</strong> 2) केंद्र और राज्य सरकार के बीच शक्ति का वितरण
+        </li>
+
+        <li><strong>Question 5:</strong> लोकतंत्र में विकेंद्रीकरण का क्या महत्व है?
+            <ul>
+                <li>1) यह लोकहित के मामलों पर बेहतर निर्णय लेने में मदद करता है</li>
+                <li>2) यह शासन को अधिक सुलभ बनाता है</li>
+                <li>3) यह स्थानीय मुद्दों पर अधिक ध्यान देता है</li>
+                <li>4) सभी उपरोक्त</li>
+            </ul>
+            <strong>Answer:</strong> 4) सभी उपरोक्त
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+10:`
+<div style="background: linear-gradient(to right, #fce4ec, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">सत्ता में साझेदारी की कार्यप्रणाली (Chapter 10)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में हम सत्ता में साझेदारी की कार्यप्रणाली के सिद्धांत, इसके व्यावहारिक पहलुओं, और इसके विभिन्न मॉडल्स पर चर्चा करेंगे। हम देखेंगे कि विभिन्न सरकारों और लोकतांत्रिक संस्थाओं के बीच सत्ता का बंटवारा कैसे काम करता है।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>सत्ता में साझेदारी के सिद्धांत</li>
+        <li>केंद्र और राज्य सरकारों के बीच साझेदारी</li>
+        <li>संविधान और संसद का योगदान</li>
+        <li>लोकतांत्रिक संस्थाओं की भूमिका</li>
+        <li>राज्य के कार्य और दायित्व</li>
+        <li>साझेदारी के मॉडल्स</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> सत्ता में साझेदारी की कार्यप्रणाली को स्पष्ट करें।</p>
+    <p><strong>Answer:</strong> सत्ता में साझेदारी की कार्यप्रणाली का मतलब है कि सत्ता के विभिन्न पहलू विभिन्न सरकारों और संस्थाओं के बीच साझा किए जाते हैं। इसका उद्देश्य यह सुनिश्चित करना है कि प्रत्येक स्तर पर सरकार अपने दायित्वों का पालन करती है, और यह सभी नागरिकों के लिए समान रूप से न्यायसंगत होती है।</p>
+
+    <p><strong>Question 2:</strong> केंद्र और राज्य सरकारों के बीच सत्ता की साझेदारी के उदाहरण दें।</p>
+    <p><strong>Answer:</strong> भारत में केंद्र और राज्य सरकारों के बीच सत्ता की साझेदारी संविधान के अनुच्छेद 246 में दी गई सूची के अनुसार होती है। इसमें तीन विषयों की सूची होती है: संघीय, राज्य, और समवर्ती। उदाहरण के तौर पर, रक्षा और विदेशी मामले केंद्र सरकार के तहत आते हैं, जबकि शिक्षा और स्वास्थ्य राज्य सरकारों के अधिकार क्षेत्र में आते हैं।</p>
+
+    <p><strong>Question 3:</strong> संविधान और संसद के योगदान पर चर्चा करें।</p>
+    <p><strong>Answer:</strong> संविधान ने केंद्र और राज्य के बीच शक्ति का स्पष्ट बंटवारा किया है। संसद का कार्य कानून बनाना और केंद्र सरकार को दिशा-निर्देश प्रदान करना है, जिससे सत्ता का बंटवारा सुचारु रूप से चलता है।</p>
+
+    <p><strong>Question 4:</strong> लोकतांत्रिक संस्थाओं की भूमिका क्या है?</p>
+    <p><strong>Answer:</strong> लोकतांत्रिक संस्थाएँ जैसे चुनाव आयोग, न्यायपालिका और संसद, सत्ता के बंटवारे को बनाए रखने में महत्वपूर्ण भूमिका निभाती हैं। ये संस्थाएँ सुनिश्चित करती हैं कि सभी सरकारें और नागरिक अपने अधिकारों और कर्तव्यों को समझे और पालन करें।</p>
+
+    <p><strong>Question 5:</strong> राज्य के कार्य और दायित्वों पर प्रकाश डालें।</p>
+    <p><strong>Answer:</strong> राज्य का मुख्य कार्य नागरिकों की रक्षा करना, न्याय प्रदान करना, और समान अवसरों की गारंटी देना है। राज्य सरकारें यह सुनिश्चित करती हैं कि उनके पास मौजूद संसाधनों का उपयोग नागरिकों की भलाई के लिए किया जाए।</p>
+
+    <p><strong>Question 6:</strong> साझेदारी के मॉडल्स पर चर्चा करें।</p>
+    <p><strong>Answer:</strong> साझेदारी के विभिन्न मॉडल्स होते हैं, जैसे कि एकात्मक मॉडल और संघीय मॉडल। एकात्मक मॉडल में, केंद्र सरकार की शक्ति अधिक होती है, जबकि संघीय मॉडल में, शक्ति का वितरण केंद्र और राज्य सरकारों के बीच होता है। भारत में संघीय मॉडल लागू है।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> सत्ता में साझेदारी किसके द्वारा निर्धारित की जाती है?
+            <ul>
+                <li>1) संविधान</li>
+                <li>2) राष्ट्रपति</li>
+                <li>3) प्रधानमंत्री</li>
+                <li>4) राज्य सरकार</li>
+            </ul>
+            <strong>Answer:</strong> 1) संविधान
+        </li>
+
+        <li><strong>Question 2:</strong> केंद्र और राज्य सरकारों के बीच साझेदारी किसके माध्यम से की जाती है?
+            <ul>
+                <li>1) संसद</li>
+                <li>2) संविधान</li>
+                <li>3) राष्ट्रपति</li>
+                <li>4) न्यायपालिका</li>
+            </ul>
+            <strong>Answer:</strong> 2) संविधान
+        </li>
+
+        <li><strong>Question 3:</strong> राज्य के कार्यों में कौन सा कार्य शामिल है?
+            <ul>
+                <li>1) न्यायिक व्यवस्था का निर्माण</li>
+                <li>2) रक्षा का प्रबंधन</li>
+                <li>3) नागरिकों की भलाई सुनिश्चित करना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 4:</strong> संविधान में सत्ता के वितरण को किस सूची द्वारा निर्धारित किया गया है?
+            <ul>
+                <li>1) समवर्ती सूची</li>
+                <li>2) संघीय सूची</li>
+                <li>3) राज्य सूची</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 5:</strong> राज्य सरकार के कार्यों का मुख्य उद्देश्य क्या है?
+            <ul>
+                <li>1) राष्ट्रीय रक्षा</li>
+                <li>2) नागरिकों की भलाई और विकास</li>
+                <li>3) शिक्षा का प्रबंधन</li>
+                <li>4) कानून और व्यवस्था का पालन</li>
+            </ul>
+            <strong>Answer:</strong> 2) नागरिकों की भलाई और विकास
+        </li>
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+
+`,
+11:`
+<div style="background: linear-gradient(to right, #fce4ec, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">लोकतंत्र में प्रतिस्पर्धा एवं संघर्ष (Chapter 11)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में हम लोकतंत्र में प्रतिस्पर्धा और संघर्ष के सिद्धांतों और उनके प्रभावों पर चर्चा करेंगे। हम देखेंगे कि लोकतांत्रिक प्रणाली में विभिन्न दलों, विचारधाराओं और हितों के बीच प्रतिस्पर्धा और संघर्ष का क्या स्थान है और यह लोकतंत्र को कैसे प्रभावित करता है।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>लोकतंत्र में प्रतिस्पर्धा</li>
+        <li>राजनीतिक संघर्ष</li>
+        <li>विभिन्न राजनीतिक दलों की भूमिका</li>
+        <li>लोकतांत्रिक बहस और विचार-विमर्श</li>
+        <li>वोटिंग और चुनावी प्रक्रिया</li>
+        <li>संविधान और लोकतंत्र का संरक्षण</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> लोकतंत्र में प्रतिस्पर्धा का महत्व क्या है?</p>
+    <p><strong>Answer:</strong> लोकतंत्र में प्रतिस्पर्धा का उद्देश्य यह है कि विभिन्न विचारधाराएँ और राजनीतिक दल आपस में प्रतिस्पर्धा करते हैं, जिससे नागरिकों को उनके अधिकारों और विकल्पों के बारे में जानकारी मिलती है। यह लोकतांत्रिक प्रक्रिया को सशक्त बनाता है और सरकार की जिम्मेदारी सुनिश्चित करता है।</p>
+
+    <p><strong>Question 2:</strong> लोकतंत्र में संघर्ष का क्या योगदान होता है?</p>
+    <p><strong>Answer:</strong> लोकतंत्र में संघर्ष राजनीतिक दलों, विचारधाराओं और समूहों के बीच उत्पन्न होता है। यह संघर्ष न केवल विचारों और नीतियों की विविधता को उजागर करता है, बल्कि नागरिकों को अपने अधिकारों की रक्षा और सशक्त बनाने का अवसर भी प्रदान करता है।</p>
+
+    <p><strong>Question 3:</strong> राजनीतिक दलों की भूमिका पर चर्चा करें।</p>
+    <p><strong>Answer:</strong> राजनीतिक दल लोकतांत्रिक प्रणाली में महत्वपूर्ण भूमिका निभाते हैं। वे न केवल चुनावी प्रक्रिया का हिस्सा होते हैं, बल्कि समाज में विचारों, नीतियों और कार्यक्रमों का प्रसार भी करते हैं। दलों की विविधता लोकतंत्र में प्रतिस्पर्धा और बहस को प्रोत्साहित करती है।</p>
+
+    <p><strong>Question 4:</strong> लोकतांत्रिक बहस और विचार-विमर्श का क्या महत्व है?</p>
+    <p><strong>Answer:</strong> लोकतांत्रिक बहस और विचार-विमर्श से नागरिकों को विभिन्न दृष्टिकोणों के बारे में जानने का अवसर मिलता है। यह पारदर्शिता और समझदारी बढ़ाता है, जिससे सशक्त निर्णय लिए जाते हैं और समाज में बेहतर बदलाव आता है।</p>
+
+    <p><strong>Question 5:</strong> चुनावी प्रक्रिया और वोटिंग का लोकतंत्र में क्या योगदान है?</p>
+    <p><strong>Answer:</strong> चुनावी प्रक्रिया और वोटिंग लोकतंत्र के मूल सिद्धांतों में से हैं। यह नागरिकों को उनके प्रतिनिधि चुनने का अधिकार देता है, और सरकार को लोगों के प्रति जिम्मेदार बनाए रखता है। यह प्रक्रिया सरकार के प्रति जनता की आवाज को सुनिश्चित करती है।</p>
+
+    <p><strong>Question 6:</strong> संविधान का लोकतंत्र में क्या स्थान है?</p>
+    <p><strong>Answer:</strong> संविधान लोकतंत्र का मूल है, क्योंकि यह सत्ता के बंटवारे, नागरिक अधिकारों और सरकार की जिम्मेदारियों को निर्धारित करता है। संविधान लोकतांत्रिक प्रक्रिया को संरक्षित करने के लिए मार्गदर्शक सिद्धांतों को प्रदान करता है।</p>
+
+    <p><strong>Question 7:</strong> लोकतंत्र में दलों के प्रतिस्पर्धा और संघर्ष का प्रभाव क्या है?</p>
+    <p><strong>Answer:</strong> दलों के प्रतिस्पर्धा और संघर्ष से लोकतंत्र में न केवल विचारों की विविधता बढ़ती है, बल्कि यह सरकार को जनता के प्रति उत्तरदायी बनाता है। यह सुनिश्चित करता है कि कोई भी दल सत्ता में अजेय न हो और सभी नागरिकों के हितों का ध्यान रखा जाए।</p>
+
+    <p><strong>Question 8:</strong> लोकतंत्र में राजनीतिक दलों की विचारधाराओं का क्या महत्व है?</p>
+    <p><strong>Answer:</strong> राजनीतिक दलों की विचारधाराएँ लोकतंत्र में विविधता और बहस को प्रोत्साहित करती हैं। ये विचारधाराएँ समाज के विभिन्न वर्गों के हितों का प्रतिनिधित्व करती हैं और नागरिकों को विभिन्न विकल्पों के बीच चयन करने का अवसर देती हैं।</p>
+
+    <p><strong>Question 9:</strong> लोकतंत्र में विवादों और संघर्षों को हल करने के लिए कौन-कौन से तंत्र हैं?</p>
+    <p><strong>Answer:</strong> लोकतंत्र में विवादों और संघर्षों को हल करने के लिए न्यायपालिका, संसद और चुनाव आयोग जैसे तंत्र होते हैं। ये तंत्र लोकतांत्रिक प्रक्रिया को बनाए रखने और नागरिकों के अधिकारों की रक्षा करने में सहायक होते हैं।</p>
+
+    <p><strong>Question 10:</strong> लोकतंत्र में प्रतिस्पर्धा और संघर्ष के कारण समाज में किस प्रकार के बदलाव आते हैं?</p>
+    <p><strong>Answer:</strong> प्रतिस्पर्धा और संघर्ष से समाज में जागरूकता और सशक्तिकरण होता है। यह सामाजिक और राजनीतिक सुधारों की दिशा में योगदान करता है, और नागरिकों को अपने अधिकारों और कर्तव्यों के प्रति जिम्मेदार बनाता है।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> लोकतंत्र में प्रतिस्पर्धा का क्या उद्देश्य होता है?
+            <ul>
+                <li>1) विभिन्न विचारों की एकता</li>
+                <li>2) नागरिकों को विकल्प प्रदान करना</li>
+                <li>3) नागरिकों की आलोचना करना</li>
+                <li>4) सभी के अधिकारों का उल्लंघन करना</li>
+            </ul>
+            <strong>Answer:</strong> 2) नागरिकों को विकल्प प्रदान करना
+        </li>
+
+        <li><strong>Question 2:</strong> संघर्ष लोकतंत्र में क्या योगदान करता है?
+            <ul>
+                <li>1) राजनीति में स्थिरता लाना</li>
+                <li>2) समाज में विविधता और बहस को प्रोत्साहित करना</li>
+                <li>3) सरकार का अधिक नियंत्रण करना</li>
+                <li>4) नागरिकों को एकजुट करना</li>
+            </ul>
+            <strong>Answer:</strong> 2) समाज में विविधता और बहस को प्रोत्साहित करना
+        </li>
+
+        <li><strong>Question 3:</strong> राजनीतिक दलों का क्या उद्देश्य है?
+            <ul>
+                <li>1) सत्ता में अधिकतम वृद्धि</li>
+                <li>2) समाज के हितों का प्रतिनिधित्व करना</li>
+                <li>3) सरकारी नियंत्रण बढ़ाना</li>
+                <li>4) चुनावों में जीतना</li>
+            </ul>
+            <strong>Answer:</strong> 2) समाज के हितों का प्रतिनिधित्व करना
+        </li>
+
+        <li><strong>Question 4:</strong> चुनावी प्रक्रिया का लोकतंत्र में क्या महत्व है?
+            <ul>
+                <li>1) नागरिकों को उनके प्रतिनिधियों को चुनने का अवसर</li>
+                <li>2) राजनीतिक दलों को शक्ति प्रदान करना</li>
+                <li>3) सरकार को जवाबदेह बनाए रखना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 5:</strong> संविधान लोकतंत्र में क्या सुनिश्चित करता है?
+            <ul>
+                <li>1) सत्ता के बंटवारे की प्रक्रिया</li>
+                <li>2) नागरिकों के अधिकारों की रक्षा</li>
+                <li>3) सरकार की जिम्मेदारी</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 6:</strong> लोकतंत्र में राजनीतिक दलों के संघर्ष का क्या परिणाम होता है?
+            <ul>
+                <li>1) सरकार में अस्थिरता</li>
+                <li>2) विचारों की विविधता और बहस</li>
+                <li>3) नागरिकों के अधिकारों का उल्लंघन</li>
+                <li>4) समाज का विभाजन</li>
+            </ul>
+            <strong>Answer:</strong> 2) विचारों की विविधता और बहस
+        </li>
+
+        <li><strong>Question 7:</strong> राजनीतिक दलों का मुख्य कार्य क्या है?
+            <ul>
+                <li>1) चुनावों में जीतना</li>
+                <li>2) समाज के विभिन्न वर्गों के हितों का प्रतिनिधित्व करना</li>
+                <li>3) संसद में बहुमत प्राप्त करना</li>
+                <li>4) सरकार की आलोचना करना</li>
+            </ul>
+            <strong>Answer:</strong> 2) समाज के विभिन्न वर्गों के हितों का प्रतिनिधित्व करना
+        </li>
+
+        <li><strong>Question 8:</strong> लोकतंत्र में संघर्ष का क्या सकारात्मक प्रभाव है?
+            <ul>
+                <li>1) शक्ति का केंद्रीकरण</li>
+                <li>2) नागरिकों को अपने अधिकारों की जानकारी</li>
+                <li>3) किसी दल की जीत</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 2) नागरिकों को अपने अधिकारों की जानकारी
+        </li>
+
+        <li><strong>Question 9:</strong> लोकतंत्र में चुनावी प्रक्रिया का सबसे बड़ा लाभ क्या है?
+            <ul>
+                <li>1) सशक्त सरकार का निर्माण</li>
+                <li>2) नागरिकों को उनके अधिकारों का अनुभव</li>
+                <li>3) पारदर्शिता और जवाबदेही</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 10:</strong> संविधान लोकतंत्र की रक्षा कैसे करता है?
+            <ul>
+                <li>1) सभी को समान अधिकार प्रदान करता है</li>
+                <li>2) सरकार की शक्ति को सीमित करता है</li>
+                <li>3) नागरिकों के कर्तव्यों और अधिकारों का निर्धारण करता है</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+    </ul>
+</div>
+
+
+`,
+
+12:`
+<div style="background: linear-gradient(to right, #fce4ec, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">लोकतंत्र की उपलब्धियाँ (Chapter 12)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में हम लोकतंत्र की उपलब्धियों पर चर्चा करेंगे। हम देखेंगे कि भारतीय लोकतंत्र ने समय के साथ किन-किन क्षेत्रों में प्रगति की है और किस प्रकार लोकतंत्र ने समाज, राजनीति और अर्थव्यवस्था में परिवर्तन लाया है।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>लोकतंत्र के सिद्धांत और इसकी संस्थाएँ</li>
+        <li>जनता की भागीदारी और लोकतांत्रिक प्रगति</li>
+        <li>लोकतंत्र में समानता और सामाजिक न्याय</li>
+        <li>अर्थव्यवस्था में सुधार और विकास</li>
+        <li>शिक्षा, स्वास्थ्य और विज्ञान में लोकतांत्रिक योगदान</li>
+        <li>लोकतंत्र में चुनौतियाँ और भविष्य की दिशा</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> भारतीय लोकतंत्र की सबसे बड़ी उपलब्धि क्या है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र की सबसे बड़ी उपलब्धि यह है कि यह विश्व का सबसे बड़ा लोकतंत्र है, जहाँ नागरिकों को सार्वभौमिक मताधिकार का अधिकार प्राप्त है। यह लोकतंत्र न केवल चुनावों के माध्यम से सरकार का गठन करता है, बल्कि यह नागरिकों के अधिकारों की रक्षा और समानता की ओर अग्रसर है।</p>
+
+    <p><strong>Question 2:</strong> लोकतंत्र में जनता की भागीदारी के क्या लाभ होते हैं?</p>
+    <p><strong>Answer:</strong> लोकतंत्र में जनता की भागीदारी से सरकार की जवाबदेही बढ़ती है। इससे नागरिकों को अपने अधिकारों के प्रति जागरूकता होती है और वे सरकार को अपनी समस्याओं से अवगत करवा सकते हैं। यह सरकार को समाज के विभिन्न वर्गों के हितों का ध्यान रखने के लिए प्रेरित करता है।</p>
+
+    <p><strong>Question 3:</strong> भारतीय लोकतंत्र में सामाजिक न्याय कैसे प्राप्त हुआ है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र ने सामाजिक न्याय को सुनिश्चित करने के लिए कई कदम उठाए हैं। संविधान ने जातिवाद, लिंगभेद और धर्मभेद के खिलाफ प्रावधान किए हैं। साथ ही, आरक्षण जैसे कदमों के माध्यम से पिछड़े वर्गों को समान अवसर देने की कोशिश की गई है।</p>
+
+    <p><strong>Question 4:</strong> भारतीय लोकतंत्र के शिक्षा क्षेत्र में क्या उपलब्धियाँ रही हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र ने शिक्षा के क्षेत्र में महत्वपूर्ण सुधार किए हैं। शिक्षा का अधिकार कानून, सरकारी विद्यालयों की स्थापना और सस्ती शिक्षा प्रदान करने के उपायों के द्वारा हर नागरिक को शिक्षा प्राप्त करने का अधिकार दिया गया है।</p>
+
+    <p><strong>Question 5:</strong> भारतीय लोकतंत्र ने अर्थव्यवस्था में किस प्रकार के सुधार किए हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र ने कई आर्थिक सुधारों की दिशा में कदम बढ़ाए हैं। उदारीकरण, वैश्वीकरण और निजीकरण ने भारतीय अर्थव्यवस्था को मजबूत किया है। सरकार ने कई योजनाओं के माध्यम से ग्रामीण और शहरी विकास को प्रोत्साहित किया है।</p>
+
+    <p><strong>Question 6:</strong> भारतीय लोकतंत्र के विज्ञान और प्रौद्योगिकी क्षेत्र में योगदान को कैसे देखा जा सकता है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र ने विज्ञान और प्रौद्योगिकी के क्षेत्र में कई उपलब्धियाँ हासिल की हैं। भारतीय अंतरिक्ष अनुसंधान संगठन (ISRO) और भारतीय परमाणु ऊर्जा आयोग (NPCIL) जैसी संस्थाएँ भारतीय लोकतंत्र की विज्ञान में प्रगति को प्रदर्शित करती हैं।</p>
+
+    <p><strong>Question 7:</strong> भारतीय लोकतंत्र के लिए भविष्य में क्या चुनौतियाँ हो सकती हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र के लिए भविष्य में कई चुनौतियाँ हो सकती हैं, जैसे राजनीतिक अस्थिरता, भ्रष्टाचार, असमानता और धार्मिक एवं सांप्रदायिक तनाव। इन चुनौतियों का समाधान लोकतांत्रिक संस्थाओं के मजबूती से और नागरिकों की सक्रिय भागीदारी से संभव हो सकता है।</p>
+
+    <p><strong>Question 8:</strong> भारतीय लोकतंत्र में महिलाओं की भूमिका क्या रही है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में महिलाओं की भूमिका बढ़ी है, जिसमें महिलाओं को राजनीतिक, सामाजिक और आर्थिक क्षेत्र में समान अधिकार प्राप्त हुए हैं। महिलाओं की शिक्षा, रोजगार और राजनीति में भागीदारी बढ़ी है।</p>
+
+    <p><strong>Question 9:</strong> भारतीय लोकतंत्र ने धार्मिक स्वतंत्रता के क्षेत्र में क्या प्रगति की है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र ने धर्मनिरपेक्षता की भावना को बढ़ावा दिया है, जिसमें सभी धर्मों के प्रति समान सम्मान और स्वतंत्रता दी गई है। संविधान में धर्म, जाति, लिंग और भाषा के आधार पर भेदभाव से रोकने के लिए प्रावधान किए गए हैं।</p>
+
+    <p><strong>Question 10:</strong> भारतीय लोकतंत्र में दलों की भूमिका और उपलब्धियाँ क्या हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में राजनीतिक दलों की महत्वपूर्ण भूमिका है। ये दल चुनावों में भाग लेकर नागरिकों को अपने अधिकारों के प्रति जागरूक करते हैं और सरकार की जिम्मेदारी सुनिश्चित करते हैं। दलों ने सामाजिक, राजनीतिक और आर्थिक सुधारों की दिशा में कई महत्वपूर्ण कदम उठाए हैं।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> भारतीय लोकतंत्र की सबसे बड़ी उपलब्धि क्या है?
+            <ul>
+                <li>1) राजनीति में स्थिरता</li>
+                <li>2) विविधता में एकता</li>
+                <li>3) सर्वोच्च न्यायपालिका का गठन</li>
+                <li>4) धर्मनिरपेक्षता</li>
+            </ul>
+            <strong>Answer:</strong> 2) विविधता में एकता
+        </li>
+
+        <li><strong>Question 2:</strong> भारतीय लोकतंत्र में सामाजिक न्याय प्राप्त करने के लिए कौन-सा कदम उठाया गया है?
+            <ul>
+                <li>1) जनसंख्या नियंत्रण</li>
+                <li>2) आरक्षण नीति</li>
+                <li>3) निजीकरण</li>
+                <li>4) सांप्रदायिक बंटवारा</li>
+            </ul>
+            <strong>Answer:</strong> 2) आरक्षण नीति
+        </li>
+
+        <li><strong>Question 3:</strong> भारतीय लोकतंत्र में शिक्षा क्षेत्र में कौन-सी उपलब्धि रही है?
+            <ul>
+                <li>1) शिक्षा का अधिकार कानून</li>
+                <li>2) विज्ञान और प्रौद्योगिकी में वृद्धि</li>
+                <li>3) नई औद्योगिक नीति</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 1) शिक्षा का अधिकार कानून
+        </li>
+
+        <li><strong>Question 4:</strong> भारतीय लोकतंत्र में महिलाओं के अधिकारों का विस्तार किसने किया?
+            <ul>
+                <li>1) संविधान</li>
+                <li>2) राजनीतिक दल</li>
+                <li>3) न्यायपालिका</li>
+                <li>4) समाज</li>
+            </ul>
+            <strong>Answer:</strong> 1) संविधान
+        </li>
+
+        <li><strong>Question 5:</strong> भारतीय लोकतंत्र में वैज्ञानिक प्रगति का उदाहरण क्या है?
+            <ul>
+                <li>1) ISRO</li>
+                <li>2) विश्व बैंक</li>
+                <li>3) भारतीय सेना</li>
+                <li>4) पब्लिक सेक्टर बैंक</li>
+            </ul>
+            <strong>Answer:</strong> 1) ISRO
+        </li>
+
+        <li><strong>Question 6:</strong> भारतीय लोकतंत्र में चुनावी प्रक्रिया का क्या उद्देश्य है?
+            <ul>
+                <li>1) सत्ता का केंद्रीकरण</li>
+                <li>2) नागरिकों को भागीदारी का अवसर देना</li>
+                <li>3) राजनीति में अस्थिरता लाना</li>
+                <li>4) समाज में विभाजन करना</li>
+            </ul>
+            <strong>Answer:</strong> 2) नागरिकों को भागीदारी का अवसर देना
+        </li>
+
+        <li><strong>Question 7:</strong> भारतीय लोकतंत्र में चुनौतियाँ क्या हैं?
+            <ul>
+                <li>1) गरीबी</li>
+                <li>2) राजनीतिक अस्थिरता</li>
+                <li>3) सांप्रदायिक तनाव</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 8:</strong> भारतीय लोकतंत्र की क्या विशेषता है?
+            <ul>
+                <li>1) चुनावी प्रक्रिया</li>
+                <li>2) स्वच्छता अभियान</li>
+                <li>3) धर्मनिरपेक्षता</li>
+                <li>4) वैश्विक शक्ति</li>
+            </ul>
+            <strong>Answer:</strong> 3) धर्मनिरपेक्षता
+        </li>
+
+        <li><strong>Question 9:</strong> भारतीय लोकतंत्र में दलों की भूमिका क्या है?
+            <ul>
+                <li>1) राजनीतिक अस्थिरता पैदा करना</li>
+                <li>2) नागरिकों को उनके अधिकारों के प्रति जागरूक करना</li>
+                <li>3) सरकार का गठन करना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 10:</strong> भारतीय लोकतंत्र में धार्मिक स्वतंत्रता को कैसे सुनिश्चित किया गया है?
+            <ul>
+                <li>1) संविधान के द्वारा</li>
+                <li>2) सरकार की नीति के द्वारा</li>
+                <li>3) न्यायपालिका के निर्णयों के द्वारा</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+    </ul>
+</div>
+
+
+`,
+
+13:`<div style="background: linear-gradient(to right, #fce4ec, #ffecb3); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #ff5722;">लोकतंत्र की चुनौतियाँ (Chapter 13)</h2>
+
+    <p><strong>Chapter Overview:</strong> इस अध्याय में हम लोकतंत्र की चुनौतियों पर चर्चा करेंगे। हम देखेंगे कि भारतीय लोकतंत्र को किन-किन समस्याओं का सामना करना पड़ता है, जैसे राजनीतिक अस्थिरता, भ्रष्टाचार, सामाजिक असमानता, और आर्थिक विषमताएँ। इन चुनौतियों से निपटने के लिए क्या उपाय किए जा रहे हैं, इस पर भी विचार करेंगे।</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>लोकतंत्र में राजनीतिक अस्थिरता</li>
+        <li>भ्रष्टाचार और इसके लोकतंत्र पर प्रभाव</li>
+        <li>सामाजिक असमानता और संघर्ष</li>
+        <li>आर्थिक विषमता और विकास</li>
+        <li>धार्मिक और सांप्रदायिक तनाव</li>
+        <li>लोकतांत्रिक संस्थाओं की कमजोरियाँ</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> भारतीय लोकतंत्र की प्रमुख चुनौतियाँ क्या हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र की प्रमुख चुनौतियाँ राजनीतिक अस्थिरता, भ्रष्टाचार, सामाजिक असमानता, धार्मिक और सांप्रदायिक तनाव, और आर्थिक विषमता हैं। इन समस्याओं का समाधान लोकतांत्रिक प्रक्रियाओं और संस्थाओं के द्वारा ही संभव है, जो समय के साथ सुधारात्मक कदम उठा रहे हैं।</p>
+
+    <p><strong>Question 2:</strong> राजनीतिक अस्थिरता भारतीय लोकतंत्र के लिए कैसे एक चुनौती बन सकती है?</p>
+    <p><strong>Answer:</strong> राजनीतिक अस्थिरता भारतीय लोकतंत्र के लिए चुनौती बन सकती है क्योंकि यह सरकार की कार्यकुशलता को प्रभावित करती है। जब राजनीतिक दलों के बीच निरंतर संघर्ष और असहमति होती है, तो निर्णय लेने की प्रक्रिया प्रभावित होती है और इससे शासन में अस्थिरता उत्पन्न हो सकती है।</p>
+
+    <p><strong>Question 3:</strong> भ्रष्टाचार भारतीय लोकतंत्र में किस प्रकार की समस्या उत्पन्न करता है?</p>
+    <p><strong>Answer:</strong> भ्रष्टाचार भारतीय लोकतंत्र में शासन प्रणाली की विश्वसनीयता को कमजोर करता है। जब सार्वजनिक कार्यालयों में भ्रष्टाचार होता है, तो यह न केवल सरकार के प्रति जनता का विश्वास कम करता है, बल्कि यह विकास योजनाओं की प्रभावशीलता को भी प्रभावित करता है।</p>
+
+    <p><strong>Question 4:</strong> सामाजिक असमानता और संघर्ष भारतीय लोकतंत्र के लिए किस प्रकार की चुनौती हैं?</p>
+    <p><strong>Answer:</strong> सामाजिक असमानता और संघर्ष भारतीय लोकतंत्र की सबसे बड़ी चुनौतियों में से एक है। विभिन्न जाति, धर्म, और आर्थिक वर्गों के बीच असमानता से समाज में तनाव और संघर्ष उत्पन्न होते हैं, जिससे लोकतांत्रिक प्रक्रियाओं में रुकावट आती है।</p>
+
+    <p><strong>Question 5:</strong> भारतीय लोकतंत्र में आर्थिक विषमता को कैसे दूर किया जा सकता है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में आर्थिक विषमता को दूर करने के लिए सरकार ने कई योजनाएँ बनाई हैं जैसे गरीबी उन्मूलन, समान रोजगार के अवसर, और ग्रामीण क्षेत्रों में विकास। इसके अलावा, शिक्षा और स्वास्थ्य सेवाओं में सुधार कर भी आर्थिक विषमता को घटाया जा सकता है।</p>
+
+    <p><strong>Question 6:</strong> धार्मिक और सांप्रदायिक तनाव भारतीय लोकतंत्र के लिए कैसे चुनौतीपूर्ण हैं?</p>
+    <p><strong>Answer:</strong> धार्मिक और सांप्रदायिक तनाव भारतीय लोकतंत्र की प्रमुख चुनौतियों में से हैं क्योंकि ये समाज में हिंसा और असहमति को बढ़ावा देते हैं। इससे समाज में विभाजन होता है और लोकतांत्रिक एकता को खतरा पैदा होता है।</p>
+
+    <p><strong>Question 7:</strong> भारतीय लोकतंत्र में किस प्रकार की संस्थाएँ हैं जो लोकतांत्रिक प्रक्रिया को बनाए रखती हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में कई संस्थाएँ हैं जो लोकतांत्रिक प्रक्रिया को बनाए रखती हैं, जैसे चुनाव आयोग, संसद, न्यायपालिका, और राजनीतिक दल। इन संस्थाओं का काम सरकार की जवाबदेही सुनिश्चित करना और नागरिकों के अधिकारों की रक्षा करना है।</p>
+
+    <p><strong>Question 8:</strong> भारतीय लोकतंत्र में दलों के बीच संघर्ष कैसे लोकतंत्र के लिए चुनौती बन सकता है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में दलों के बीच संघर्ष लोकतंत्र के लिए चुनौती बन सकता है क्योंकि इससे राजनीतिक अस्थिरता उत्पन्न होती है। जब विभिन्न दल अपने व्यक्तिगत हितों के लिए संघर्ष करते हैं, तो यह जनता की भलाई को नजरअंदाज कर सकता है और शासन में विकृति पैदा कर सकता है।</p>
+
+    <p><strong>Question 9:</strong> भारतीय लोकतंत्र में नागरिकों का योगदान लोकतांत्रिक चुनौतियों का समाधान कैसे कर सकता है?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र में नागरिकों का योगदान महत्वपूर्ण है। जब नागरिक सक्रिय रूप से चुनावों में भाग लेते हैं, सरकारी निर्णयों में अपनी राय व्यक्त करते हैं, और भ्रष्टाचार के खिलाफ आवाज उठाते हैं, तो इससे लोकतांत्रिक चुनौतियों का समाधान संभव होता है।</p>
+
+    <p><strong>Question 10:</strong> भारतीय लोकतंत्र के लिए भविष्य में क्या संभावनाएँ और चुनौतियाँ हैं?</p>
+    <p><strong>Answer:</strong> भारतीय लोकतंत्र के लिए भविष्य में संभावनाएँ हैं, जैसे तकनीकी सुधार, शिक्षा में सुधार और जागरूक नागरिक समाज। हालांकि, चुनौतियाँ भी बनी रहेंगी, जैसे राजनीतिक अस्थिरता, भ्रष्टाचार और सामाजिक असमानता, जिन्हें समय रहते हल किया जाना जरूरी है।</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> भारतीय लोकतंत्र की सबसे बड़ी चुनौती क्या है?
+            <ul>
+                <li>1) राजनीतिक अस्थिरता</li>
+                <li>2) भ्रष्टाचार</li>
+                <li>3) सामाजिक असमानता</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 2:</strong> भारतीय लोकतंत्र में भ्रष्टाचार के खिलाफ क्या कदम उठाए गए हैं?
+            <ul>
+                <li>1) आरटीआई कानून</li>
+                <li>2) सीबीआई की स्थापना</li>
+                <li>3) लोकपाल कानून</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 3:</strong> भारतीय लोकतंत्र में सामाजिक असमानता को दूर करने के लिए कौन-सा उपाय किया गया है?
+            <ul>
+                <li>1) आरक्षण नीति</li>
+                <li>2) निजीकरण</li>
+                <li>3) जनसंख्या नियंत्रण</li>
+                <li>4) शिक्षा का अधिकार</li>
+            </ul>
+            <strong>Answer:</strong> 1) आरक्षण नीति
+        </li>
+
+        <li><strong>Question 4:</strong> भारतीय लोकतंत्र में धार्मिक तनाव को किस प्रकार से नियंत्रित किया जा सकता है?
+            <ul>
+                <li>1) धर्मनिरपेक्षता के सिद्धांत को मजबूत करना</li>
+                <li>2) संविधान की रक्षा करना</li>
+                <li>3) सख्त कानून लागू करना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 5:</strong> भारतीय लोकतंत्र में राजनीतिक दलों के संघर्ष से क्या असर हो सकता है?
+            <ul>
+                <li>1) शासन में अस्थिरता</li>
+                <li>2) निर्णय प्रक्रिया में विलंब</li>
+                <li>3) जनता का विश्वास घटना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 6:</strong> भारतीय लोकतंत्र के लिए सबसे बड़ी चुनौती क्या है?
+            <ul>
+                <li>1) राजनीतिक भ्रष्टाचार</li>
+                <li>2) शिक्षा की कमी</li>
+                <li>3) बेरोजगारी</li>
+                <li>4) सामाजिक विभाजन</li>
+            </ul>
+            <strong>Answer:</strong> 1) राजनीतिक भ्रष्टाचार
+        </li>
+
+        <li><strong>Question 7:</strong> भारतीय लोकतंत्र में न्यायपालिका की भूमिका क्या है?
+            <ul>
+                <li>1) कानूनों का पालन कराना</li>
+                <li>2) सरकारी फैसलों को चुनौती देना</li>
+                <li>3) नागरिकों के अधिकारों की रक्षा करना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 8:</strong> भारतीय लोकतंत्र में आर्थिक असमानता को दूर करने के लिए कौन-सा कदम उठाया गया है?
+            <ul>
+                <li>1) गरीबी उन्मूलन कार्यक्रम</li>
+                <li>2) शिक्षा का अधिकार</li>
+                <li>3) सामाजिक सुरक्षा योजना</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 9:</strong> भारतीय लोकतंत्र में चुनावी प्रक्रिया किस प्रकार से चुनौती बन सकती है?
+            <ul>
+                <li>1) मतदान में धोखाधड़ी</li>
+                <li>2) चुनावी धन का दुरुपयोग</li>
+                <li>3) निर्वाचन आयोग की निष्पक्षता</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+
+        <li><strong>Question 10:</strong> भारतीय लोकतंत्र में किस प्रकार के सुधारों की आवश्यकता है?
+            <ul>
+                <li>1) भ्रष्टाचार विरोधी सुधार</li>
+                <li>2) शिक्षा और स्वास्थ्य सुधार</li>
+                <li>3) चुनाव सुधार</li>
+                <li>4) उपरोक्त सभी</li>
+            </ul>
+            <strong>Answer:</strong> 4) उपरोक्त सभी
+        </li>
+    </ul>
+</div>
+`,
+14: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+15: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+16: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+17: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+18: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+19: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+20: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+21: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+22: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+23: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+24: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+25: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+26: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+27: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+28: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+29: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+30: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+31: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+32: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+33: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+34: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+35: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+36: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+
+  };
+  document.getElementById("printBtn").addEventListener("click", function() {
+        window.print();
+    });
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const downloadBtn = document.getElementById("downloadBtn");
+    downloadBtn.style.display = "block";
+
+    downloadBtn.onclick = function () {
+      downloadNotes(chapterNumber);
+    };
+  }
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const printBtn = document.getElementById("printBtn");
+    printBtn.style.display = "block";
+
+    printBtn.onclick = function () {
+      printNotes();
+    };
+  }
+
+  function printNotes() {
+    // Use the window.print() method to print the current screen
+    window.print();
+  }
+
+  const printBtn = document.getElementById('printBtn');
+  printBtn.addEventListener('mouseover', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1.05)';
+    printBtn.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.3)';
+  });
+  
+  printBtn.addEventListener('mouseout', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1)';
+    printBtn.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+  });
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>

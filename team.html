@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>माँ शारदा टीचिंग सेंटर</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      /* Reset some default styles */
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body and general layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .chapter-list {
+        width: 25%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+      }
+
+      .chapter-list ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .chapter-list li {
+        margin: 10px 0;
+      }
+
+      .chapter-list button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .chapter-list button:hover {
+        background-color: #45a049;
+      }
+
+      .notes-section {
+        width: 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .notes-section h2 {
+        margin-bottom: 20px;
+      }
+
+      #notes-content {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="./img/icon.png" alt="" height="50px">माँ शारदा <span
+                    style="color: #fb873f;">टीचिंग सेंटर</span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Online Exam</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Notes</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="math.html" class="dropdown-item">Class 10th Math</a>
+                        <a href="./science.html" class="dropdown-item">Class 10th Science</a>
+                        <a href="./Hindi.html" class="dropdown-item">Class 10th Hindi</a>
+                        <a href="./English.html" class="dropdown-item">Class 10th English</a>
+
+                        <a href="team.html" class="dropdown-item">Class 10th Sanskrit</a>
+                        <a href="./social_science.html" class="dropdown-item">Class 10th Social Science</a>
+
+
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               
+                <a href="#" class="nav-item nav-link">
+
+                <div id="google_translate_element">
+                </div>
+
+
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div style="max-width: 100%; text-align: center;">
+        <img src="./img/banner12.png" alt="Sample Image" style="width: 100%; height: auto; max-width: 100%;">
+      </div>
+      <hr>
+
+    <!-- Carousel Start -->
+
+    <!-- nav bar start -->
+    <marquee style="background: linear-gradient(to right, #ff9933, #ffffff, #138808); height: 40px; color: #000; font-size: 18px; display: flex; align-items: center; padding: 0 10px;" behavior="scroll" direction="left">
+        माँ शारदा टीचिंग सेंटर में आपका स्वागत है! अब पढ़ाई करना और भी आसान हो गया है। हम फुल डिजिटल क्लास की सुविधा प्रदान करते हैं, और हमारी एप्लिकेशन पर मुफ्त में लाइव प्रैक्टिस सेट भी उपलब्ध हैं। पता: पोस्टऑफिस थाना  रोड पकरीबरावाँ (नवादा)       सम्पर्क सूत्र:- +91 8709124654
+    </marquee>    <!-- nav bar end -->
+
+   
+    <!-- main part -->
+    <main>
+      <div class="chapter-list">
+        <h2>Sanskrit Notes</h2>
+        <ul>
+          <li>
+            <button style="background-color: red; text-align: center">
+                Sanskrit 
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(1)">
+              1. मङ्गलम्
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(2)">2. पाटलिपुत्रवैभवम्</button>
+          </li>
+          <li><button onclick="showNotes(3)">3. अलसकथा</button></li>
+          <li>
+            <button onclick="showNotes(4)">4.
+
+                संस्कृतसाहित्ये लेखिकाः</button>
+          </li>
+          <li>
+            <button onclick="showNotes(5)">5. भारतमहिमा</button>
+          </li>
+          
+          <li><button onclick="showNotes(6)">6. भारतीयसंस्काराः</button></li>
+          <li>
+            <button onclick="showNotes(7)">7. नीतिश्लोकाः</button>
+          </li>
+          <li>
+            <button onclick="showNotes(8)">8. कर्मवीरकथा</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(9)">9. स्वामी दयानन्दः</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(10)">10. मन्दाकिनीवर्णनम्</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(11)">11. व्याघ्रपथिककथा</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(12)">12. कर्णस्य दानवीरता</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(13)">13. विश्वशांतिः</button>
+          </li>
+          
+          <li>
+            <button onclick="showNotes(14)">14. शास्त्रकाराः</button>
+          </li>
+          
+      </div>
+
+      <div id="notes-section" class="notes-section">
+        <h2>Sanskrit Notes</h2>
+        <div id="notes-content"></div>
+        <button
+          id="downloadBtn"
+          style="display: none"
+          onclick="downloadNotes()"
+        >
+          Download Notes as PDF
+        </button>
+      </div>
+    </main>
+    <!-- main partg End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Quick Link</h4>
+            <p><a class="text-light" href="about.html">About Us</a></p>
+            <p><a class="text-light" href="contact.html">Contact Us</a></p>
+            <p><a class="text-light" href="./courses.html">Online Exam</a></p>
+            <p><a class="text-light" href="./team.html">Notes</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Police Station Road
+              Pakribrawan, Nawada
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 8709124654
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>harendrasir94@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/profile.php?id=100072857619630"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@MSTSHarendraSir"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">
+              "अगर आपके पास कोई प्रश्न या सुझाव है, तो कृपया हमसे संपर्क करें।
+              हम आपके हर सवाल का जवाब देने के लिए तत्पर हैं।"
+            </h4>
+            <p></p>
+            <div
+              class="position-relative mx-auto"
+              style="max-width: 400px"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="index.html"
+                >Maa Sharda Teaching Center,Pakribrawan</a
+              >, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+  const notes = {
+    
+    1: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    2: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    3: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    4: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    5: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    6: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    7: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    8: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    9: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    10: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    11: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    12: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    13: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+    14: `अभी नोट्स अपडेट नहीं हुए हैं, लेकिन जल्द ही ये अपडेट हो जाएंगे।`,
+
+
+
+  };
+  document.getElementById("printBtn").addEventListener("click", function() {
+        window.print();
+    });
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const downloadBtn = document.getElementById("downloadBtn");
+    downloadBtn.style.display = "block";
+
+    downloadBtn.onclick = function () {
+      downloadNotes(chapterNumber);
+    };
+  }
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const printBtn = document.getElementById("printBtn");
+    printBtn.style.display = "block";
+
+    printBtn.onclick = function () {
+      printNotes();
+    };
+  }
+
+  function printNotes() {
+    // Use the window.print() method to print the current screen
+    window.print();
+  }
+
+  const printBtn = document.getElementById('printBtn');
+  printBtn.addEventListener('mouseover', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1.05)';
+    printBtn.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.3)';
+  });
+  
+  printBtn.addEventListener('mouseout', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1)';
+    printBtn.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+  });
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>

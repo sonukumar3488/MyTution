@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>माँ शारदा टीचिंग सेंटर</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      /* Reset some default styles */
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body and general layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .chapter-list {
+        width: 25%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+      }
+
+      .chapter-list ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .chapter-list li {
+        margin: 10px 0;
+      }
+
+      .chapter-list button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .chapter-list button:hover {
+        background-color: #45a049;
+      }
+
+      .notes-section {
+        width: 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .notes-section h2 {
+        margin-bottom: 20px;
+      }
+
+      #notes-content {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="./img/icon.png" alt="" height="50px">माँ शारदा <span
+                    style="color: #fb873f;">टीचिंग सेंटर</span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Online Exam</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Notes</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="math.html" class="dropdown-item">Class 10th Math</a>
+                        <a href="./science.html" class="dropdown-item">Class 10th Science</a>
+                        <a href="./Hindi.html" class="dropdown-item">Class 10th Hindi</a>
+                        <a href="./English.html" class="dropdown-item">Class 10th English</a>
+
+                        <a href="team.html" class="dropdown-item">Class 10th Sanskrit</a>
+                        <a href="./social_science.html" class="dropdown-item">Class 10th Social Science</a>
+
+
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               
+                <a href="#" class="nav-item nav-link">
+
+                <div id="google_translate_element">
+                </div>
+
+
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div style="max-width: 100%; text-align: center;">
+        <img src="./img/banner12.png" alt="Sample Image" style="width: 100%; height: auto; max-width: 100%;">
+      </div>
+      <hr>
+
+    <!-- Carousel Start -->
+
+    <!-- nav bar start -->
+    <marquee style="background: linear-gradient(to right, #ff9933, #ffffff, #138808); height: 40px; color: #000; font-size: 18px; display: flex; align-items: center; padding: 0 10px;" behavior="scroll" direction="left">
+        माँ शारदा टीचिंग सेंटर में आपका स्वागत है! अब पढ़ाई करना और भी आसान हो गया है। हम फुल डिजिटल क्लास की सुविधा प्रदान करते हैं, और हमारी एप्लिकेशन पर मुफ्त में लाइव प्रैक्टिस सेट भी उपलब्ध हैं। पता: पोस्टऑफिस थाना  रोड पकरीबरावाँ (नवादा)       सम्पर्क सूत्र:- +91 8709124654
+    </marquee>    <!-- nav bar end -->
+
+   
+    <!-- main part -->
+    <main>
+      <div class="chapter-list">
+        <h2>English Notes</h2>
+        <ul>
+          <li>
+            <button style="background-color: red; text-align: center">
+                English 
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(1)">
+              1. The Pace for Living
+            </button>
+          </li>
+          <li>
+            <button onclick="showNotes(2)">2. Me and The Ecology Bit</button>
+          </li>
+          <li><button onclick="showNotes(3)">3. Gillu</button></li>
+          <li>
+            <button onclick="showNotes(4)">4.
+
+                What is Wrong with Indian Film</button>
+          </li>
+          <li>
+            <button onclick="showNotes(5)">5. Acceptance Speech</button>
+          </li>
+          
+          <li><button onclick="showNotes(6)">6. Once Upon A Time</button></li>
+          <li>
+            <button onclick="showNotes(7)">7. The Unity of Indian Culture</button>
+          </li>
+          <li>
+            <button onclick="showNotes(8)">8. Little Girl Wiser Than Men</button>
+          </li>
+          
+      </div>
+
+      <div id="notes-section" class="notes-section">
+        <h2>English Notes</h2>
+        <div id="notes-content"></div>
+        <button
+          id="downloadBtn"
+          style="display: none"
+          onclick="downloadNotes()"
+        >
+          Download Notes as PDF
+        </button>
+      </div>
+    </main>
+    <!-- main partg End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Quick Link</h4>
+            <p><a class="text-light" href="about.html">About Us</a></p>
+            <p><a class="text-light" href="contact.html">Contact Us</a></p>
+            <p><a class="text-light" href="./courses.html">Online Exam</a></p>
+            <p><a class="text-light" href="./team.html">Notes</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Police Station Road
+              Pakribrawan, Nawada
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 8709124654
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>harendrasir94@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/profile.php?id=100072857619630"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@MSTSHarendraSir"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">
+              "अगर आपके पास कोई प्रश्न या सुझाव है, तो कृपया हमसे संपर्क करें।
+              हम आपके हर सवाल का जवाब देने के लिए तत्पर हैं।"
+            </h4>
+            <p></p>
+            <div
+              class="position-relative mx-auto"
+              style="max-width: 400px"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="index.html"
+                >Maa Sharda Teaching Center,Pakribrawan</a
+              >, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+  const notes = {
+    1:`
+    <div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #f45fff;">The Pace for Living (Chapter 1)</h2>
+
+    <p><strong>Chapter Overview:</strong> In this chapter, we will explore different aspects of life, including the pace of time, human daily activities, and how the pace of life has changed with the advancement of science. We will discuss key concepts and ideas related to the pace of life and the contributions of science in shaping it.</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>The Pace of Life</li>
+        <li>Effect of Time</li>
+        <li>Changes in Human Life</li>
+        <li>Contribution of Science</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> Explain the pace of life in detail.</p>
+    <p><strong>Answer:</strong> The pace of life refers to how the actions we take are influenced by time. For example, with the advancement of science, life has become faster, allowing people to accomplish more tasks in less time, and technology has made life easier.</p>
+
+    <p><strong>Question 2:</strong> How has the development of science and technology affected the pace of life?</p>
+    <p><strong>Answer:</strong> The development of science and technology has accelerated the pace of life. Tasks that once took a long time can now be completed in a fraction of the time using technological devices like the internet, smartphones, and other electronic tools.</p>
+
+    <p><strong>Question 3:</strong> Explain the relationship between human life and the pace of time.</p>
+    <p><strong>Answer:</strong> The pace of time and human life are deeply connected. As time progresses, the tasks and routines of human life also change. What once took a long time to accomplish is now faster, thanks to scientific advancements and technology, allowing people to make the most of their time.</p>
+
+    <p><strong>Question 4:</strong> Do you think the development of science has increased the stress in life? Share your opinion.</p>
+    <p><strong>Answer:</strong> While scientific development has brought convenience, it has also accelerated the pace of life, which can lead to stress. People are constantly trying to do more in less time, which can increase mental pressure. However, if used correctly, science can also help reduce stress.</p>
+
+    <p><strong>Question 5:</strong> Explain how the importance of time can be understood and how we can make the best use of it in our lives.</p>
+    <p><strong>Answer:</strong> The importance of time can be understood by recognizing how it influences all aspects of life. To make the best use of time, we must prioritize tasks, break them into smaller manageable parts, and focus on completing them efficiently. Effective time management helps achieve a balanced and peaceful life.</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> Who studied the pace of life?
+            <ul>
+                <li>1) Albert Einstein</li>
+                <li>2) Isaac Newton</li>
+                <li>3) Charles Darwin</li>
+                <li>4) Galileo Galilei</li>
+            </ul>
+            <strong>Answer:</strong> 1) Albert Einstein
+        </li>
+
+        <li><strong>Question 2:</strong> What has the most significant effect on the pace of life?
+            <ul>
+                <li>1) Life's pace</li>
+                <li>2) Body condition</li>
+                <li>3) Weather</li>
+                <li>4) Food</li>
+            </ul>
+            <strong>Answer:</strong> 1) Life's pace
+        </li>
+
+        <li><strong>Question 3:</strong> How has the development of science affected the pace of life?
+            <ul>
+                <li>1) Made life easier</li>
+                <li>2) Made life harder</li>
+                <li>3) No impact on life</li>
+                <li>4) Slowed life down</li>
+            </ul>
+            <strong>Answer:</strong> 1) Made life easier
+        </li>
+
+        <li><strong>Question 4:</strong> What is the best way to manage time?
+            <ul>
+                <li>1) Procrastinate tasks</li>
+                <li>2) Divide time appropriately for tasks</li>
+                <li>3) Sleep throughout the day</li>
+                <li>4) Focus only on work</li>
+            </ul>
+            <strong>Answer:</strong> 2) Divide time appropriately for tasks
+        </li>
+
+        <li><strong>Question 5:</strong> What is the result of understanding the importance of time?
+            <ul>
+                <li>1) Quick completion of tasks</li>
+                <li>2) Delay in tasks</li>
+                <li>3) Suspension of tasks</li>
+                <li>4) No impact</li>
+            </ul>
+            <strong>Answer:</strong> 1) Quick completion of tasks
+        </li>
+
+        <li><strong>Question 6:</strong> What is the goal of "The Pace for Living" chapter?
+            <ul>
+                <li>1) Understanding the pace of life</li>
+                <li>2) Understanding the importance of time</li>
+                <li>3) Understanding the contribution of science</li>
+                <li>4) All of the above</li>
+            </ul>
+            <strong>Answer:</strong> 4) All of the above
+        </li>
+
+        <li><strong>Question 7:</strong> What influences the pace of life the most?
+            <ul>
+                <li>1) Food</li>
+                <li>2) Time</li>
+                <li>3) Mental state</li>
+                <li>4) Social status</li>
+            </ul>
+            <strong>Answer:</strong> 2) Time
+        </li>
+
+        <li><strong>Question 8:</strong> Who said, "Time is money"?
+            <ul>
+                <li>1) Albert Einstein</li>
+                <li>2) William Shakespeare</li>
+                <li>3) Benjamin Franklin</li>
+                <li>4) Leonardo da Vinci</li>
+            </ul>
+            <strong>Answer:</strong> 3) Benjamin Franklin
+        </li>
+
+        <li><strong>Question 9:</strong> How has science affected human life?
+            <ul>
+                <li>1) Made life easier</li>
+                <li>2) Made life more complex</li>
+                <li>3) No change in life</li>
+                <li>4) Stabilized life</li>
+            </ul>
+            <strong>Answer:</strong> 1) Made life easier
+        </li>
+
+        <li><strong>Question 10:</strong> What happens when time is managed well?
+            <ul>
+                <li>1) Mental peace</li>
+                <li>2) More tasks can be completed</li>
+                <li>3) Both</li>
+                <li>4) No effect</li>
+            </ul>
+            <strong>Answer:</strong> 3) Both
+        </li>
+
+        <!-- Add more questions as needed -->
+    </ul>
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+    
+    `,
+    
+   2:`
+   <div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #f45fff;">Me and The Ecology Bit</h2>
+
+    <p><strong>Chapter Overview:</strong> This chapter introduces the relationship between humans and the environment, focusing on ecology, the study of interactions between organisms and their surroundings. It covers how human activities impact ecological systems, the importance of biodiversity, and conservation efforts.</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>Understanding Ecology</li>
+        <li>The Role of Humans in Ecology</li>
+        <li>Impact of Human Activities on Ecosystems</li>
+        <li>Conservation and Sustainability</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> Explain the concept of ecology and its importance to the environment.</p>
+    <p><strong>Answer:</strong> Ecology is the scientific study of how living organisms interact with each other and their environment. It plays a crucial role in understanding how ecosystems function, the balance of nature, and the impact of human activities on biodiversity and natural resources.</p>
+
+    <p><strong>Question 2:</strong> How do human activities affect the environment?</p>
+    <p><strong>Answer:</strong> Human activities such as deforestation, industrialization, pollution, and overconsumption of resources can disrupt ecosystems, harm wildlife, and lead to environmental degradation. These activities contribute to climate change, loss of biodiversity, and the depletion of natural resources.</p>
+
+    <p><strong>Question 3:</strong> Discuss the importance of conservation and sustainable living.</p>
+    <p><strong>Answer:</strong> Conservation refers to the protection and preservation of natural resources and biodiversity to maintain ecological balance. Sustainable living involves using resources in a way that meets present needs without compromising the ability of future generations to meet their own needs. Both conservation and sustainability are crucial to ensure the long-term health of our planet.</p>
+
+    <p><strong>Question 4:</strong> What are the major challenges faced by the environment today?</p>
+    <p><strong>Answer:</strong> Major environmental challenges include climate change, habitat destruction, pollution, overpopulation, loss of biodiversity, and depletion of natural resources. These issues threaten the stability of ecosystems and the survival of many species, including humans.</p>
+
+    <p><strong>Question 5:</strong> How can individuals contribute to the protection of the environment?</p>
+    <p><strong>Answer:</strong> Individuals can contribute by reducing waste, recycling, conserving water and energy, planting trees, supporting sustainable practices, and advocating for policies that protect the environment. Small actions collectively make a significant impact on preserving ecosystems.</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What is the study of ecology?
+            <ul>
+                <li>1) Study of stars</li>
+                <li>2) Study of plants</li>
+                <li>3) Study of interactions between organisms and their environment</li>
+                <li>4) Study of diseases</li>
+            </ul>
+            <strong>Answer:</strong> 3) Study of interactions between organisms and their environment
+        </li>
+
+        <li><strong>Question 2:</strong> Which human activity negatively impacts the environment?
+            <ul>
+                <li>1) Deforestation</li>
+                <li>2) Recycling</li>
+                <li>3) Tree planting</li>
+                <li>4) Using renewable energy</li>
+            </ul>
+            <strong>Answer:</strong> 1) Deforestation
+        </li>
+
+        <li><strong>Question 3:</strong> What is biodiversity?
+            <ul>
+                <li>1) Variety of plant life</li>
+                <li>2) Variety of animal life</li>
+                <li>3) Variety of ecosystems</li>
+                <li>4) All of the above</li>
+            </ul>
+            <strong>Answer:</strong> 4) All of the above
+        </li>
+
+        <li><strong>Question 4:</strong> What is the term for using resources without compromising future needs?
+            <ul>
+                <li>1) Conservation</li>
+                <li>2) Sustainability</li>
+                <li>3) Pollution</li>
+                <li>4) Overconsumption</li>
+            </ul>
+            <strong>Answer:</strong> 2) Sustainability
+        </li>
+
+        <li><strong>Question 5:</strong> Which of the following is a direct consequence of pollution?
+            <ul>
+                <li>1) Decreased biodiversity</li>
+                <li>2) Increased plant growth</li>
+                <li>3) Improved air quality</li>
+                <li>4) More renewable resources</li>
+            </ul>
+            <strong>Answer:</strong> 1) Decreased biodiversity
+        </li>
+
+        <li><strong>Question 6:</strong> What is an ecosystem?
+            <ul>
+                <li>1) A group of organisms of the same species</li>
+                <li>2) A community of organisms interacting with their environment</li>
+                <li>3) A group of plants</li>
+                <li>4) A forest</li>
+            </ul>
+            <strong>Answer:</strong> 2) A community of organisms interacting with their environment
+        </li>
+
+        <li><strong>Question 7:</strong> Which of the following helps conserve the environment?
+            <ul>
+                <li>1) Using non-renewable resources</li>
+                <li>2) Reducing waste and recycling</li>
+                <li>3) Increasing industrial waste</li>
+                <li>4) Deforestation</li>
+            </ul>
+            <strong>Answer:</strong> 2) Reducing waste and recycling
+        </li>
+
+        <li><strong>Question 8:</strong> Which gas is a major contributor to global warming?
+            <ul>
+                <li>1) Oxygen</li>
+                <li>2) Carbon dioxide</li>
+                <li>3) Nitrogen</li>
+                <li>4) Hydrogen</li>
+            </ul>
+            <strong>Answer:</strong> 2) Carbon dioxide
+        </li>
+
+        <li><strong>Question 9:</strong> What is the main goal of conservation?
+            <ul>
+                <li>1) To protect biodiversity</li>
+                <li>2) To increase pollution</li>
+                <li>3) To destroy ecosystems</li>
+                <li>4) To use resources faster</li>
+            </ul>
+            <strong>Answer:</strong> 1) To protect biodiversity
+        </li>
+
+        <li><strong>Question 10:</strong> How can humans help maintain ecological balance?
+            <ul>
+                <li>1) By increasing pollution</li>
+                <li>2) By depleting natural resources</li>
+                <li>3) By practicing sustainable living</li>
+                <li>4) By exploiting wildlife</li>
+            </ul>
+            <strong>Answer:</strong> 3) By practicing sustainable living
+        </li>
+
+        <!-- Continue adding more questions as necessary -->
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+   
+   `,      
+   
+   3:`
+      <div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #f45fff;">Gillu</h2>
+
+    <p><strong>Chapter Overview:</strong> This chapter focuses on the story of a little animal named Gillu. It highlights the bond between nature and living creatures, emphasizing the importance of respecting and understanding wildlife and the environment. Through Gillu’s journey, the readers learn about the interconnectedness of all living things and the need for compassion and coexistence.</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>Understanding animal behavior</li>
+        <li>Human impact on wildlife</li>
+        <li>The importance of compassion for animals</li>
+        <li>Coexistence with nature</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> Describe the character of Gillu and its significance in the story.</p>
+    <p><strong>Answer:</strong> Gillu is a small and innocent creature that represents the delicate balance of nature. Its character highlights the vulnerability of animals and the necessity of protecting them from the dangers created by human actions. Gillu's journey in the story symbolizes the need for understanding and compassion towards wildlife.</p>
+
+    <p><strong>Question 2:</strong> How does the story of Gillu reflect the importance of protecting wildlife?</p>
+    <p><strong>Answer:</strong> The story of Gillu illustrates how human interference can disrupt the natural lives of animals. It stresses the need for wildlife protection and conservation to ensure a harmonious relationship between humans and animals. Through the challenges faced by Gillu, readers are reminded of the consequences of neglecting nature.</p>
+
+    <p><strong>Question 3:</strong> What lesson can we learn from Gillu’s story regarding the relationship between humans and animals?</p>
+    <p><strong>Answer:</strong> Gillu’s story teaches us that humans should treat animals with respect and care. It emphasizes that animals are an integral part of our ecosystem and that their well-being is closely linked to the health of the environment. The lesson encourages readers to consider the ethical implications of their actions on animals and the environment.</p>
+
+    <p><strong>Question 4:</strong> How does the theme of compassion play a role in the story of Gillu?</p>
+    <p><strong>Answer:</strong> Compassion is a central theme in the story of Gillu. It is portrayed through the actions of characters who show empathy and kindness toward the animal. This theme encourages readers to develop a deeper understanding of the emotional and physical needs of animals, fostering a sense of responsibility for their welfare.</p>
+
+    <p><strong>Question 5:</strong> In what ways does the story of Gillu highlight the relationship between nature and living beings?</p>
+    <p><strong>Answer:</strong> The story of Gillu emphasizes that nature is a delicate web of interconnected relationships, where each living being has a role to play. The challenges faced by Gillu due to environmental factors show how human activities can disrupt this balance. It advocates for harmony between all living beings and the environment to preserve this balance.</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What does Gillu symbolize in the story?
+            <ul>
+                <li>1) Innocence</li>
+                <li>2) Wisdom</li>
+                <li>3) Strength</li>
+                <li>4) Anger</li>
+            </ul>
+            <strong>Answer:</strong> 1) Innocence
+        </li>
+
+        <li><strong>Question 2:</strong> How does Gillu’s character contribute to the story’s message?
+            <ul>
+                <li>1) It represents the fragility of nature</li>
+                <li>2) It teaches about survival</li>
+                <li>3) It shows the importance of power</li>
+                <li>4) It reflects the need for control</li>
+            </ul>
+            <strong>Answer:</strong> 1) It represents the fragility of nature
+        </li>
+
+        <li><strong>Question 3:</strong> What does the story of Gillu primarily teach readers?
+            <ul>
+                <li>1) Importance of physical strength</li>
+                <li>2) Coexistence and compassion for animals</li>
+                <li>3) Human dominance over animals</li>
+                <li>4) Survival in harsh conditions</li>
+            </ul>
+            <strong>Answer:</strong> 2) Coexistence and compassion for animals
+        </li>
+
+        <li><strong>Question 4:</strong> What aspect of human behavior is criticized in the story of Gillu?
+            <ul>
+                <li>1) Empathy</li>
+                <li>2) Overconsumption of resources</li>
+                <li>3) Pollution</li>
+                <li>4) Neglecting nature and wildlife</li>
+            </ul>
+            <strong>Answer:</strong> 4) Neglecting nature and wildlife
+        </li>
+
+        <li><strong>Question 5:</strong> How does the story of Gillu encourage conservation?
+            <ul>
+                <li>1) By showing the positive impacts of human intervention</li>
+                <li>2) By demonstrating the harm caused by ignoring wildlife</li>
+                <li>3) By focusing on animal rights</li>
+                <li>4) By ignoring environmental issues</li>
+            </ul>
+            <strong>Answer:</strong> 2) By demonstrating the harm caused by ignoring wildlife
+        </li>
+
+        <li><strong>Question 6:</strong> Which human activity is shown to negatively affect Gillu's life?
+            <ul>
+                <li>1) Deforestation</li>
+                <li>2) Pollution</li>
+                <li>3) Hunting</li>
+                <li>4) All of the above</li>
+            </ul>
+            <strong>Answer:</strong> 4) All of the above
+        </li>
+
+        <li><strong>Question 7:</strong> How is Gillu’s interaction with humans depicted?
+            <ul>
+                <li>1) Hostile</li>
+                <li>2) Compassionate</li>
+                <li>3) Indifferent</li>
+                <li>4) Fearful</li>
+            </ul>
+            <strong>Answer:</strong> 2) Compassionate
+        </li>
+
+        <li><strong>Question 8:</strong> What moral lesson can be derived from Gillu’s story?
+            <ul>
+                <li>1) To be careful with nature</li>
+                <li>2) To dominate wildlife</li>
+                <li>3) To exploit nature for resources</li>
+                <li>4) To focus only on human needs</li>
+            </ul>
+            <strong>Answer:</strong> 1) To be careful with nature
+        </li>
+
+        <li><strong>Question 9:</strong> What emotion does Gillu evoke in the reader?
+            <ul>
+                <li>1) Indifference</li>
+                <li>2) Sympathy</li>
+                <li>3) Disgust</li>
+                <li>4) Fear</li>
+            </ul>
+            <strong>Answer:</strong> 2) Sympathy
+        </li>
+
+        <li><strong>Question 10:</strong> What type of animal is Gillu?
+            <ul>
+                <li>1) A bird</li>
+                <li>2) A small mammal</li>
+                <li>3) An insect</li>
+                <li>4) A reptile</li>
+            </ul>
+            <strong>Answer:</strong> 2) A small mammal
+        </li>
+
+        <!-- Continue adding more questions as necessary -->
+    </ul>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+</div>
+
+   `,
+
+   4:`
+        <div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #f45fff;">What is Wrong with Indian Film?</h2>
+
+    <p><strong>Chapter Overview:</strong> This chapter addresses the issues prevalent in the Indian film industry, exploring both the artistic and commercial aspects. It critiques the portrayal of certain stereotypes, the lack of originality, and the industry's dependence on formulas for success. It also raises important questions about how cinema can be a tool for social change, cultural representation, and progressive thinking.</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>Commercialism versus artistic integrity</li>
+        <li>Stereotypes and their impact</li>
+        <li>Role of cinema in social change</li>
+        <li>Lack of originality in film plots</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> Discuss the key problems faced by the Indian film industry as mentioned in the chapter.</p>
+    <p><strong>Answer:</strong> The Indian film industry faces several challenges, including an overreliance on stereotypical portrayals, a lack of originality in storylines, and the commercial pressure to create formulaic films. These issues hinder the creative potential of filmmakers and contribute to a lack of diversity in Indian cinema.</p>
+
+    <p><strong>Question 2:</strong> How does commercialism affect the quality of films in India?</p>
+    <p><strong>Answer:</strong> Commercialism often leads to the prioritization of box-office success over artistic quality. This can result in films that cater to popular trends and stereotypes rather than offering meaningful, innovative, or socially relevant content. As a result, many films fail to challenge conventional norms or engage in thought-provoking storytelling.</p>
+
+    <p><strong>Question 3:</strong> What role do stereotypes play in Indian cinema, according to the chapter?</p>
+    <p><strong>Answer:</strong> Stereotypes in Indian cinema perpetuate unrealistic representations of people, especially in terms of gender, class, and culture. These portrayals can reinforce harmful societal norms and fail to reflect the diverse and complex nature of Indian society. The chapter critiques this simplification, calling for more nuanced and diverse character representations.</p>
+
+    <p><strong>Question 4:</strong> In what ways can Indian cinema evolve to become a tool for social change?</p>
+    <p><strong>Answer:</strong> Indian cinema can evolve by focusing on relevant societal issues, challenging outdated norms, and providing a platform for diverse voices. Filmmakers can engage in storytelling that addresses social issues such as gender equality, corruption, environmental concerns, and more, making cinema a medium that drives positive change in society.</p>
+
+    <p><strong>Question 5:</strong> What is the importance of originality in Indian cinema?</p>
+    <p><strong>Answer:</strong> Originality is important because it allows filmmakers to present fresh and innovative ideas that engage audiences in new ways. Without originality, films become repetitive and formulaic, leading to a lack of excitement and cultural stagnation. Embracing originality in filmmaking can lead to more diverse and thought-provoking content, helping Indian cinema grow both artistically and commercially.</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What is a major criticism of Indian films in the chapter?
+            <ul>
+                <li>1) Overreliance on original stories</li>
+                <li>2) Commercialism and lack of creativity</li>
+                <li>3) Minimal use of stereotypes</li>
+                <li>4) Excessive focus on reality</li>
+            </ul>
+            <strong>Answer:</strong> 2) Commercialism and lack of creativity
+        </li>
+
+        <li><strong>Question 2:</strong> How do stereotypes affect the representation of characters in Indian films?
+            <ul>
+                <li>1) They create realistic portrayals of society</li>
+                <li>2) They help represent diverse cultures accurately</li>
+                <li>3) They often reinforce unrealistic, shallow portrayals</li>
+                <li>4) They reflect the truth of the world</li>
+            </ul>
+            <strong>Answer:</strong> 3) They often reinforce unrealistic, shallow portrayals
+        </li>
+
+        <li><strong>Question 3:</strong> What is often prioritized over artistic expression in Indian cinema?
+            <ul>
+                <li>1) Innovation in storytelling</li>
+                <li>2) Social awareness</li>
+                <li>3) Commercial success</li>
+                <li>4) Independent filmmaking</li>
+            </ul>
+            <strong>Answer:</strong> 3) Commercial success
+        </li>
+
+        <li><strong>Question 4:</strong> Which of the following is not a problem in Indian cinema mentioned in the chapter?
+            <ul>
+                <li>1) Lack of originality</li>
+                <li>2) Formulaic plotlines</li>
+                <li>3) Overrepresentation of gender diversity</li>
+                <li>4) Commercialism over artistic content</li>
+            </ul>
+            <strong>Answer:</strong> 3) Overrepresentation of gender diversity
+        </li>
+
+        <li><strong>Question 5:</strong> According to the chapter, what role can Indian cinema play in society?
+            <ul>
+                <li>1) Reinforcing outdated stereotypes</li>
+                <li>2) Promoting social change and raising awareness</li>
+                <li>3) Creating unrealistic expectations</li>
+                <li>4) Focusing solely on entertainment</li>
+            </ul>
+            <strong>Answer:</strong> 2) Promoting social change and raising awareness
+        </li>
+
+        <li><strong>Question 6:</strong> What is the primary focus of many commercial films in India?
+            <ul>
+                <li>1) Social issues</li>
+                <li>2) Box-office success and mass appeal</li>
+                <li>3) Artistic freedom</li>
+                <li>4) Realistic portrayals</li>
+            </ul>
+            <strong>Answer:</strong> 2) Box-office success and mass appeal
+        </li>
+
+        <li><strong>Question 7:</strong> What is suggested as a possible solution to the problems in Indian cinema?
+            <ul>
+                <li>1) More remakes of old films</li>
+                <li>2) Focusing on commercial success</li>
+                <li>3) Creating more formulaic films</li>
+                <li>4) Fostering originality and tackling social issues</li>
+            </ul>
+            <strong>Answer:</strong> 4) Fostering originality and tackling social issues
+        </li>
+
+        <li><strong>Question 8:</strong> What issue related to gender is often portrayed in Indian films?
+            <ul>
+                <li>1) Gender equality</li>
+                <li>2) Gender stereotypes and biases</li>
+                <li>3) Equal representation of women in lead roles</li>
+                <li>4) The importance of feminist themes</li>
+            </ul>
+            <strong>Answer:</strong> 2) Gender stereotypes and biases
+        </li>
+
+        <li><strong>Question 9:</strong> According to the chapter, what needs to change in the approach to filmmaking in India?
+            <ul>
+                <li>1) Focus on catering to international audiences</li>
+                <li>2) Creating more commercial hits without concern for quality</li>
+                <li>3) More focus on creativity, diversity, and social impact</li>
+                <li>4) Using more special effects and CGI</li>
+            </ul>
+            <strong>Answer:</strong> 3) More focus on creativity, diversity, and social impact
+        </li>
+
+        <li><strong>Question 10:</strong> How can Indian cinema impact the younger generation?
+            <ul>
+                <li>1) By promoting outdated traditions</li>
+                <li>2) By encouraging creativity and progressive thinking</li>
+                <li>3) By focusing on traditional values</li>
+                <li>4) By maintaining the status quo</li>
+            </ul>
+            <strong>Answer:</strong> 2) By encouraging creativity and progressive thinking
+        </li>
+
+        <!-- Continue adding more questions as necessary -->
+    </ul>
+<div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+
+</div>
+
+   
+   `,
+5:`
+ <div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #f45fff;">Acceptance Speech</h2>
+
+    <p><strong>Chapter Overview:</strong> This chapter discusses the importance and structure of an acceptance speech, which is given when someone is awarded a prize, honor, or recognition. It emphasizes the need for humility, gratitude, and acknowledgment of others who have helped achieve success. The chapter also explores how effective acceptance speeches can inspire and motivate others.</p>
+    
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>Structure of an acceptance speech</li>
+        <li>Importance of humility and gratitude</li>
+        <li>Acknowledgment of those who contributed to success</li>
+        <li>Inspiring and motivating others through speech</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> What is the importance of an acceptance speech, and what should it convey?</p>
+    <p><strong>Answer:</strong> An acceptance speech is important because it allows the person receiving an award to express gratitude and acknowledge the contributions of others. It should convey humility, appreciation, and recognition of the support received from colleagues, mentors, and family. It also serves as an opportunity to inspire others by sharing the journey of success.</p>
+
+    <p><strong>Question 2:</strong> How can an effective acceptance speech inspire others?</p>
+    <p><strong>Answer:</strong> An effective acceptance speech can inspire others by sharing the challenges faced, the support received, and the lessons learned along the way. It demonstrates that success is not solely an individual achievement, but a collective effort. When delivered with sincerity and emotion, it can motivate others to pursue their goals and remain resilient in the face of difficulties.</p>
+
+    <p><strong>Question 3:</strong> What role does gratitude play in an acceptance speech?</p>
+    <p><strong>Answer:</strong> Gratitude plays a central role in an acceptance speech as it acknowledges the contributions of others. It shows respect for those who have helped or supported the speaker throughout their journey. By expressing gratitude, the speaker demonstrates humility and appreciation, which creates a positive connection with the audience and reinforces the value of teamwork and support.</p>
+
+    <p><strong>Question 4:</strong> How should one structure an acceptance speech?</p>
+    <p><strong>Answer:</strong> An acceptance speech should be structured in three main parts: an introduction, a body, and a conclusion. In the introduction, the speaker thanks the award giver and expresses their appreciation. The body includes the acknowledgment of key individuals or groups who contributed to the achievement, and the conclusion should inspire others, emphasizing the importance of perseverance and collective effort.</p>
+
+    <p><strong>Question 5:</strong> How does humility factor into an acceptance speech?</p>
+    <p><strong>Answer:</strong> Humility is an essential component of an acceptance speech as it allows the speaker to remain grounded despite their success. By acknowledging that the achievement is not solely their own, but a result of collective support, the speaker demonstrates modesty. Humility helps the speaker connect with the audience and makes the message more relatable and sincere.</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What is the primary purpose of an acceptance speech?
+            <ul>
+                <li>1) To brag about personal achievements</li>
+                <li>2) To express gratitude and acknowledge others</li>
+                <li>3) To make a political statement</li>
+                <li>4) To entertain the audience</li>
+            </ul>
+            <strong>Answer:</strong> 2) To express gratitude and acknowledge others
+        </li>
+
+        <li><strong>Question 2:</strong> How should the speaker start an acceptance speech?
+            <ul>
+                <li>1) By talking about their past mistakes</li>
+                <li>2) By thanking the award giver and the audience</li>
+                <li>3) By sharing personal details</li>
+                <li>4) By making jokes</li>
+            </ul>
+            <strong>Answer:</strong> 2) By thanking the award giver and the audience
+        </li>
+
+        <li><strong>Question 3:</strong> What should the speaker focus on in the body of an acceptance speech?
+            <ul>
+                <li>1) Their achievements and personal glory</li>
+                <li>2) The people who contributed to their success</li>
+                <li>3) The challenges faced by the award giver</li>
+                <li>4) Future plans for further awards</li>
+            </ul>
+            <strong>Answer:</strong> 2) The people who contributed to their success
+        </li>
+
+        <li><strong>Question 4:</strong> Why is it important to acknowledge others in an acceptance speech?
+            <ul>
+                <li>1) To make the speech longer</li>
+                <li>2) To show appreciation and recognize their contributions</li>
+                <li>3) To shift focus away from oneself</li>
+                <li>4) To praise the award giver</li>
+            </ul>
+            <strong>Answer:</strong> 2) To show appreciation and recognize their contributions
+        </li>
+
+        <li><strong>Question 5:</strong> What can the conclusion of an acceptance speech include?
+            <ul>
+                <li>1) A motivational message</li>
+                <li>2) A detailed account of how the award was won</li>
+                <li>3) A thank-you note to the audience</li>
+                <li>4) Predictions for the future</li>
+            </ul>
+            <strong>Answer:</strong> 1) A motivational message
+        </li>
+
+        <li><strong>Question 6:</strong> Which of the following is an essential trait in an acceptance speech?
+            <ul>
+                <li>1) Humility</li>
+                <li>2) Anger</li>
+                <li>3) Dishonesty</li>
+                <li>4) Arrogance</li>
+            </ul>
+            <strong>Answer:</strong> 1) Humility
+        </li>
+
+        <li><strong>Question 7:</strong> What is a key element in making an acceptance speech sincere?
+            <ul>
+                <li>1) Humor</li>
+                <li>2) Acknowledging others' contributions</li>
+                <li>3) Making political statements</li>
+                <li>4) Talking only about oneself</li>
+            </ul>
+            <strong>Answer:</strong> 2) Acknowledging others' contributions
+        </li>
+
+        <li><strong>Question 8:</strong> What does the speaker usually express gratitude for in an acceptance speech?
+            <ul>
+                <li>1) The opportunity to give the speech</li>
+                <li>2) The support and contributions of others</li>
+                <li>3) The physical award</li>
+                <li>4) The challenges they faced</li>
+            </ul>
+            <strong>Answer:</strong> 2) The support and contributions of others
+        </li>
+
+        <li><strong>Question 9:</strong> In an acceptance speech, why is it important to stay humble?
+            <ul>
+                <li>1) To avoid making others feel bad</li>
+                <li>2) To show that one recognizes the importance of others in their success</li>
+                <li>3) To downplay the award</li>
+                <li>4) To make the speech shorter</li>
+            </ul>
+            <strong>Answer:</strong> 2) To show that one recognizes the importance of others in their success
+        </li>
+
+        <li><strong>Question 10:</strong> What type of speech can an acceptance speech motivate people to do?
+            <ul>
+                <li>1) A speech that focuses on the past</li>
+                <li>2) A speech that encourages personal development and hard work</li>
+                <li>3) A speech that avoids mentioning success</li>
+                <li>4) A speech that focuses only on the speaker's achievements</li>
+            </ul>
+            <strong>Answer:</strong> 2) A speech that encourages personal development and hard work
+        </li>
+
+        <!-- Continue adding more questions as necessary -->
+    </ul>
+<div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+
+
+</div>
+
+
+`,
+
+6:`
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #f45fff;">Once Upon A Time</h2>
+
+    <p><strong>Chapter Overview:</strong> "Once Upon A Time" is a story that highlights the themes of change, nostalgia, and the passage of time. It narrates the journey of a family that experiences personal growth and societal transformation. The chapter explores emotions such as love, regret, and longing, often depicting contrasting times and different perspectives through the eyes of different characters.</p>
+
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>The effect of time on relationships and individuals</li>
+        <li>The contrast between the past and the present</li>
+        <li>The role of nostalgia in shaping identity</li>
+        <li>The inevitability of change and growth</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> How does the theme of nostalgia play a role in the story "Once Upon A Time"?</p>
+    <p><strong>Answer:</strong> The theme of nostalgia in "Once Upon A Time" plays a crucial role in reflecting the longing for a past that can no longer be regained. It conveys the emotional struggle of the characters who yearn for a time that seems simpler or more meaningful. Through their memories and reflections, the story explores how nostalgia can influence their actions, decisions, and perception of the present. The yearning for the past also contrasts with the inevitability of change that comes with time.</p>
+
+    <p><strong>Question 2:</strong> What impact does time have on the relationships portrayed in the story?</p>
+    <p><strong>Answer:</strong> Time in "Once Upon A Time" significantly affects the relationships between characters. As the years pass, relationships evolve, and some may even fade or break due to circumstances beyond control. The story shows how time can both strengthen bonds and bring about emotional distance. It reveals the complexity of love, regret, and the passage of moments that can never be reclaimed. The impact of time creates a bittersweet reflection on the transient nature of relationships.</p>
+
+    <p><strong>Question 3:</strong> In what ways does the chapter depict the inevitability of change?</p>
+    <p><strong>Answer:</strong> The chapter demonstrates the inevitability of change through the transformation of characters and their environment. The passage of time leads to the characters' personal growth, but also forces them to face the consequences of their actions. The changes in the physical surroundings and the emotional journeys of the characters highlight that time does not wait for anyone. Change is portrayed as an unavoidable part of life, one that reshapes everything, including individuals and their relationships.</p>
+
+    <p><strong>Question 4:</strong> How does the author convey the contrast between the past and the present in the story?</p>
+    <p><strong>Answer:</strong> The author conveys the contrast between the past and the present by highlighting the differences in the characters' memories and their current reality. Through flashbacks and reflections, the past is often depicted as more innocent, happier, or meaningful, while the present is marked by change, regret, or loss. This contrast serves to emphasize how time alters perspectives and experiences. The characters' internal conflict between holding on to the past and accepting the present is a central theme in the story.</p>
+
+    <p><strong>Question 5:</strong> What role do the characters' memories play in shaping the narrative of the story?</p>
+    <p><strong>Answer:</strong> The characters' memories play a central role in shaping the narrative of "Once Upon A Time." The memories evoke a sense of nostalgia, allowing the characters to reflect on their past and the changes that have occurred. These recollections help the characters understand their present emotions, motivations, and relationships. The use of memory in the story highlights the emotional and psychological effects of time, making it a powerful tool for storytelling. The past serves as a lens through which the present is viewed, influencing the characters' actions and decisions.</p>
+
+    <p><strong> Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What is the central theme of "Once Upon A Time"?
+            <ul>
+                <li>1) Friendship</li>
+                <li>2) Nostalgia and change</li>
+                <li>3) Courage</li>
+                <li>4) Revenge</li>
+            </ul>
+            <strong>Answer:</strong> 2) Nostalgia and change
+        </li>
+
+        <li><strong>Question 2:</strong> How is the passage of time portrayed in the story?
+            <ul>
+                <li>1) As something that heals all wounds</li>
+                <li>2) As an inevitable force that shapes lives</li>
+                <li>3) As irrelevant to the plot</li>
+                <li>4) As something that stops for no one</li>
+            </ul>
+            <strong>Answer:</strong> 2) As an inevitable force that shapes lives
+        </li>
+
+        <li><strong>Question 3:</strong> What emotional tone does the author set through the theme of nostalgia?
+            <ul>
+                <li>1) Happiness</li>
+                <li>2) Melancholy and longing</li>
+                <li>3) Anger</li>
+                <li>4) Humor</li>
+            </ul>
+            <strong>Answer:</strong> 2) Melancholy and longing
+        </li>
+
+        <li><strong>Question 4:</strong> In the story, what is the effect of memories on the characters?
+            <ul>
+                <li>1) They forget their past</li>
+                <li>2) They relive their past mistakes</li>
+                <li>3) They reject their memories</li>
+                <li>4) They draw strength from their past</li>
+            </ul>
+            <strong>Answer:</strong> 2) They relive their past mistakes
+        </li>
+
+        <li><strong>Question 5:</strong> What does the contrast between the past and the present reveal about the characters?
+            <ul>
+                <li>1) Their indifference to the past</li>
+                <li>2) Their struggle to accept the changes over time</li>
+                <li>3) Their focus on future goals</li>
+                <li>4) Their dislike of change</li>
+            </ul>
+            <strong>Answer:</strong> 2) Their struggle to accept the changes over time
+        </li>
+
+        <li><strong>Question 6:</strong> What emotion is commonly felt by the characters when they reflect on the past?
+            <ul>
+                <li>1) Regret</li>
+                <li>2) Indifference</li>
+                <li>3) Anger</li>
+                <li>4) Happiness</li>
+            </ul>
+            <strong>Answer:</strong> 1) Regret
+        </li>
+
+        <li><strong>Question 7:</strong> What is the central conflict faced by the characters in "Once Upon A Time"?
+            <ul>
+                <li>1) Internal conflict regarding their past choices</li>
+                <li>2) External conflict with a rival</li>
+                <li>3) Conflict over a new beginning</li>
+                <li>4) Conflict over material success</li>
+            </ul>
+            <strong>Answer:</strong> 1) Internal conflict regarding their past choices
+        </li>
+
+        <li><strong>Question 8:</strong> What does the title "Once Upon A Time" suggest about the nature of the story?
+            <ul>
+                <li>1) It is a fantasy</li>
+                <li>2) It deals with mythical creatures</li>
+                <li>3) It reflects a timeless narrative</li>
+                <li>4) It is set in the present</li>
+            </ul>
+            <strong>Answer:</strong> 3) It reflects a timeless narrative
+        </li>
+
+        <li><strong>Question 9:</strong> How does the story convey the inevitability of change?
+            <ul>
+                <li>1) Through the growth of the characters</li>
+                <li>2) Through a magical event</li>
+                <li>3) By focusing on unchanging elements</li>
+                <li>4) By avoiding the topic of time</li>
+            </ul>
+            <strong>Answer:</strong> 1) Through the growth of the characters
+        </li>
+
+        <li><strong>Question 10:</strong> How does the story end?
+            <ul>
+                <li>1) With a happy reunion</li>
+                <li>2) With the acceptance of change</li>
+                <li>3) With a tragic loss</li>
+                <li>4) With a new beginning</li>
+            </ul>
+            <strong>Answer:</strong> 2) With the acceptance of change
+        </li>
+
+        <!-- Continue adding more questions as necessary -->
+    </ul>
+
+<div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+    </div>
+
+
+`,
+
+7:`
+
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+
+    <h2 style="text-align: center; color: #f45fff;">The Unity of Indian Culture</h2>
+
+    <p><strong>Chapter Overview:</strong> "The Unity of Indian Culture" explores the rich cultural heritage of India, emphasizing the concept of unity amidst diversity. The chapter highlights how, despite various regional, linguistic, and religious differences, India remains united in its cultural practices, values, and traditions. It focuses on the integration of different cultures over millennia, creating a harmonious blend of customs, arts, and philosophies that define the essence of Indian culture.</p>
+
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>The diversity of Indian culture across regions, languages, and religions</li>
+        <li>The shared values and traditions that bind Indian society</li>
+        <li>The role of art, literature, and philosophy in uniting India</li>
+        <li>The influence of historical events in shaping Indian culture</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> How does the unity of Indian culture reflect in its diversity?</p>
+    <p><strong>Answer:</strong> The unity of Indian culture is seen in its remarkable ability to maintain a sense of cohesion despite its diversity in languages, religions, and regional customs. While different parts of India may have their unique traditions, festivals, and rituals, the underlying values of respect for elders, hospitality, and spirituality remain the same across the country. The celebration of unity through diversity is most evident in shared cultural practices like the respect for family, the importance of festivals, and the unifying factors of music, dance, and art that transcend regional boundaries.</p>
+
+    <p><strong>Question 2:</strong> In what ways do Indian art and literature contribute to the unity of Indian culture?</p>
+    <p><strong>Answer:</strong> Indian art and literature play a pivotal role in unifying the diverse regions and communities within India. Art forms like Bharatanatyam, Kathak, and other regional dances, as well as the music traditions of Hindustani and Carnatic music, create a sense of collective identity. Likewise, Indian literature, from ancient texts like the Vedas and Upanishads to modern works in various languages, promotes universal values and wisdom that unite people across cultures. These cultural expressions help foster a shared understanding and pride in India's heritage, irrespective of regional differences.</p>
+
+    <p><strong>Question 3:</strong> What is the role of religion in the unity of Indian culture?</p>
+    <p><strong>Answer:</strong> Religion has played an integral role in the unity of Indian culture by shaping shared values and social norms. While India is home to many religions, such as Hinduism, Islam, Christianity, Sikhism, and others, they often coexist peacefully, influencing each other and contributing to the country's cultural richness. Festivals, rituals, and spiritual practices in different religions, while diverse, promote common themes of compassion, tolerance, and respect for life. The concept of "Sarva Dharma Sambhava" (all religions are equal) has been a cornerstone of Indian culture, fostering an environment of religious harmony.</p>
+
+    <p><strong>Question 4:</strong> How do historical events contribute to the unity of Indian culture?</p>
+    <p><strong>Answer:</strong> Historical events, particularly the struggle for independence and the contributions of leaders like Mahatma Gandhi, Jawaharlal Nehru, and Sardar Patel, played a crucial role in strengthening the unity of Indian culture. During the freedom movement, Indians from all walks of life, across different regions and religions, united to fight for a common cause: independence from colonial rule. This sense of solidarity, forged during times of adversity, reinforced the idea of India as a united, diverse nation. Additionally, the integration of princely states and the formulation of the Indian Constitution further ensured the continuation of India's cultural unity.</p>
+
+    <p><strong>Question 5:</strong> How does the cultural diversity in India contribute to its unity?</p>
+    <p><strong>Answer:</strong> The cultural diversity of India, rather than being a source of division, serves as a unifying force. India's multitude of languages, traditions, cuisines, and religious practices contribute to the country's richness, while also promoting the idea of unity in diversity. This cultural amalgamation is reflected in the Indian way of life, where people from various backgrounds coexist harmoniously. The shared national identity, rooted in values of respect, inclusiveness, and tolerance, strengthens the unity of Indian culture, making it a unique and vibrant part of the global community.</p>
+
+    <p><strong>20 Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What does the unity of Indian culture primarily reflect?
+            <ul>
+                <li>1) A single language and religion</li>
+                <li>2) Diversity amidst shared values</li>
+                <li>3) A uniform lifestyle across the country</li>
+                <li>4) A lack of regional differences</li>
+            </ul>
+            <strong>Answer:</strong> 2) Diversity amidst shared values
+        </li>
+
+        <li><strong>Question 2:</strong> Which of the following is NOT a contributing factor to the unity of Indian culture?
+            <ul>
+                <li>1) Shared historical events</li>
+                <li>2) Religious diversity</li>
+                <li>3) A single language</li>
+                <li>4) Cultural heritage and traditions</li>
+            </ul>
+            <strong>Answer:</strong> 3) A single language
+        </li>
+
+        <li><strong>Question 3:</strong> How does Indian art contribute to the country's cultural unity?
+            <ul>
+                <li>1) By promoting regional superiority</li>
+                <li>2) Through universal values in art forms like music and dance</li>
+                <li>3) By creating distinct regional identities</li>
+                <li>4) By isolating different art forms</li>
+            </ul>
+            <strong>Answer:</strong> 2) Through universal values in art forms like music and dance
+        </li>
+
+        <li><strong>Question 4:</strong> What is the role of religion in Indian culture?
+            <ul>
+                <li>1) To create division among communities</li>
+                <li>2) To promote tolerance and coexistence</li>
+                <li>3) To promote the dominance of one religion</li>
+                <li>4) To segregate communities</li>
+            </ul>
+            <strong>Answer:</strong> 2) To promote tolerance and coexistence
+        </li>
+
+        <li><strong>Question 5:</strong> Which of the following is a key theme of "The Unity of Indian Culture"?
+            <ul>
+                <li>1) Uniformity</li>
+                <li>2) Nationalism</li>
+                <li>3) Unity in diversity</li>
+                <li>4) Regionalism</li>
+            </ul>
+            <strong>Answer:</strong> 3) Unity in diversity
+        </li>
+
+        <li><strong>Question 6:</strong> What major historical event contributed to the unity of Indian culture?
+            <ul>
+                <li>1) The Partition of India</li>
+                <li>2) The struggle for independence</li>
+                <li>3) The Mauryan Empire's rule</li>
+                <li>4) The Mughal invasion</li>
+            </ul>
+            <strong>Answer:</strong> 2) The struggle for independence
+        </li>
+
+        <li><strong>Question 7:</strong> What does "Sarva Dharma Sambhava" mean in the context of Indian culture?
+            <ul>
+                <li>1) All religions are equal</li>
+                <li>2) Religion is a personal matter</li>
+                <li>3) One religion must dominate</li>
+                <li>4) All religions should be kept separate</li>
+            </ul>
+            <strong>Answer:</strong> 1) All religions are equal
+        </li>
+
+        <li><strong>Question 8:</strong> Which of the following cultural practices is common throughout India?
+            <ul>
+                <li>1) A single style of clothing</li>
+                <li>2) The celebration of national festivals like Independence Day</li>
+                <li>3) A unified language</li>
+                <li>4) A standard food habit</li>
+            </ul>
+            <strong>Answer:</strong> 2) The celebration of national festivals like Independence Day
+        </li>
+
+        <li><strong>Question 9:</strong> What role does literature play in uniting Indian culture?
+            <ul>
+                <li>1) Promotes regional languages only</li>
+                <li>2) Connects people with universal values and shared history</li>
+                <li>3) Focuses on local issues only</li>
+                <li>4) Excludes modern issues</li>
+            </ul>
+            <strong>Answer:</strong> 2) Connects people with universal values and shared history
+        </li>
+
+   <div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+    </div>
+    
+
+
+`,
+
+8:`
+
+
+<div style="background: linear-gradient(to right, #d9ffcc, #ffffe0); padding: 20px; border-radius: 10px;">
+    <h2 style="text-align: center; color: #f45fff;">Little Girl Wiser Than Men</h2>
+
+    <p><strong>Chapter Overview:</strong> "Little Girl Wiser Than Men" presents a story that explores wisdom, innocence, and the perspective of a child. The chapter revolves around a young girl's ability to understand complex situations and offer solutions that adults may overlook. It highlights the contrast between the simplicity of a child’s thinking and the complicated rationalizations often made by adults, emphasizing the importance of keeping an open mind and learning from others, regardless of age.</p>
+
+    <p><strong>Key Concepts:</strong></p>
+    <ul>
+        <li>The wisdom of children versus the complexities of adult thinking</li>
+        <li>The importance of being open to new perspectives and ideas</li>
+        <li>Children's ability to offer honest, simple solutions to problems</li>
+        <li>The relationship between innocence and wisdom</li>
+    </ul>
+
+    <p><strong>Long Questions:</strong></p>
+
+    <p><strong>Question 1:</strong> How does the little girl display wisdom beyond her years?</p>
+    <p><strong>Answer:</strong> The little girl displays wisdom beyond her years by offering practical and simple solutions to problems that the adults around her cannot solve. Her observations are sharp and untainted by the complexities that usually cloud the judgment of adults. Through her innocence and honesty, she demonstrates that wisdom is not always about knowledge but about understanding the essence of a situation in a clear and straightforward way.</p>
+
+    <p><strong>Question 2:</strong> What does the story suggest about the way adults approach problems?</p>
+    <p><strong>Answer:</strong> The story suggests that adults often approach problems with preconceived notions, biases, and a tendency to overcomplicate things. They tend to think too much, weighing all the variables and possibilities, whereas children tend to see situations more clearly and simply. The story critiques this tendency of adults to overlook the obvious, while a child may see the answer right away, reflecting the wisdom of simplicity.</p>
+
+    <p><strong>Question 3:</strong> What lesson can be learned from the little girl’s perspective in the story?</p>
+    <p><strong>Answer:</strong> The lesson from the little girl's perspective is that wisdom is not limited to age or experience. Children can offer fresh insights and valuable solutions because they are not burdened by overthinking or societal expectations. The story teaches the importance of listening to others, including children, and keeping an open mind, as sometimes the simplest solutions are the best.</p>
+
+    <p><strong>Question 4:</strong> How does the contrast between the little girl and the adults in the story highlight the theme of innocence and wisdom?</p>
+    <p><strong>Answer:</strong> The contrast between the little girl and the adults in the story highlights the theme of innocence and wisdom by showing that the girl’s pure, untainted view of the world allows her to see the truth of a situation. While the adults, who are weighed down by experience and societal norms, complicate things, the girl's innocence allows her to offer a simple yet profound solution. This juxtaposition suggests that wisdom often comes from seeing things as they are, without the layers of complexity that adults tend to impose.</p>
+
+    <p><strong>Question 5:</strong> How does the story challenge the conventional idea that wisdom comes with age?</p>
+    <p><strong>Answer:</strong> The story challenges the conventional idea that wisdom comes with age by showing that a little girl can be wiser than the adults around her. It breaks the stereotype that wisdom is directly tied to age or experience, and instead, it emphasizes that wisdom can also be found in simplicity, honesty, and the clarity of a child’s perspective. The story encourages readers to think critically about their assumptions regarding age and wisdom.</p>
+
+    <p><strong>Objective Questions with Answers:</strong></p>
+
+    <ul>
+        <li><strong>Question 1:</strong> What is the main theme of "Little Girl Wiser Than Men"?
+            <ul>
+                <li>1) The importance of childhood</li>
+                <li>2) The wisdom of children</li>
+                <li>3) The complexity of adult life</li>
+                <li>4) The role of education in wisdom</li>
+            </ul>
+            <strong>Answer:</strong> 2) The wisdom of children
+        </li>
+
+        <li><strong>Question 2:</strong> How does the little girl’s approach to problem-solving differ from that of the adults?
+            <ul>
+                <li>1) She overcomplicates things</li>
+                <li>2) She offers a simple, direct solution</li>
+                <li>3) She ignores the problem</li>
+                <li>4) She asks others for help</li>
+            </ul>
+            <strong>Answer:</strong> 2) She offers a simple, direct solution
+        </li>
+
+        <li><strong>Question 3:</strong> What is the lesson learned from the story of the little girl?
+            <ul>
+                <li>1) Age is the only factor that determines wisdom</li>
+                <li>2) Wisdom is often found in simplicity and clarity</li>
+                <li>3) Children should be taught to think more like adults</li>
+                <li>4) Problems are always complicated</li>
+            </ul>
+            <strong>Answer:</strong> 2) Wisdom is often found in simplicity and clarity
+        </li>
+
+        <li><strong>Question 4:</strong> How does the story portray adults?
+            <ul>
+                <li>1) As wise and clear-headed</li>
+                <li>2) As overcomplicating things</li>
+                <li>3) As incapable of solving problems</li>
+                <li>4) As innocent and honest</li>
+            </ul>
+            <strong>Answer:</strong> 2) As overcomplicating things
+        </li>
+
+        <li><strong>Question 5:</strong> Which of the following best describes the little girl’s wisdom in the story?
+            <ul>
+                <li>1) Based on years of experience</li>
+                <li>2) Based on simplicity and honesty</li>
+                <li>3) Based on book knowledge</li>
+                <li>4) Based on a careful analysis of the problem</li>
+            </ul>
+            <strong>Answer:</strong> 2) Based on simplicity and honesty
+        </li>
+
+        <li><strong>Question 6:</strong> What does the story suggest about the way adults perceive problems?
+            <ul>
+                <li>1) They solve problems quickly</li>
+                <li>2) They see everything as black and white</li>
+                <li>3) They tend to overthink and complicate issues</li>
+                <li>4) They look for simple solutions</li>
+            </ul>
+            <strong>Answer:</strong> 3) They tend to overthink and complicate issues
+        </li>
+
+        <li><strong>Question 7:</strong> What quality does the little girl display in the story?
+            <ul>
+                <li>1) Foolishness</li>
+                <li>2) Innocence and clarity of thought</li>
+                <li>3) Rigidity in her thinking</li>
+                <li>4) Complex reasoning</li>
+            </ul>
+            <strong>Answer:</strong> 2) Innocence and clarity of thought
+        </li>
+
+        <li><strong>Question 8:</strong> How does the story break the stereotype about wisdom?
+            <ul>
+                <li>1) By showing that wisdom comes with age</li>
+                <li>2) By suggesting that wisdom is related to experience only</li>
+                <li>3) By showing that children can be wiser than adults</li>
+                <li>4) By implying that wisdom is irrelevant</li>
+            </ul>
+            <strong>Answer:</strong> 3) By showing that children can be wiser than adults
+        </li>
+
+        <li><strong>Question 9:</strong> What does the story encourage readers to do?
+            <ul>
+                <li>1) Always trust adults</li>
+                <li>2) Overthink problems before solving them</li>
+                <li>3) Listen to and learn from everyone, including children</li>
+                <li>4) Ignore the perspectives of younger people</li>
+            </ul>
+            <strong>Answer:</strong> 3) Listen to and learn from everyone, including children
+        </li>
+
+        <li><strong>Question 10:</strong> What role does simplicity play in the little girl’s wisdom?
+            <ul>
+                <li>1) It makes her answer complicated</li>
+                <li>2) It allows her to see the solution clearly</li>
+                <li>3) It confuses the adults</li>
+                <li>4) It limits her understanding of the problem</li>
+            </ul>
+            <strong>Answer:</strong> 2) It allows her to see the solution clearly
+        </li>
+
+        <!-- Repeat similar questions for remaining 10 questions -->
+    </ul>
+
+
+
+<div style="text-align:center; margin-top: 20px;">
+        <button id="printBtn" style="padding: 10px 20px; background-color: #ff6a00; color: #ffffff; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
+            Download Notes
+        </button>
+    </div>
+    </div>
+    
+
+`,
+
+
+  };
+  document.getElementById("printBtn").addEventListener("click", function() {
+        window.print();
+    });
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const downloadBtn = document.getElementById("downloadBtn");
+    downloadBtn.style.display = "block";
+
+    downloadBtn.onclick = function () {
+      downloadNotes(chapterNumber);
+    };
+  }
+
+  function showNotes(chapterNumber) {
+    const notesContent = document.getElementById("notes-content");
+    notesContent.innerHTML = notes[chapterNumber];
+
+    const printBtn = document.getElementById("printBtn");
+    printBtn.style.display = "block";
+
+    printBtn.onclick = function () {
+      printNotes();
+    };
+  }
+
+  function printNotes() {
+    // Use the window.print() method to print the current screen
+    window.print();
+  }
+
+  const printBtn = document.getElementById('printBtn');
+  printBtn.addEventListener('mouseover', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1.05)';
+    printBtn.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.3)';
+  });
+  
+  printBtn.addEventListener('mouseout', () => {
+    printBtn.style.transform = 'translateX(-50%) scale(1)';
+    printBtn.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+  });
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>
